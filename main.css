@@ -16,6 +16,95 @@ body {
 #gui {
   z-index: 1000;
 }
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/discord.css ***!
+  \***********************************************************************************************************************************************************/
+@charset "UTF-8";
+.panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+  padding: 20px;
+  background-color: #7289DA;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1;
+}
+
+#inviteButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.discord-icon {
+  width: 50px; /* Set the desired width of the icon */
+  height: 50px; /* Set the desired height of the icon */
+  background: url(becb6da9c8e961876a5f.svg) no-repeat center;
+  background-size: cover;
+}
+
+.button-text {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.invite-panel {
+  display: none;
+  margin-top: 10px;
+}
+
+.panel.open .invite-panel {
+  display: block;
+}
+
+#discordLink {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #FFFFFF;
+  color: #7289DA;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#discordLink:hover {
+  background-color: #7289DA;
+  color: #FFFFFF;
+}
+
+#discordLink {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #FFFFFF;
+  color: #7289DA;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#discordLink:hover {
+  background-color: #7289DA;
+  color: #FFFFFF;
+}
+
+.discord-hidden {
+  display: none;
+}
+
+/*.discord-icon {*/
+/*    display: inline-block;*/
+/*    width: 50px; !* Задайте нужную ширину иконке *!*/
+/*    height: 50px; !* Задайте нужную высоту иконке *!*/
+/*    background: url('/src/assets/textures/ds.svg') no-repeat center;*/
+/*    background-size: cover;*/
+/*    margin-right: 10px; !* Задайте нужный отступ между иконкой и текстом *!*/
+/*}*/
 /*!**************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/pre-loader.css ***!
   \**************************************************************************************************************************************************************/
