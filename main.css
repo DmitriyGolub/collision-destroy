@@ -1,0 +1,229 @@
+/*!*********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.css ***!
+  \*********************************************************************************************************************************************************/
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+#gui {
+  z-index: 1000;
+}
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/discord.css ***!
+  \***********************************************************************************************************************************************************/
+@charset "UTF-8";
+.panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+  padding: 20px;
+  background-color: #7289DA;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1;
+}
+
+#inviteButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.discord-icon {
+  width: 50px; /* Set the desired width of the icon */
+  height: 50px; /* Set the desired height of the icon */
+  background: url(becb6da9c8e961876a5f.svg) no-repeat center;
+  background-size: cover;
+}
+
+.button-text {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.invite-panel {
+  display: none;
+  margin-top: 10px;
+}
+
+.panel.open .invite-panel {
+  display: block;
+}
+
+#discordLink {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #FFFFFF;
+  color: #7289DA;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#discordLink:hover {
+  background-color: #7289DA;
+  color: #FFFFFF;
+}
+
+#discordLink {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #FFFFFF;
+  color: #7289DA;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#discordLink:hover {
+  background-color: #7289DA;
+  color: #FFFFFF;
+}
+
+.discord-hidden {
+  display: none;
+}
+
+/*.discord-icon {*/
+/*    display: inline-block;*/
+/*    width: 50px; !* Задайте нужную ширину иконке *!*/
+/*    height: 50px; !* Задайте нужную высоту иконке *!*/
+/*    background: url('/src/assets/textures/ds.svg') no-repeat center;*/
+/*    background-size: cover;*/
+/*    margin-right: 10px; !* Задайте нужный отступ между иконкой и текстом *!*/
+/*}*/
+/*!**************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/pre-loader.css ***!
+  \**************************************************************************************************************************************************************/
+#loading-screen {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 1;
+  font-size: 40px;
+  background-color: rgb(0, 0, 0);
+}
+
+/*@font-face {*/
+/*    font-family: "RussoOne";*/
+/*    src: url("../../src/assets/fonts/RussoOne-Regular.ttf") format("truetype");*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*}*/
+#container {
+  min-width: 12em;
+  text-align: center;
+  margin: 0px 10px -1.5em;
+}
+
+.model-name {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  z-index: 9999;
+  color: #ff00ff;
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff, 0 0 20px #9400d3, 0 0 35px #9400d3, 0 0 40px #9400d3, 0 0 50px #9400d3, 0 0 75px #9400d3;
+}
+
+@media only screen and (max-width: 600px) {
+  .model-name {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+#loading-screen.fade-out {
+  opacity: 0;
+}
+
+#loading-screen.fade {
+  opacity: 1;
+}
+
+#loader {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #9370db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+#loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #ba55d3;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+
+#loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #ff00ff;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
