@@ -2243,81 +2243,45 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "DevFontName": () => (/* binding */ DevFontName),
 /* harmony export */   "DevModelName": () => (/* binding */ DevModelName),
-/* harmony export */   "DevTextureName": () => (/* binding */ DevTextureName),
-/* harmony export */   "arrayTexture": () => (/* binding */ arrayTexture)
+/* harmony export */   "DevTextureName": () => (/* binding */ DevTextureName)
 /* harmony export */ });
 /* harmony import */ var _assets_textures_base_error_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../assets/textures/base/error.png */ "./src/assets/textures/base/error.png");
 /* harmony import */ var _assets_textures_white_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/textures/white.png */ "./src/assets/textures/white.png");
 /* harmony import */ var _assets_models_base_cube_gltf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/models/base/cube.gltf */ "./src/assets/models/base/cube.gltf");
-/* harmony import */ var _assets_models_animations_Characters_standing_melee_attack_horizontal_gltf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/models/animations/Characters_standing_melee_attack_horizontal.gltf */ "./src/assets/models/animations/Characters_standing_melee_attack_horizontal.gltf");
-/* harmony import */ var _assets_models_animations_Characters_walking_gltf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/models/animations/Characters_walking.gltf */ "./src/assets/models/animations/Characters_walking.gltf");
-/* harmony import */ var _assets_models_animations_Characters_running_gltf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/models/animations/Characters_running.gltf */ "./src/assets/models/animations/Characters_running.gltf");
-/* harmony import */ var _assets_models_animations_Characters_warrior_Idle_gltf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/models/animations/Characters_warrior_Idle.gltf */ "./src/assets/models/animations/Characters_warrior_Idle.gltf");
-/* harmony import */ var _assets_models_dungeon_walls_SM_Env_Wall_05_gltf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/models/dungeon/walls/SM_Env_Wall_05.gltf */ "./src/assets/models/dungeon/walls/SM_Env_Wall_05.gltf");
-/* harmony import */ var _assets_models_dungeon_walls_SM_Env_Wall_01_gltf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/models/dungeon/walls/SM_Env_Wall_01.gltf */ "./src/assets/models/dungeon/walls/SM_Env_Wall_01.gltf");
-/* harmony import */ var _assets_models_dungeon_floor_SM_Env_Tiles_01_gltf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../assets/models/dungeon/floor/SM_Env_Tiles_01.gltf */ "./src/assets/models/dungeon/floor/SM_Env_Tiles_01.gltf");
-/* harmony import */ var _assets_models_dungeon_floor_SM_Env_Tiles_09_gltf__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../assets/models/dungeon/floor/SM_Env_Tiles_09.gltf */ "./src/assets/models/dungeon/floor/SM_Env_Tiles_09.gltf");
-/* harmony import */ var _assets_models_diamond_rush_Career_gltf__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../assets/models/diamond_rush/Career.gltf */ "./src/assets/models/diamond_rush/Career.gltf");
-/* harmony import */ var _assets_models_diamond_rush_GrassPlaneCareer_gltf__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../assets/models/diamond_rush/GrassPlaneCareer.gltf */ "./src/assets/models/diamond_rush/GrassPlaneCareer.gltf");
-/* harmony import */ var _assets_models_diamond_rush_TronMalen_gltf__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../assets/models/diamond_rush/TronMalen.gltf */ "./src/assets/models/diamond_rush/TronMalen.gltf");
-/* harmony import */ var _assets_models_diamond_rush_blocks_gltf__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../assets/models/diamond_rush/blocks.gltf */ "./src/assets/models/diamond_rush/blocks.gltf");
-/* harmony import */ var _assets_models_diamond_rush_Terrain_gltf__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../assets/models/diamond_rush/Terrain.gltf */ "./src/assets/models/diamond_rush/Terrain.gltf");
-/* harmony import */ var _assets_models_diamond_rush_Kirka_gltf__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../assets/models/diamond_rush/Kirka.gltf */ "./src/assets/models/diamond_rush/Kirka.gltf");
-/* harmony import */ var _assets_models_animations_diamond_rush_idle_gltf__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../assets/models/animations/diamond_rush/idle.gltf */ "./src/assets/models/animations/diamond_rush/idle.gltf");
-/* harmony import */ var _assets_models_animations_diamond_rush_Walking_gltf__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../assets/models/animations/diamond_rush/Walking.gltf */ "./src/assets/models/animations/diamond_rush/Walking.gltf");
-/* harmony import */ var _assets_models_animations_diamond_rush_Running4_gltf__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../assets/models/animations/diamond_rush/Running4.gltf */ "./src/assets/models/animations/diamond_rush/Running4.gltf");
-/* harmony import */ var _assets_models_animations_diamond_rush_attack_gltf__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../assets/models/animations/diamond_rush/attack.gltf */ "./src/assets/models/animations/diamond_rush/attack.gltf");
-/* harmony import */ var _assets_models_animations_diamond_rush_Jump_gltf__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../assets/models/animations/diamond_rush/Jump.gltf */ "./src/assets/models/animations/diamond_rush/Jump.gltf");
-/* harmony import */ var _assets_textures_diamond_rush_character_texture_roughnes_map_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/character_texture/roughnes_map.png */ "./src/assets/textures/diamond_rush/character_texture/roughnes_map.png");
-/* harmony import */ var _assets_textures_diamond_rush_character_texture_normal_map_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/character_texture/normal_map.png */ "./src/assets/textures/diamond_rush/character_texture/normal_map.png");
-/* harmony import */ var _assets_textures_diamond_rush_character_texture_emmisive_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/character_texture/emmisive.png */ "./src/assets/textures/diamond_rush/character_texture/emmisive.png");
-/* harmony import */ var _assets_textures_diamond_rush_terrain_grass_terrain_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/terrain/grass_terrain.png */ "./src/assets/textures/diamond_rush/terrain/grass_terrain.png");
-/* harmony import */ var _assets_textures_diamond_rush_terrain_ground_01_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/terrain/ground_01.png */ "./src/assets/textures/diamond_rush/terrain/ground_01.png");
-/* harmony import */ var _assets_textures_diamond_rush_grass_blade_diffuse_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/grass/blade_diffuse.jpg */ "./src/assets/textures/diamond_rush/grass/blade_diffuse.jpg");
-/* harmony import */ var _assets_textures_diamond_rush_grass_blade_alpha_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/grass//blade_alpha.jpg */ "./src/assets/textures/diamond_rush/grass/blade_alpha.jpg");
-/* harmony import */ var _assets_textures_diamond_rush_grass_perlinFbm_jpg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/grass//perlinFbm.jpg */ "./src/assets/textures/diamond_rush/grass/perlinFbm.jpg");
-/* harmony import */ var _assets_background_skybox_front_png__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../assets/background/skybox/front.png */ "./src/assets/background/skybox/front.png");
-/* harmony import */ var _assets_background_skybox_back_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../assets/background/skybox/back.png */ "./src/assets/background/skybox/back.png");
-/* harmony import */ var _assets_background_skybox_up_png__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../assets/background/skybox/up.png */ "./src/assets/background/skybox/up.png");
-/* harmony import */ var _assets_background_skybox_down_png__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../assets/background/skybox/down.png */ "./src/assets/background/skybox/down.png");
-/* harmony import */ var _assets_background_skybox_left_png__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ../../assets/background/skybox/left.png */ "./src/assets/background/skybox/left.png");
-/* harmony import */ var _assets_background_skybox_right_png__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ../../assets/background/skybox/right.png */ "./src/assets/background/skybox/right.png");
-/* harmony import */ var _assets_background_blue_skybox_png__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ../../assets/background/blue_skybox.png */ "./src/assets/background/blue_skybox.png");
-/* harmony import */ var _assets_textures_diamond_rush_popup_white_png__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/white.png */ "./src/assets/textures/diamond_rush/popup/white.png");
-/* harmony import */ var _assets_textures_diamond_rush_popup_purple_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/purple.png */ "./src/assets/textures/diamond_rush/popup/purple.png");
-/* harmony import */ var _assets_textures_diamond_rush_popup_bitcoin_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/bitcoin.png */ "./src/assets/textures/diamond_rush/popup/bitcoin.png");
-/* harmony import */ var _assets_textures_diamond_rush_popup_gold_png__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/gold.png */ "./src/assets/textures/diamond_rush/popup/gold.png");
-/* harmony import */ var _assets_textures_diamond_rush_popup_sand_png__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/sand.png */ "./src/assets/textures/diamond_rush/popup/sand.png");
-/* harmony import */ var _assets_textures_diamond_rush_popup_ore_png__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/ore.png */ "./src/assets/textures/diamond_rush/popup/ore.png");
-/* harmony import */ var _assets_textures_diamond_rush_popup_crystal_png__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/crystal.png */ "./src/assets/textures/diamond_rush/popup/crystal.png");
-/* harmony import */ var _assets_textures_pointer_png__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ../../assets/textures/pointer.png */ "./src/assets/textures/pointer.png");
-/* harmony import */ var _assets_textures_water_png__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ../../assets/textures/water.png */ "./src/assets/textures/water.png");
-/* harmony import */ var _assets_textures_forest_vegetation_toon01_png__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ../../assets/textures/forest/vegetation_toon01.png */ "./src/assets/textures/forest/vegetation_toon01.png");
-/* harmony import */ var _assets_textures_forest_vegetation_toon02_png__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../../assets/textures/forest/vegetation_toon02.png */ "./src/assets/textures/forest/vegetation_toon02.png");
-/* harmony import */ var _assets_textures_dungeon_Dungeons_Texture_01_png__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ../../assets/textures/dungeon/Dungeons_Texture_01.png */ "./src/assets/textures/dungeon/Dungeons_Texture_01.png");
-/* harmony import */ var _assets_textures_cloud_png__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ../../assets/textures/cloud.png */ "./src/assets/textures/cloud.png");
-/* harmony import */ var _assets_fonts_RussoOne_Regular_woff__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ../../assets/fonts/RussoOne-Regular.woff */ "./src/assets/fonts/RussoOne-Regular.woff");
-/* harmony import */ var _assets_fonts_Anton_Regular_json__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ../../assets/fonts/Anton-Regular.json */ "./src/assets/fonts/Anton-Regular.json");
-/* harmony import */ var _assets_fonts_Anton_Regular_woff2__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ../../assets/fonts/Anton-Regular.woff2 */ "./src/assets/fonts/Anton-Regular.woff2");
+/* harmony import */ var _assets_models_diamond_rush_Career_gltf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/models/diamond_rush/Career.gltf */ "./src/assets/models/diamond_rush/Career.gltf");
+/* harmony import */ var _assets_models_diamond_rush_TronMalen_gltf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/models/diamond_rush/TronMalen.gltf */ "./src/assets/models/diamond_rush/TronMalen.gltf");
+/* harmony import */ var _assets_models_diamond_rush_blocks_gltf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/models/diamond_rush/blocks.gltf */ "./src/assets/models/diamond_rush/blocks.gltf");
+/* harmony import */ var _assets_models_diamond_rush_Kirka_gltf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/models/diamond_rush/Kirka.gltf */ "./src/assets/models/diamond_rush/Kirka.gltf");
+/* harmony import */ var _assets_models_animations_diamond_rush_idle_gltf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/models/animations/diamond_rush/idle.gltf */ "./src/assets/models/animations/diamond_rush/idle.gltf");
+/* harmony import */ var _assets_models_animations_diamond_rush_Walking_gltf__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/models/animations/diamond_rush/Walking.gltf */ "./src/assets/models/animations/diamond_rush/Walking.gltf");
+/* harmony import */ var _assets_models_animations_diamond_rush_Running4_gltf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../assets/models/animations/diamond_rush/Running4.gltf */ "./src/assets/models/animations/diamond_rush/Running4.gltf");
+/* harmony import */ var _assets_models_animations_diamond_rush_attack_gltf__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../assets/models/animations/diamond_rush/attack.gltf */ "./src/assets/models/animations/diamond_rush/attack.gltf");
+/* harmony import */ var _assets_models_animations_diamond_rush_Jump_gltf__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../assets/models/animations/diamond_rush/Jump.gltf */ "./src/assets/models/animations/diamond_rush/Jump.gltf");
+/* harmony import */ var _assets_textures_diamond_rush_character_texture_roughnes_map_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/character_texture/roughnes_map.png */ "./src/assets/textures/diamond_rush/character_texture/roughnes_map.png");
+/* harmony import */ var _assets_textures_diamond_rush_character_texture_normal_map_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/character_texture/normal_map.png */ "./src/assets/textures/diamond_rush/character_texture/normal_map.png");
+/* harmony import */ var _assets_textures_diamond_rush_character_texture_emmisive_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/character_texture/emmisive.png */ "./src/assets/textures/diamond_rush/character_texture/emmisive.png");
+/* harmony import */ var _assets_textures_diamond_rush_terrain_grass_terrain_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/terrain/grass_terrain.png */ "./src/assets/textures/diamond_rush/terrain/grass_terrain.png");
+/* harmony import */ var _assets_textures_diamond_rush_terrain_ground_01_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/terrain/ground_01.png */ "./src/assets/textures/diamond_rush/terrain/ground_01.png");
+/* harmony import */ var _assets_textures_diamond_rush_grass_blade_diffuse_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/grass/blade_diffuse.jpg */ "./src/assets/textures/diamond_rush/grass/blade_diffuse.jpg");
+/* harmony import */ var _assets_textures_diamond_rush_grass_blade_alpha_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/grass//blade_alpha.jpg */ "./src/assets/textures/diamond_rush/grass/blade_alpha.jpg");
+/* harmony import */ var _assets_textures_diamond_rush_grass_perlinFbm_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/grass//perlinFbm.jpg */ "./src/assets/textures/diamond_rush/grass/perlinFbm.jpg");
+/* harmony import */ var _assets_background_blue_skybox_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../../assets/background/blue_skybox.png */ "./src/assets/background/blue_skybox.png");
+/* harmony import */ var _assets_textures_diamond_rush_popup_white_png__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/white.png */ "./src/assets/textures/diamond_rush/popup/white.png");
+/* harmony import */ var _assets_textures_diamond_rush_popup_purple_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/purple.png */ "./src/assets/textures/diamond_rush/popup/purple.png");
+/* harmony import */ var _assets_textures_diamond_rush_popup_bitcoin_png__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/bitcoin.png */ "./src/assets/textures/diamond_rush/popup/bitcoin.png");
+/* harmony import */ var _assets_textures_diamond_rush_popup_gold_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/gold.png */ "./src/assets/textures/diamond_rush/popup/gold.png");
+/* harmony import */ var _assets_textures_diamond_rush_popup_sand_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/sand.png */ "./src/assets/textures/diamond_rush/popup/sand.png");
+/* harmony import */ var _assets_textures_diamond_rush_popup_ore_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/ore.png */ "./src/assets/textures/diamond_rush/popup/ore.png");
+/* harmony import */ var _assets_textures_diamond_rush_popup_crystal_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../../assets/textures/diamond_rush/popup/crystal.png */ "./src/assets/textures/diamond_rush/popup/crystal.png");
+/* harmony import */ var _assets_textures_pointer_png__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ../../assets/textures/pointer.png */ "./src/assets/textures/pointer.png");
+/* harmony import */ var _assets_textures_cloud_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../../assets/textures/cloud.png */ "./src/assets/textures/cloud.png");
+/* harmony import */ var _assets_fonts_Anton_Regular_json__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ../../assets/fonts/Anton-Regular.json */ "./src/assets/fonts/Anton-Regular.json");
 //world
 
 
 
-//---
-
-
-
-
-//dungeon-tiles
-//wall SM_Env_Wall_01
-
-
-//floor
-
 
 //dr
-
-
 
 
 
@@ -2342,14 +2306,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-//dr skybox
-
-
-
-
-
-
-
 //dr blue skybox
 
 //dr popup
@@ -2364,95 +2320,59 @@ __webpack_require__.r(__webpack_exports__);
 //texture
 
 
-
 //dr
 //---
-
-
-
-
 //--
 
 //particles
 //fonts
 
-
-
 const DevModelName = {
   //glb, gltf
   GLTF_ERROR: _assets_models_base_cube_gltf__WEBPACK_IMPORTED_MODULE_2__,
-  GLTF_FANTASY_CHARACTER: _assets_models_animations_Characters_standing_melee_attack_horizontal_gltf__WEBPACK_IMPORTED_MODULE_3__,
-  //animations
-  ANIMATION_WALK: _assets_models_animations_Characters_walking_gltf__WEBPACK_IMPORTED_MODULE_4__,
-  ANIMATION_RUN: _assets_models_animations_Characters_running_gltf__WEBPACK_IMPORTED_MODULE_5__,
-  ANIMATION_IDLE: _assets_models_animations_Characters_warrior_Idle_gltf__WEBPACK_IMPORTED_MODULE_6__,
-  //dungeonTiles
-  //wall
-  SM_Env_Wall_05: _assets_models_dungeon_walls_SM_Env_Wall_05_gltf__WEBPACK_IMPORTED_MODULE_7__,
-  SM_Env_Wall_01: _assets_models_dungeon_walls_SM_Env_Wall_01_gltf__WEBPACK_IMPORTED_MODULE_8__,
-  //floor
-  SM_Env_Tiles_01: _assets_models_dungeon_floor_SM_Env_Tiles_01_gltf__WEBPACK_IMPORTED_MODULE_9__,
-  SM_Env_Tiles_09: _assets_models_dungeon_floor_SM_Env_Tiles_09_gltf__WEBPACK_IMPORTED_MODULE_10__,
   //diamond_rush
-  GLTF_CAREER: _assets_models_diamond_rush_Career_gltf__WEBPACK_IMPORTED_MODULE_11__,
-  GLTF_GRASS_PLANE: _assets_models_diamond_rush_GrassPlaneCareer_gltf__WEBPACK_IMPORTED_MODULE_12__,
-  GLTF_CHARACTER_TRON: _assets_models_diamond_rush_TronMalen_gltf__WEBPACK_IMPORTED_MODULE_13__,
-  GLTF_FLOATING_ISLAND: _assets_models_diamond_rush_blocks_gltf__WEBPACK_IMPORTED_MODULE_14__,
-  GLTF_TERRAIN: _assets_models_diamond_rush_Terrain_gltf__WEBPACK_IMPORTED_MODULE_15__,
-  GLTF_WEAPON_PICKAXE: _assets_models_diamond_rush_Kirka_gltf__WEBPACK_IMPORTED_MODULE_16__,
+  GLTF_CAREER: _assets_models_diamond_rush_Career_gltf__WEBPACK_IMPORTED_MODULE_3__,
+  GLTF_CHARACTER_TRON: _assets_models_diamond_rush_TronMalen_gltf__WEBPACK_IMPORTED_MODULE_4__,
+  GLTF_FLOATING_ISLAND: _assets_models_diamond_rush_blocks_gltf__WEBPACK_IMPORTED_MODULE_5__,
+  GLTF_WEAPON_PICKAXE: _assets_models_diamond_rush_Kirka_gltf__WEBPACK_IMPORTED_MODULE_6__,
   //animations
-  ANIMATION_DR_IDLE: _assets_models_animations_diamond_rush_idle_gltf__WEBPACK_IMPORTED_MODULE_17__,
-  ANIMATION_DR_WALK: _assets_models_animations_diamond_rush_Walking_gltf__WEBPACK_IMPORTED_MODULE_18__,
-  ANIMATION_DR_RUN: _assets_models_animations_diamond_rush_Running4_gltf__WEBPACK_IMPORTED_MODULE_19__,
-  ANIMATION_DR_ATTACK: _assets_models_animations_diamond_rush_attack_gltf__WEBPACK_IMPORTED_MODULE_20__,
-  ANIMATION_DR_JUMP: _assets_models_animations_diamond_rush_Jump_gltf__WEBPACK_IMPORTED_MODULE_21__
+  ANIMATION_DR_IDLE: _assets_models_animations_diamond_rush_idle_gltf__WEBPACK_IMPORTED_MODULE_7__,
+  ANIMATION_DR_WALK: _assets_models_animations_diamond_rush_Walking_gltf__WEBPACK_IMPORTED_MODULE_8__,
+  ANIMATION_DR_RUN: _assets_models_animations_diamond_rush_Running4_gltf__WEBPACK_IMPORTED_MODULE_9__,
+  ANIMATION_DR_ATTACK: _assets_models_animations_diamond_rush_attack_gltf__WEBPACK_IMPORTED_MODULE_10__,
+  ANIMATION_DR_JUMP: _assets_models_animations_diamond_rush_Jump_gltf__WEBPACK_IMPORTED_MODULE_11__
 };
 const DevTextureName = {
   MISSING_TEXTURE: _assets_textures_base_error_png__WEBPACK_IMPORTED_MODULE_0__,
   WHITE: _assets_textures_white_png__WEBPACK_IMPORTED_MODULE_1__,
-  POINTER: _assets_textures_pointer_png__WEBPACK_IMPORTED_MODULE_44__,
-  WATER: _assets_textures_water_png__WEBPACK_IMPORTED_MODULE_45__,
-  TREE: _assets_textures_forest_vegetation_toon01_png__WEBPACK_IMPORTED_MODULE_46__,
-  TREE_LEAFS: _assets_textures_forest_vegetation_toon02_png__WEBPACK_IMPORTED_MODULE_47__,
-  DUNGEON_TEXTURE: _assets_textures_dungeon_Dungeons_Texture_01_png__WEBPACK_IMPORTED_MODULE_48__,
-  EMMISIVE_DUNGEON_TEXTURE: _assets_textures_dungeon_Dungeons_Texture_01_png__WEBPACK_IMPORTED_MODULE_48__,
+  POINTER: _assets_textures_pointer_png__WEBPACK_IMPORTED_MODULE_28__,
   //character
-  DR_CHARACTER_EMMISIVE: _assets_textures_diamond_rush_character_texture_emmisive_png__WEBPACK_IMPORTED_MODULE_24__,
-  DR_CHARACTER_NORMAL: _assets_textures_diamond_rush_character_texture_normal_map_png__WEBPACK_IMPORTED_MODULE_23__,
-  DR_CHARACTER_ROUGHNES: _assets_textures_diamond_rush_character_texture_roughnes_map_png__WEBPACK_IMPORTED_MODULE_22__,
-  //skybox
-  DR_SKYBOX_UP: _assets_background_skybox_up_png__WEBPACK_IMPORTED_MODULE_32__,
-  DR_SKYBOX_DOWN: _assets_background_skybox_down_png__WEBPACK_IMPORTED_MODULE_33__,
-  DR_SKYBOX_BACK: _assets_background_skybox_back_png__WEBPACK_IMPORTED_MODULE_31__,
-  DR_SKYBOX_FRONT: _assets_background_skybox_front_png__WEBPACK_IMPORTED_MODULE_30__,
-  DR_SKYBOX_RIGHT: _assets_background_skybox_right_png__WEBPACK_IMPORTED_MODULE_35__,
-  DR_SKYBOX_LEFT: _assets_background_skybox_left_png__WEBPACK_IMPORTED_MODULE_34__,
+  DR_CHARACTER_EMMISIVE: _assets_textures_diamond_rush_character_texture_emmisive_png__WEBPACK_IMPORTED_MODULE_14__,
+  DR_CHARACTER_NORMAL: _assets_textures_diamond_rush_character_texture_normal_map_png__WEBPACK_IMPORTED_MODULE_13__,
+  DR_CHARACTER_ROUGHNES: _assets_textures_diamond_rush_character_texture_roughnes_map_png__WEBPACK_IMPORTED_MODULE_12__,
   //blue skybox
-  DR_BLUE_SKYBOX: _assets_background_blue_skybox_png__WEBPACK_IMPORTED_MODULE_36__,
+  DR_BLUE_SKYBOX: _assets_background_blue_skybox_png__WEBPACK_IMPORTED_MODULE_20__,
   //terrain
-  DR_TERRAIN_GRASS: _assets_textures_diamond_rush_terrain_grass_terrain_png__WEBPACK_IMPORTED_MODULE_25__,
-  DR_GROUND_BLOCK: _assets_textures_diamond_rush_terrain_ground_01_png__WEBPACK_IMPORTED_MODULE_26__,
+  DR_TERRAIN_GRASS: _assets_textures_diamond_rush_terrain_grass_terrain_png__WEBPACK_IMPORTED_MODULE_15__,
+  DR_GROUND_BLOCK: _assets_textures_diamond_rush_terrain_ground_01_png__WEBPACK_IMPORTED_MODULE_16__,
   //grass
-  DR_SHADER_GRASS_MAP: _assets_textures_diamond_rush_grass_blade_diffuse_jpg__WEBPACK_IMPORTED_MODULE_27__,
-  DR_SHADER_GRASS_ALPHA: _assets_textures_diamond_rush_grass_blade_alpha_jpg__WEBPACK_IMPORTED_MODULE_28__,
-  DR_SHADER_GRASS_NOISE: _assets_textures_diamond_rush_grass_perlinFbm_jpg__WEBPACK_IMPORTED_MODULE_29__,
+  DR_SHADER_GRASS_MAP: _assets_textures_diamond_rush_grass_blade_diffuse_jpg__WEBPACK_IMPORTED_MODULE_17__,
+  DR_SHADER_GRASS_ALPHA: _assets_textures_diamond_rush_grass_blade_alpha_jpg__WEBPACK_IMPORTED_MODULE_18__,
+  DR_SHADER_GRASS_NOISE: _assets_textures_diamond_rush_grass_perlinFbm_jpg__WEBPACK_IMPORTED_MODULE_19__,
   //popup
-  DR_POPUP_WHITE: _assets_textures_diamond_rush_popup_white_png__WEBPACK_IMPORTED_MODULE_37__,
-  DR_POPUP_PURPLE: _assets_textures_diamond_rush_popup_purple_png__WEBPACK_IMPORTED_MODULE_38__,
-  DR_POPUP_GOLD: _assets_textures_diamond_rush_popup_gold_png__WEBPACK_IMPORTED_MODULE_40__,
-  DR_POPUP_BITCOIN: _assets_textures_diamond_rush_popup_bitcoin_png__WEBPACK_IMPORTED_MODULE_39__,
-  DR_POPUP_SAND: _assets_textures_diamond_rush_popup_sand_png__WEBPACK_IMPORTED_MODULE_41__,
-  DR_POPUP_CRYSTAL: _assets_textures_diamond_rush_popup_crystal_png__WEBPACK_IMPORTED_MODULE_43__,
-  DR_POPUP_ORE: _assets_textures_diamond_rush_popup_ore_png__WEBPACK_IMPORTED_MODULE_42__,
+  DR_POPUP_WHITE: _assets_textures_diamond_rush_popup_white_png__WEBPACK_IMPORTED_MODULE_21__,
+  DR_POPUP_PURPLE: _assets_textures_diamond_rush_popup_purple_png__WEBPACK_IMPORTED_MODULE_22__,
+  DR_POPUP_GOLD: _assets_textures_diamond_rush_popup_gold_png__WEBPACK_IMPORTED_MODULE_24__,
+  DR_POPUP_BITCOIN: _assets_textures_diamond_rush_popup_bitcoin_png__WEBPACK_IMPORTED_MODULE_23__,
+  DR_POPUP_SAND: _assets_textures_diamond_rush_popup_sand_png__WEBPACK_IMPORTED_MODULE_25__,
+  DR_POPUP_CRYSTAL: _assets_textures_diamond_rush_popup_crystal_png__WEBPACK_IMPORTED_MODULE_27__,
+  DR_POPUP_ORE: _assets_textures_diamond_rush_popup_ore_png__WEBPACK_IMPORTED_MODULE_26__,
   //shader
-  CLOUD: _assets_textures_cloud_png__WEBPACK_IMPORTED_MODULE_49__
+  CLOUD: _assets_textures_cloud_png__WEBPACK_IMPORTED_MODULE_29__
 };
 const DevFontName = {
-  RUSSONEWOFF: _assets_fonts_RussoOne_Regular_woff__WEBPACK_IMPORTED_MODULE_50__,
-  ANTONTTF: _assets_fonts_Anton_Regular_json__WEBPACK_IMPORTED_MODULE_51__,
-  ANTON_WOFF2: _assets_fonts_Anton_Regular_woff2__WEBPACK_IMPORTED_MODULE_52__
+  ANTONTTF: _assets_fonts_Anton_Regular_json__WEBPACK_IMPORTED_MODULE_30__
 };
-const arrayTexture = [];
 
 /***/ }),
 
@@ -2508,36 +2428,20 @@ if (!_playable_helper_ice_cream_ice_cream__WEBPACK_IMPORTED_MODULE_1__.ICECREAM)
 let RawObject3D;
 (function (RawObject3D) {
   RawObject3D[RawObject3D["ERRORMODEL"] = 0] = "ERRORMODEL";
-  RawObject3D[RawObject3D["FANTASY_CHARACTER"] = 1] = "FANTASY_CHARACTER";
-  RawObject3D[RawObject3D["ANIMATION_WALK"] = 2] = "ANIMATION_WALK";
-  RawObject3D[RawObject3D["ANIMATION_RUN"] = 3] = "ANIMATION_RUN";
-  RawObject3D[RawObject3D["ANIMATION_IDLE"] = 4] = "ANIMATION_IDLE";
-  RawObject3D[RawObject3D["SM_Env_Tiles_01"] = 5] = "SM_Env_Tiles_01";
-  RawObject3D[RawObject3D["SM_Env_Tiles_09"] = 6] = "SM_Env_Tiles_09";
-  RawObject3D[RawObject3D["SM_Env_Wall_01"] = 7] = "SM_Env_Wall_01";
-  RawObject3D[RawObject3D["SM_Env_Wall_05"] = 8] = "SM_Env_Wall_05";
-  RawObject3D[RawObject3D["DR_CHARACTER"] = 9] = "DR_CHARACTER";
-  RawObject3D[RawObject3D["DR_FLOATINGISLAND"] = 10] = "DR_FLOATINGISLAND";
-  RawObject3D[RawObject3D["DR_GRASS_PLANE"] = 11] = "DR_GRASS_PLANE";
-  RawObject3D[RawObject3D["DR_CAREER"] = 12] = "DR_CAREER";
-  RawObject3D[RawObject3D["DR_TERRAIN"] = 13] = "DR_TERRAIN";
-  RawObject3D[RawObject3D["DR_WEAPON_PICKAXE"] = 14] = "DR_WEAPON_PICKAXE";
-  RawObject3D[RawObject3D["ANIMATION_DR_IDLE"] = 15] = "ANIMATION_DR_IDLE";
-  RawObject3D[RawObject3D["ANIMATION_DR_WALK"] = 16] = "ANIMATION_DR_WALK";
-  RawObject3D[RawObject3D["ANIMATION_DR_RUN"] = 17] = "ANIMATION_DR_RUN";
-  RawObject3D[RawObject3D["ANIMATION_DR_JUMP"] = 18] = "ANIMATION_DR_JUMP";
-  RawObject3D[RawObject3D["ANIMATION_DR_ATTACK"] = 19] = "ANIMATION_DR_ATTACK";
+  RawObject3D[RawObject3D["DR_CHARACTER"] = 1] = "DR_CHARACTER";
+  RawObject3D[RawObject3D["DR_FLOATINGISLAND"] = 2] = "DR_FLOATINGISLAND";
+  RawObject3D[RawObject3D["DR_GRASS_PLANE"] = 3] = "DR_GRASS_PLANE";
+  RawObject3D[RawObject3D["DR_CAREER"] = 4] = "DR_CAREER";
+  RawObject3D[RawObject3D["DR_TERRAIN"] = 5] = "DR_TERRAIN";
+  RawObject3D[RawObject3D["DR_WEAPON_PICKAXE"] = 6] = "DR_WEAPON_PICKAXE";
+  RawObject3D[RawObject3D["ANIMATION_DR_IDLE"] = 7] = "ANIMATION_DR_IDLE";
+  RawObject3D[RawObject3D["ANIMATION_DR_WALK"] = 8] = "ANIMATION_DR_WALK";
+  RawObject3D[RawObject3D["ANIMATION_DR_RUN"] = 9] = "ANIMATION_DR_RUN";
+  RawObject3D[RawObject3D["ANIMATION_DR_JUMP"] = 10] = "ANIMATION_DR_JUMP";
+  RawObject3D[RawObject3D["ANIMATION_DR_ATTACK"] = 11] = "ANIMATION_DR_ATTACK";
 })(RawObject3D || (RawObject3D = {}));
 const object3DList = {
   [RawObject3D.ERRORMODEL]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevModelName.GLTF_ERROR,
-  [RawObject3D.FANTASY_CHARACTER]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevModelName.GLTF_FANTASY_CHARACTER,
-  [RawObject3D.ANIMATION_WALK]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevModelName.ANIMATION_WALK,
-  [RawObject3D.ANIMATION_RUN]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevModelName.ANIMATION_RUN,
-  [RawObject3D.ANIMATION_IDLE]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevModelName.ANIMATION_IDLE,
-  [RawObject3D.SM_Env_Wall_01]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevModelName.SM_Env_Wall_01,
-  [RawObject3D.SM_Env_Wall_05]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevModelName.SM_Env_Wall_05,
-  [RawObject3D.SM_Env_Tiles_01]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevModelName.SM_Env_Tiles_01,
-  [RawObject3D.SM_Env_Tiles_09]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevModelName.SM_Env_Tiles_09,
   //diamond_rush
   [RawObject3D.DR_CHARACTER]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevModelName.GLTF_CHARACTER_TRON,
   [RawObject3D.DR_FLOATINGISLAND]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevModelName.GLTF_FLOATING_ISLAND,
@@ -2587,49 +2491,32 @@ let RawTexture;
 //     DR_CHARACTER_ROUGHNES: character_roughnes,
 (function (RawTexture) {
   RawTexture[RawTexture["ERROR"] = 0] = "ERROR";
-  RawTexture[RawTexture["DUNGEON_TEXTURES"] = 1] = "DUNGEON_TEXTURES";
-  RawTexture[RawTexture["EMMISIVE_DUNGEON_TEXTURE"] = 2] = "EMMISIVE_DUNGEON_TEXTURE";
-  RawTexture[RawTexture["DR_CHARACTER_NORMAL"] = 3] = "DR_CHARACTER_NORMAL";
-  RawTexture[RawTexture["DR_CHARACTER_ROUGHNES"] = 4] = "DR_CHARACTER_ROUGHNES";
-  RawTexture[RawTexture["DR_CHARACTER_EMMISIVE"] = 5] = "DR_CHARACTER_EMMISIVE";
-  RawTexture[RawTexture["DR_SKYBOX_BACK"] = 6] = "DR_SKYBOX_BACK";
-  RawTexture[RawTexture["DR_SKYBOX_FRONT"] = 7] = "DR_SKYBOX_FRONT";
-  RawTexture[RawTexture["DR_SKYBOX_DOWN"] = 8] = "DR_SKYBOX_DOWN";
-  RawTexture[RawTexture["DR_SKYBOX_UP"] = 9] = "DR_SKYBOX_UP";
-  RawTexture[RawTexture["DR_SKYBOX_RIGHT"] = 10] = "DR_SKYBOX_RIGHT";
-  RawTexture[RawTexture["DR_SKYBOX_LEFT"] = 11] = "DR_SKYBOX_LEFT";
-  RawTexture[RawTexture["DR_BLUE_SKYBOX"] = 12] = "DR_BLUE_SKYBOX";
-  RawTexture[RawTexture["DR_TERRAIN_GRASS"] = 13] = "DR_TERRAIN_GRASS";
-  RawTexture[RawTexture["DR_SHADER_GRASS_MAP"] = 14] = "DR_SHADER_GRASS_MAP";
-  RawTexture[RawTexture["DR_SHADER_GRASS_ALPHA"] = 15] = "DR_SHADER_GRASS_ALPHA";
-  RawTexture[RawTexture["DR_SHADER_GRASS_NOISE"] = 16] = "DR_SHADER_GRASS_NOISE";
-  RawTexture[RawTexture["DR_BLOCK_TEXTURE"] = 17] = "DR_BLOCK_TEXTURE";
-  RawTexture[RawTexture["DR_POPUP_WHITE"] = 18] = "DR_POPUP_WHITE";
-  RawTexture[RawTexture["DR_POPUP_PURPLE"] = 19] = "DR_POPUP_PURPLE";
-  RawTexture[RawTexture["DR_POPUP_GOLD"] = 20] = "DR_POPUP_GOLD";
-  RawTexture[RawTexture["DR_POPUP_BITCOIN"] = 21] = "DR_POPUP_BITCOIN";
-  RawTexture[RawTexture["DR_POPUP_SAND"] = 22] = "DR_POPUP_SAND";
-  RawTexture[RawTexture["DR_POPUP_ORE"] = 23] = "DR_POPUP_ORE";
-  RawTexture[RawTexture["DR_POPUP_CRYSTAL"] = 24] = "DR_POPUP_CRYSTAL";
+  RawTexture[RawTexture["DR_CHARACTER_NORMAL"] = 1] = "DR_CHARACTER_NORMAL";
+  RawTexture[RawTexture["DR_CHARACTER_ROUGHNES"] = 2] = "DR_CHARACTER_ROUGHNES";
+  RawTexture[RawTexture["DR_CHARACTER_EMMISIVE"] = 3] = "DR_CHARACTER_EMMISIVE";
+  RawTexture[RawTexture["DR_BLUE_SKYBOX"] = 4] = "DR_BLUE_SKYBOX";
+  RawTexture[RawTexture["DR_TERRAIN_GRASS"] = 5] = "DR_TERRAIN_GRASS";
+  RawTexture[RawTexture["DR_SHADER_GRASS_MAP"] = 6] = "DR_SHADER_GRASS_MAP";
+  RawTexture[RawTexture["DR_SHADER_GRASS_ALPHA"] = 7] = "DR_SHADER_GRASS_ALPHA";
+  RawTexture[RawTexture["DR_SHADER_GRASS_NOISE"] = 8] = "DR_SHADER_GRASS_NOISE";
+  RawTexture[RawTexture["DR_BLOCK_TEXTURE"] = 9] = "DR_BLOCK_TEXTURE";
+  RawTexture[RawTexture["DR_POPUP_WHITE"] = 10] = "DR_POPUP_WHITE";
+  RawTexture[RawTexture["DR_POPUP_PURPLE"] = 11] = "DR_POPUP_PURPLE";
+  RawTexture[RawTexture["DR_POPUP_GOLD"] = 12] = "DR_POPUP_GOLD";
+  RawTexture[RawTexture["DR_POPUP_BITCOIN"] = 13] = "DR_POPUP_BITCOIN";
+  RawTexture[RawTexture["DR_POPUP_SAND"] = 14] = "DR_POPUP_SAND";
+  RawTexture[RawTexture["DR_POPUP_ORE"] = 15] = "DR_POPUP_ORE";
+  RawTexture[RawTexture["DR_POPUP_CRYSTAL"] = 16] = "DR_POPUP_CRYSTAL";
 })(RawTexture || (RawTexture = {}));
 const textureList = {
   [RawTexture.ERROR]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.MISSING_TEXTURE,
-  [RawTexture.DUNGEON_TEXTURES]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DUNGEON_TEXTURE,
-  [RawTexture.EMMISIVE_DUNGEON_TEXTURE]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.EMMISIVE_DUNGEON_TEXTURE,
+  [RawTexture.DR_BLUE_SKYBOX]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_BLUE_SKYBOX,
   //character
   [RawTexture.DR_CHARACTER_ROUGHNES]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_CHARACTER_ROUGHNES,
   [RawTexture.DR_CHARACTER_NORMAL]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_CHARACTER_NORMAL,
   [RawTexture.DR_CHARACTER_EMMISIVE]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_CHARACTER_EMMISIVE,
   //skybox
 
-  [RawTexture.DR_SKYBOX_BACK]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_SKYBOX_BACK,
-  [RawTexture.DR_SKYBOX_FRONT]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_SKYBOX_FRONT,
-  [RawTexture.DR_SKYBOX_DOWN]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_SKYBOX_DOWN,
-  [RawTexture.DR_SKYBOX_UP]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_SKYBOX_UP,
-  [RawTexture.DR_SKYBOX_RIGHT]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_SKYBOX_RIGHT,
-  [RawTexture.DR_SKYBOX_LEFT]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_SKYBOX_LEFT,
-  //blue skybox
-  [RawTexture.DR_BLUE_SKYBOX]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_BLUE_SKYBOX,
   //terrain
   [RawTexture.DR_TERRAIN_GRASS]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_TERRAIN_GRASS,
   [RawTexture.DR_BLOCK_TEXTURE]: _raw_assets_list__WEBPACK_IMPORTED_MODULE_0__.DevTextureName.DR_GROUND_BLOCK,
@@ -3857,18 +3744,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "creatSkyBox": () => (/* binding */ creatSkyBox)
 /* harmony export */ });
 /* harmony import */ var _managers_game_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../managers/game-manager */ "./src/game/managers/game-manager.ts");
-/* harmony import */ var _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../managers/assets-manager/prefabs-manager */ "./src/game/managers/assets-manager/prefabs-manager.ts");
-/* harmony import */ var _prefabs_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../prefabs/object3d-prefabs */ "./src/game/prefabs/object3d-prefabs.ts");
-/* harmony import */ var _utils_assets_utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/assets-utils */ "./src/game/utils/assets-utils.ts");
-/* harmony import */ var _asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../asset-list/raw-assets/texture-raw-assets */ "./src/game/asset-list/raw-assets/texture-raw-assets.ts");
-/* harmony import */ var _prefabs_material_prefabs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../prefabs/material-prefabs */ "./src/game/prefabs/material-prefabs.ts");
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
-/* harmony import */ var _components_mesh_renderable__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/mesh-renderable */ "./src/game/components/mesh-renderable.ts");
-/* harmony import */ var _components_transform__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/transform */ "./src/game/components/transform.ts");
-/* harmony import */ var _components_velocity_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/velocity-component */ "./src/game/components/velocity-component.ts");
-
-
-
+/* harmony import */ var _utils_assets_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/assets-utils */ "./src/game/utils/assets-utils.ts");
+/* harmony import */ var _asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../asset-list/raw-assets/texture-raw-assets */ "./src/game/asset-list/raw-assets/texture-raw-assets.ts");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+/* harmony import */ var _components_mesh_renderable__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/mesh-renderable */ "./src/game/components/mesh-renderable.ts");
+/* harmony import */ var _components_transform__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/transform */ "./src/game/components/transform.ts");
+/* harmony import */ var _components_velocity_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/velocity-component */ "./src/game/components/velocity-component.ts");
 
 
 
@@ -3878,21 +3759,17 @@ __webpack_require__.r(__webpack_exports__);
 
 const creatSkyBox = () => {
   const world = _managers_game_manager__WEBPACK_IMPORTED_MODULE_0__.GameManager.ENTITYWORLD;
-  const skyBox = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_1__["default"].getObject3D(_prefabs_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__.ModelPrefabs.DR_SKY_BOX);
-  const blueSkyBoxTexture = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_3__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_4__.RawTexture.DR_BLUE_SKYBOX, 1);
-  const blueMaterial = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_1__["default"].getMaterial(_prefabs_material_prefabs__WEBPACK_IMPORTED_MODULE_5__.MaterialPrefabs.DR_BLUE_SKYBOX_MATERIAL);
-  const material = new three__WEBPACK_IMPORTED_MODULE_9__.MeshBasicMaterial({
+  const blueSkyBoxTexture = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_1__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_2__.RawTexture.DR_BLUE_SKYBOX, 1);
+  const material = new three__WEBPACK_IMPORTED_MODULE_6__.MeshBasicMaterial({
     map: blueSkyBoxTexture,
-    side: three__WEBPACK_IMPORTED_MODULE_9__.BackSide
+    side: three__WEBPACK_IMPORTED_MODULE_6__.BackSide
   });
   const s = 1000;
-  const sphereGeometry = new three__WEBPACK_IMPORTED_MODULE_9__.SphereGeometry(s);
-  const sphere = new three__WEBPACK_IMPORTED_MODULE_9__.Mesh(sphereGeometry, material);
-
-  // GameManager.SCENE.background = blueSkyBoxTexture;
-  world.createEntity(_components_mesh_renderable__WEBPACK_IMPORTED_MODULE_6__.MeshRenderable, {
+  const sphereGeometry = new three__WEBPACK_IMPORTED_MODULE_6__.SphereGeometry(s);
+  const sphere = new three__WEBPACK_IMPORTED_MODULE_6__.Mesh(sphereGeometry, material);
+  world.createEntity(_components_mesh_renderable__WEBPACK_IMPORTED_MODULE_3__.MeshRenderable, {
     mesh: sphere
-  }, _components_transform__WEBPACK_IMPORTED_MODULE_7__.Transform, {
+  }, _components_transform__WEBPACK_IMPORTED_MODULE_4__.Transform, {
     position: {
       x: 0,
       y: 1,
@@ -3903,7 +3780,7 @@ const creatSkyBox = () => {
       y: 0,
       z: 0
     }
-  }, _components_velocity_component__WEBPACK_IMPORTED_MODULE_8__.VelocityComponent, {
+  }, _components_velocity_component__WEBPACK_IMPORTED_MODULE_5__.VelocityComponent, {
     ry: 0.01
   });
 };
@@ -4015,7 +3892,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _prefabs_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../prefabs/object3d-prefabs */ "./src/game/prefabs/object3d-prefabs.ts");
 /* harmony import */ var _components_mesh_renderable__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/mesh-renderable */ "./src/game/components/mesh-renderable.ts");
 /* harmony import */ var _components_transform__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/transform */ "./src/game/components/transform.ts");
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
 /* harmony import */ var _game_state_state_machine__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../game-state/state-machine */ "./src/game/game-state/state-machine.ts");
 /* harmony import */ var _components_animation_state_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/animation-state-component */ "./src/game/components/animation-state-component.ts");
 /* harmony import */ var _components_velocity_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/velocity-component */ "./src/game/components/velocity-component.ts");
@@ -4026,9 +3903,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_character_stats_defence__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/character-stats/defence */ "./src/game/components/character-stats/defence.ts");
 /* harmony import */ var _components_bhv_components_sphere_collider_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/bhv-components/sphere-collider-component */ "./src/game/components/bhv-components/sphere-collider-component.ts");
 /* harmony import */ var _components_bhv_components_vision_collider_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/bhv-components/vision-collider-component */ "./src/game/components/bhv-components/vision-collider-component.ts");
-/* harmony import */ var three_examples_jsm_geometries_RoundedBoxGeometry__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! three/examples/jsm/geometries/RoundedBoxGeometry */ "./node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js");
-/* harmony import */ var three_mesh_bvh__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! three-mesh-bvh */ "./node_modules/three-mesh-bvh/src/utils/ExtensionUtilities.js");
+/* harmony import */ var three_examples_jsm_geometries_RoundedBoxGeometry__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! three/examples/jsm/geometries/RoundedBoxGeometry */ "./node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js");
+/* harmony import */ var three_mesh_bvh__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! three-mesh-bvh */ "./node_modules/three-mesh-bvh/src/utils/ExtensionUtilities.js");
 /* harmony import */ var _utils_mesh_capsule__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../utils/mesh-capsule */ "./src/game/utils/mesh-capsule.ts");
+/* harmony import */ var _game_config__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../game-config */ "./src/game/game-config.ts");
 
 
 
@@ -4048,19 +3926,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-three__WEBPACK_IMPORTED_MODULE_16__.Mesh.prototype.raycast = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_17__.acceleratedRaycast;
-three__WEBPACK_IMPORTED_MODULE_16__.BufferGeometry.prototype.computeBoundsTree = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_17__.computeBoundsTree;
-three__WEBPACK_IMPORTED_MODULE_16__.BufferGeometry.prototype.disposeBoundsTree = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_17__.disposeBoundsTree;
+
+three__WEBPACK_IMPORTED_MODULE_17__.Mesh.prototype.raycast = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_18__.acceleratedRaycast;
+three__WEBPACK_IMPORTED_MODULE_17__.BufferGeometry.prototype.computeBoundsTree = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_18__.computeBoundsTree;
+three__WEBPACK_IMPORTED_MODULE_17__.BufferGeometry.prototype.disposeBoundsTree = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_18__.disposeBoundsTree;
 const createCharacter = () => {
   const world = _managers_game_manager__WEBPACK_IMPORTED_MODULE_0__.GameManager.ENTITYWORLD;
 
   //capsule player
-  const playerCapsule = new _utils_mesh_capsule__WEBPACK_IMPORTED_MODULE_15__.MeshCapsule(new three_examples_jsm_geometries_RoundedBoxGeometry__WEBPACK_IMPORTED_MODULE_18__.RoundedBoxGeometry(1.0, 2.0, 1.0, 10, 0.5), new three__WEBPACK_IMPORTED_MODULE_16__.MeshStandardMaterial({
+  const playerCapsule = new _utils_mesh_capsule__WEBPACK_IMPORTED_MODULE_15__.MeshCapsule(new three_examples_jsm_geometries_RoundedBoxGeometry__WEBPACK_IMPORTED_MODULE_19__.RoundedBoxGeometry(1.0, 2.0, 1.0, 10, 0.5), new three__WEBPACK_IMPORTED_MODULE_17__.MeshStandardMaterial({
     transparent: true,
     opacity: 0
   }), {
     radius: 0.5,
-    segment: new three__WEBPACK_IMPORTED_MODULE_16__.Line3(new three__WEBPACK_IMPORTED_MODULE_16__.Vector3(0, 0, 0), new three__WEBPACK_IMPORTED_MODULE_16__.Vector3(0, -1, 0.0))
+    segment: new three__WEBPACK_IMPORTED_MODULE_17__.Line3(new three__WEBPACK_IMPORTED_MODULE_17__.Vector3(0, 0, 0), new three__WEBPACK_IMPORTED_MODULE_17__.Vector3(0, -1, 0.0))
   });
   playerCapsule.geometry.translate(0, -0.5, 0);
   playerCapsule.castShadow = true;
@@ -4145,21 +4024,21 @@ const createCharacter = () => {
   stateMap.set("run", runState);
   stateMap.set("attack", attackState);
   stateMap.set("jump", jumpState);
-  const radius = 2.1;
-  const sphereGeometry = new three__WEBPACK_IMPORTED_MODULE_16__.SphereGeometry(radius);
-  const boxGeometry = new three__WEBPACK_IMPORTED_MODULE_16__.BoxGeometry(20, 20, 15);
-  const material = new three__WEBPACK_IMPORTED_MODULE_16__.MeshPhongMaterial({
+  const radius = _game_config__WEBPACK_IMPORTED_MODULE_16__.GameConfig.radiusWeapon;
+  const sphereGeometry = new three__WEBPACK_IMPORTED_MODULE_17__.SphereGeometry(radius);
+  const boxGeometry = new three__WEBPACK_IMPORTED_MODULE_17__.BoxGeometry(20, 20, 15);
+  const material = new three__WEBPACK_IMPORTED_MODULE_17__.MeshPhongMaterial({
     color: 0xffffff,
-    side: three__WEBPACK_IMPORTED_MODULE_16__.DoubleSide
+    side: three__WEBPACK_IMPORTED_MODULE_17__.DoubleSide
   });
   material.visible = false;
-  const sphereMesh = new three__WEBPACK_IMPORTED_MODULE_16__.Mesh(sphereGeometry, material);
-  const boxMesh = new three__WEBPACK_IMPORTED_MODULE_16__.Mesh(boxGeometry, material.clone());
+  const sphereMesh = new three__WEBPACK_IMPORTED_MODULE_17__.Mesh(sphereGeometry, material);
+  const boxMesh = new three__WEBPACK_IMPORTED_MODULE_17__.Mesh(boxGeometry, material.clone());
   const weapon = character.getObjectByName("weapon");
   world.createEntity(_components_tag_components__WEBPACK_IMPORTED_MODULE_8__.PlayerTag, _components_mesh_renderable__WEBPACK_IMPORTED_MODULE_3__.MeshRenderable, {
     mesh: playerCapsule
   }, _components_velocity_component__WEBPACK_IMPORTED_MODULE_7__.VelocityComponent, _components_transform__WEBPACK_IMPORTED_MODULE_4__.Transform, {
-    position: new three__WEBPACK_IMPORTED_MODULE_16__.Vector3(0, 3, 0),
+    position: new three__WEBPACK_IMPORTED_MODULE_17__.Vector3(0, 3, 0),
     rotation: {
       x: 0,
       y: Math.PI,
@@ -4180,12 +4059,12 @@ const createCharacter = () => {
     defence: 5
   }, _components_tag_components__WEBPACK_IMPORTED_MODULE_8__.AttackComponent, _components_bhv_components_sphere_collider_component__WEBPACK_IMPORTED_MODULE_13__.SphereColliderComponent, {
     parent: weapon,
-    position: new three__WEBPACK_IMPORTED_MODULE_16__.Vector3(-0.3, 3.22, 0.07),
+    position: new three__WEBPACK_IMPORTED_MODULE_17__.Vector3(-0.3, 3.22, 0.07),
     radius: radius,
     sphereMesh: sphereMesh
   }, _components_bhv_components_vision_collider_component__WEBPACK_IMPORTED_MODULE_14__.VisionColliderComponent, {
     parent: character,
-    position: new three__WEBPACK_IMPORTED_MODULE_16__.Vector3(0, 10, 5),
+    position: new three__WEBPACK_IMPORTED_MODULE_17__.Vector3(0, 10, 5),
     radius: radius,
     boxMesh: boxMesh
   });
@@ -4298,6 +4177,92 @@ const createScene = () => {
   // const world = GameManager.ENTITYWORLD;
   // world.createEntity(SceneComponent, { scene: GameManager.SCENE });
 };
+
+/***/ }),
+
+/***/ "./src/game/entities/create-shader-grass.ts":
+/*!**************************************************!*\
+  !*** ./src/game/entities/create-shader-grass.ts ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "createShaderGrass": () => (/* binding */ createShaderGrass)
+/* harmony export */ });
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+/* harmony import */ var _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../managers/assets-manager/prefabs-manager */ "./src/game/managers/assets-manager/prefabs-manager.ts");
+/* harmony import */ var _prefabs_material_prefabs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../prefabs/material-prefabs */ "./src/game/prefabs/material-prefabs.ts");
+/* harmony import */ var _fx_shaders_grass_shader_grass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../fx/shaders/grass/shader-grass */ "./src/game/fx/shaders/grass/shader-grass.ts");
+/* harmony import */ var _components_mesh_renderable__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/mesh-renderable */ "./src/game/components/mesh-renderable.ts");
+/* harmony import */ var _components_transform__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/transform */ "./src/game/components/transform.ts");
+/* harmony import */ var _managers_game_manager__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../managers/game-manager */ "./src/game/managers/game-manager.ts");
+
+
+
+
+
+
+
+const createShaderGrass = () => {
+  const world = _managers_game_manager__WEBPACK_IMPORTED_MODULE_5__.GameManager.ENTITYWORLD;
+  const terrainWidthExtents = 100;
+  const terrainDepthExtents = 100;
+  const terrainWidth = 320;
+  const terrainDepth = 320;
+  const terrainMaxHeight = 5;
+  const terrainMinHeight = -2;
+  const heightData = generateHeight(terrainWidth, terrainDepth, terrainMinHeight, terrainMaxHeight);
+  const geometry = new three__WEBPACK_IMPORTED_MODULE_6__.PlaneGeometry(terrainWidthExtents, terrainDepthExtents, terrainWidth - 1, terrainDepth - 1);
+  geometry.rotateX(-Math.PI / 2);
+  const vertices = geometry.attributes.position.array;
+  for (let i = 0, j = 0, l = vertices.length; i < l; i++, j += 3) {
+    // j + 1 because it is the y component that we modify
+    // @ts-ignore
+    vertices[j + 1] = heightData[i];
+  }
+  geometry.computeVertexNormals();
+  const groundMaterial = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].getMaterial(_prefabs_material_prefabs__WEBPACK_IMPORTED_MODULE_1__.MaterialPrefabs.DR_TERRAIN_GRASS);
+  const terrainMesh = new three__WEBPACK_IMPORTED_MODULE_6__.Mesh(geometry, groundMaterial);
+  terrainMesh.receiveShadow = true;
+  terrainMesh.castShadow = true;
+  new _fx_shaders_grass_shader_grass__WEBPACK_IMPORTED_MODULE_2__.ShaderGrass(terrainMesh);
+  world.createEntity(_components_mesh_renderable__WEBPACK_IMPORTED_MODULE_3__.MeshRenderable, {
+    mesh: terrainMesh
+  }, _components_transform__WEBPACK_IMPORTED_MODULE_4__.Transform, {
+    position: {
+      x: 0,
+      y: 0,
+      z: 0
+    },
+    rotation: {
+      x: 0,
+      y: 0,
+      z: 0
+    }
+  });
+};
+function generateHeight(width, depth, minHeight, maxHeight) {
+  // Generates the height data (a sinus wave)
+
+  const size = width * depth;
+  const data = new Float32Array(size);
+  const hRange = maxHeight - minHeight;
+  const w2 = width / 2;
+  const d2 = depth / 2;
+  const phaseMult = 2.4;
+  let p = 0;
+  for (let j = 0; j < depth; j++) {
+    for (let i = 0; i < width; i++) {
+      const radius = Math.sqrt(Math.pow((i - w2) / w2, 2.0) + Math.pow((j - d2) / d2, 2.0));
+      const height = Math.sin(radius * phaseMult - 0.2) * 2.5 * hRange + minHeight;
+      data[p] = height - 7.5;
+      p++;
+    }
+  }
+  return data;
+}
 
 /***/ }),
 
@@ -5118,33 +5083,39 @@ __webpack_require__.r(__webpack_exports__);
 const data = {
   version: 1,
   uniforms: [{
+    name: "Lavacolor",
+    type: "vec3",
+    value: {
+      x: 1,
+      y: 0.1,
+      z: 0
+    }
+  }, {
     name: "_time",
     type: "float",
     value: 0
   }, {
-    name: "Color1",
-    type: "vec4",
-    value: {
-      x: 1,
-      y: 0.01568627450980392,
-      z: 0,
-      w: 1
-    }
+    name: "noiseintensityreduction",
+    type: "float",
+    value: 0.5
   }, {
-    name: "Color2",
-    type: "vec4",
-    value: {
-      x: 0.9607843137254902,
-      y: 0.9450980392156862,
-      z: 0.00784313725490196,
-      w: 1
-    }
+    name: "lavacontrast",
+    type: "float",
+    value: 4
+  }, {
+    name: "darkpatchredness",
+    type: "float",
+    value: 0.1
+  }, {
+    name: "emicolintensity",
+    type: "float",
+    value: 2
   }],
-  vertex: "// Created with NodeToy | Three.js r149\n\n// <node_builder>\n\n// uniforms\n\n// attributes\n\n// varys\nvarying vec2 nodeVary0; \n// vars\n\n// codes\n\n// variables\n// </node_builder>\n\n\n\n\n\n\n\n\n#define PI 3.141592653589793\n#define PI2 6.283185307179586\n#define PI_HALF 1.5707963267948966\n#define RECIPROCAL_PI 0.3183098861837907\n#define RECIPROCAL_PI2 0.15915494309189535\n#define EPSILON 1e-6\n\n#ifndef saturate\n// <tonemapping_pars_fragment> may have defined saturate() already\n#define saturate( a ) clamp( a, 0.0, 1.0 )\n#endif\n#define whiteComplement( a ) ( 1.0 - saturate( a ) )\n\nfloat pow2( const in float x ) { return x*x; }\nvec3 pow2( const in vec3 x ) { return x*x; }\nfloat pow3( const in float x ) { return x*x*x; }\nfloat pow4( const in float x ) { float x2 = x*x; return x2*x2; }\nfloat max3( const in vec3 v ) { return max( max( v.x, v.y ), v.z ); }\nfloat average( const in vec3 v ) { return dot( v, vec3( 0.3333333 ) ); }\n\n// expects values in the range of [0,1]x[0,1], returns values in the [0,1] range.\n// do not collapse into a single function per: http://byteblacksmith.com/improvements-to-the-canonical-one-liner-glsl-rand-for-opengl-es-2-0/\nhighp float rand( const in vec2 uv ) {\n\n\tconst highp float a = 12.9898, b = 78.233, c = 43758.5453;\n\thighp float dt = dot( uv.xy, vec2( a,b ) ), sn = mod( dt, PI );\n\n\treturn fract( sin( sn ) * c );\n\n}\n\n#ifdef HIGH_PRECISION\n\tfloat precisionSafeLength( vec3 v ) { return length( v ); }\n#else\n\tfloat precisionSafeLength( vec3 v ) {\n\t\tfloat maxComponent = max3( abs( v ) );\n\t\treturn length( v / maxComponent ) * maxComponent;\n\t}\n#endif\n\nstruct IncidentLight {\n\tvec3 color;\n\tvec3 direction;\n\tbool visible;\n};\n\nstruct ReflectedLight {\n\tvec3 directDiffuse;\n\tvec3 directSpecular;\n\tvec3 indirectDiffuse;\n\tvec3 indirectSpecular;\n};\n\nstruct GeometricContext {\n\tvec3 position;\n\tvec3 normal;\n\tvec3 viewDir;\n#ifdef USE_CLEARCOAT\n\tvec3 clearcoatNormal;\n#endif\n};\n\nvec3 transformDirection( in vec3 dir, in mat4 matrix ) {\n\n\treturn normalize( ( matrix * vec4( dir, 0.0 ) ).xyz );\n\n}\n\nvec3 inverseTransformDirection( in vec3 dir, in mat4 matrix ) {\n\n\t// dir can be either a direction vector or a normal vector\n\t// upper-left 3x3 of matrix is assumed to be orthogonal\n\n\treturn normalize( ( vec4( dir, 0.0 ) * matrix ).xyz );\n\n}\n\nmat3 transposeMat3( const in mat3 m ) {\n\n\tmat3 tmp;\n\n\ttmp[ 0 ] = vec3( m[ 0 ].x, m[ 1 ].x, m[ 2 ].x );\n\ttmp[ 1 ] = vec3( m[ 0 ].y, m[ 1 ].y, m[ 2 ].y );\n\ttmp[ 2 ] = vec3( m[ 0 ].z, m[ 1 ].z, m[ 2 ].z );\n\n\treturn tmp;\n\n}\n\nfloat luminance( const in vec3 rgb ) {\n\n\t// assumes rgb is in linear color space with sRGB primaries and D65 white point\n\n\tconst vec3 weights = vec3( 0.2126729, 0.7151522, 0.0721750 );\n\n\treturn dot( weights, rgb );\n\n}\n\nbool isPerspectiveMatrix( mat4 m ) {\n\n\treturn m[ 2 ][ 3 ] == - 1.0;\n\n}\n\nvec2 equirectUv( in vec3 dir ) {\n\n\t// dir is assumed to be unit length\n\n\tfloat u = atan( dir.z, dir.x ) * RECIPROCAL_PI2 + 0.5;\n\n\tfloat v = asin( clamp( dir.y, - 1.0, 1.0 ) ) * RECIPROCAL_PI + 0.5;\n\n\treturn vec2( u, v );\n\n}\n\n\n#ifdef USE_UV\n\n\t#ifdef UVS_VERTEX_ONLY\n\n\t\tvec2 vUv;\n\n\t#else\n\n\t\tvarying vec2 vUv;\n\n\t#endif\n\n\tuniform mat3 uvTransform;\n\n#endif\n\n\n#if defined( USE_LIGHTMAP ) || defined( USE_AOMAP )\n\n\tattribute vec2 uv2;\n\tvarying vec2 vUv2;\n\n\tuniform mat3 uv2Transform;\n\n#endif\n\n\n#ifdef USE_ENVMAP\n\n\t#if defined( USE_BUMPMAP ) || defined( USE_NORMALMAP ) || defined( PHONG ) || defined( LAMBERT )\n\n\t\t#define ENV_WORLDPOS\n\n\t#endif\n\n\t#ifdef ENV_WORLDPOS\n\t\t\n\t\tvarying vec3 vWorldPosition;\n\n\t#else\n\n\t\tvarying vec3 vReflect;\n\t\tuniform float refractionRatio;\n\n\t#endif\n\n#endif\n\n\n#if defined( USE_COLOR_ALPHA )\n\n\tvarying vec4 vColor;\n\n#elif defined( USE_COLOR ) || defined( USE_INSTANCING_COLOR )\n\n\tvarying vec3 vColor;\n\n#endif\n\n\n#ifdef USE_FOG\n\n\tvarying float vFogDepth;\n\n#endif\n\n\n#ifdef USE_MORPHTARGETS\n\n\tuniform float morphTargetBaseInfluence;\n\n\t#ifdef MORPHTARGETS_TEXTURE\n\n\t\tuniform float morphTargetInfluences[ MORPHTARGETS_COUNT ];\n\t\tuniform sampler2DArray morphTargetsTexture;\n\t\tuniform ivec2 morphTargetsTextureSize;\n\n\t\tvec4 getMorph( const in int vertexIndex, const in int morphTargetIndex, const in int offset ) {\n\n\t\t\tint texelIndex = vertexIndex * MORPHTARGETS_TEXTURE_STRIDE + offset;\n\t\t\tint y = texelIndex / morphTargetsTextureSize.x;\n\t\t\tint x = texelIndex - y * morphTargetsTextureSize.x;\n\n\t\t\tivec3 morphUV = ivec3( x, y, morphTargetIndex );\n\t\t\treturn texelFetch( morphTargetsTexture, morphUV, 0 );\n\n\t\t}\n\n\t#else\n\n\t\t#ifndef USE_MORPHNORMALS\n\n\t\t\tuniform float morphTargetInfluences[ 8 ];\n\n\t\t#else\n\n\t\t\tuniform float morphTargetInfluences[ 4 ];\n\n\t\t#endif\n\n\t#endif\n\n#endif\n\n\n#ifdef USE_SKINNING\n\n\tuniform mat4 bindMatrix;\n\tuniform mat4 bindMatrixInverse;\n\n\tuniform highp sampler2D boneTexture;\n\tuniform int boneTextureSize;\n\n\tmat4 getBoneMatrix( const in float i ) {\n\n\t\tfloat j = i * 4.0;\n\t\tfloat x = mod( j, float( boneTextureSize ) );\n\t\tfloat y = floor( j / float( boneTextureSize ) );\n\n\t\tfloat dx = 1.0 / float( boneTextureSize );\n\t\tfloat dy = 1.0 / float( boneTextureSize );\n\n\t\ty = dy * ( y + 0.5 );\n\n\t\tvec4 v1 = texture2D( boneTexture, vec2( dx * ( x + 0.5 ), y ) );\n\t\tvec4 v2 = texture2D( boneTexture, vec2( dx * ( x + 1.5 ), y ) );\n\t\tvec4 v3 = texture2D( boneTexture, vec2( dx * ( x + 2.5 ), y ) );\n\t\tvec4 v4 = texture2D( boneTexture, vec2( dx * ( x + 3.5 ), y ) );\n\n\t\tmat4 bone = mat4( v1, v2, v3, v4 );\n\n\t\treturn bone;\n\n\t}\n\n#endif\n\n\n#ifdef USE_LOGDEPTHBUF\n\n\t#ifdef USE_LOGDEPTHBUF_EXT\n\n\t\tvarying float vFragDepth;\n\t\tvarying float vIsPerspective;\n\n\t#else\n\n\t\tuniform float logDepthBufFC;\n\n\t#endif\n\n#endif\n\n\n#if NUM_CLIPPING_PLANES > 0\n\n\tvarying vec3 vClipPosition;\n\n#endif\n\n\nvoid main() {\nnodeVary0 = uv;\n\t\n\n\n\n#ifdef USE_UV\n\n\tvUv = ( uvTransform * vec3( uv, 1 ) ).xy;\n\n#endif\n\n\n#if defined( USE_LIGHTMAP ) || defined( USE_AOMAP )\n\n\tvUv2 = ( uv2Transform * vec3( uv2, 1 ) ).xy;\n\n#endif\n\n\n#if defined( USE_COLOR_ALPHA )\n\n\tvColor = vec4( 1.0 );\n\n#elif defined( USE_COLOR ) || defined( USE_INSTANCING_COLOR )\n\n\tvColor = vec3( 1.0 );\n\n#endif\n\n#ifdef USE_COLOR\n\n\tvColor *= color;\n\n#endif\n\n#ifdef USE_INSTANCING_COLOR\n\n\tvColor.xyz *= instanceColor.xyz;\n\n#endif\n\n\n#if defined( USE_MORPHCOLORS ) && defined( MORPHTARGETS_TEXTURE )\n\n\t// morphTargetBaseInfluence is set based on BufferGeometry.morphTargetsRelative value:\n\t// When morphTargetsRelative is false, this is set to 1 - sum(influences); this results in normal = sum((target - base) * influence)\n\t// When morphTargetsRelative is true, this is set to 1; as a result, all morph targets are simply added to the base after weighting\n\tvColor *= morphTargetBaseInfluence;\n\n\tfor ( int i = 0; i < MORPHTARGETS_COUNT; i ++ ) {\n\n\t\t#if defined( USE_COLOR_ALPHA )\n\n\t\t\tif ( morphTargetInfluences[ i ] != 0.0 ) vColor += getMorph( gl_VertexID, i, 2 ) * morphTargetInfluences[ i ];\n\n\t\t#elif defined( USE_COLOR )\n\n\t\t\tif ( morphTargetInfluences[ i ] != 0.0 ) vColor += getMorph( gl_VertexID, i, 2 ).rgb * morphTargetInfluences[ i ];\n\n\t\t#endif\n\n\t}\n\n#endif\n\n\n\t#if defined ( USE_ENVMAP ) || defined ( USE_SKINNING )\n\n\nvec3 objectNormal = vec3( normal );\n\n#ifdef USE_TANGENT\n\n\tvec3 objectTangent = vec3( tangent.xyz );\n\n#endif\n\n\n#ifdef USE_MORPHNORMALS\n\n\t// morphTargetBaseInfluence is set based on BufferGeometry.morphTargetsRelative value:\n\t// When morphTargetsRelative is false, this is set to 1 - sum(influences); this results in normal = sum((target - base) * influence)\n\t// When morphTargetsRelative is true, this is set to 1; as a result, all morph targets are simply added to the base after weighting\n\tobjectNormal *= morphTargetBaseInfluence;\n\n\t#ifdef MORPHTARGETS_TEXTURE\n\n\t\tfor ( int i = 0; i < MORPHTARGETS_COUNT; i ++ ) {\n\n\t\t\tif ( morphTargetInfluences[ i ] != 0.0 ) objectNormal += getMorph( gl_VertexID, i, 1 ).xyz * morphTargetInfluences[ i ];\n\n\t\t}\n\n\t#else\n\n\t\tobjectNormal += morphNormal0 * morphTargetInfluences[ 0 ];\n\t\tobjectNormal += morphNormal1 * morphTargetInfluences[ 1 ];\n\t\tobjectNormal += morphNormal2 * morphTargetInfluences[ 2 ];\n\t\tobjectNormal += morphNormal3 * morphTargetInfluences[ 3 ];\n\n\t#endif\n\n#endif\n\n\n#ifdef USE_SKINNING\n\n\tmat4 boneMatX = getBoneMatrix( skinIndex.x );\n\tmat4 boneMatY = getBoneMatrix( skinIndex.y );\n\tmat4 boneMatZ = getBoneMatrix( skinIndex.z );\n\tmat4 boneMatW = getBoneMatrix( skinIndex.w );\n\n#endif\n\n\n#ifdef USE_SKINNING\n\n\tmat4 skinMatrix = mat4( 0.0 );\n\tskinMatrix += skinWeight.x * boneMatX;\n\tskinMatrix += skinWeight.y * boneMatY;\n\tskinMatrix += skinWeight.z * boneMatZ;\n\tskinMatrix += skinWeight.w * boneMatW;\n\tskinMatrix = bindMatrixInverse * skinMatrix * bindMatrix;\n\n\tobjectNormal = vec4( skinMatrix * vec4( objectNormal, 0.0 ) ).xyz;\n\n\t#ifdef USE_TANGENT\n\n\t\tobjectTangent = vec4( skinMatrix * vec4( objectTangent, 0.0 ) ).xyz;\n\n\t#endif\n\n#endif\n\n\nvec3 transformedNormal = objectNormal;\n\n#ifdef USE_INSTANCING\n\n\t// this is in lieu of a per-instance normal-matrix\n\t// shear transforms in the instance matrix are not supported\n\n\tmat3 m = mat3( instanceMatrix );\n\n\ttransformedNormal /= vec3( dot( m[ 0 ], m[ 0 ] ), dot( m[ 1 ], m[ 1 ] ), dot( m[ 2 ], m[ 2 ] ) );\n\n\ttransformedNormal = m * transformedNormal;\n\n#endif\n\ntransformedNormal = normalMatrix * transformedNormal;\n\n#ifdef FLIP_SIDED\n\n\ttransformedNormal = - transformedNormal;\n\n#endif\n\n#ifdef USE_TANGENT\n\n\tvec3 transformedTangent = ( modelViewMatrix * vec4( objectTangent, 0.0 ) ).xyz;\n\n\t#ifdef FLIP_SIDED\n\n\t\ttransformedTangent = - transformedTangent;\n\n\t#endif\n\n#endif\n\n\n\t#endif\n\n\nvec3 transformed = vec3( position );\n\n\n#ifdef USE_MORPHTARGETS\n\n\t// morphTargetBaseInfluence is set based on BufferGeometry.morphTargetsRelative value:\n\t// When morphTargetsRelative is false, this is set to 1 - sum(influences); this results in position = sum((target - base) * influence)\n\t// When morphTargetsRelative is true, this is set to 1; as a result, all morph targets are simply added to the base after weighting\n\ttransformed *= morphTargetBaseInfluence;\n\n\t#ifdef MORPHTARGETS_TEXTURE\n\n\t\tfor ( int i = 0; i < MORPHTARGETS_COUNT; i ++ ) {\n\n\t\t\tif ( morphTargetInfluences[ i ] != 0.0 ) transformed += getMorph( gl_VertexID, i, 0 ).xyz * morphTargetInfluences[ i ];\n\n\t\t}\n\n\t#else\n\n\t\ttransformed += morphTarget0 * morphTargetInfluences[ 0 ];\n\t\ttransformed += morphTarget1 * morphTargetInfluences[ 1 ];\n\t\ttransformed += morphTarget2 * morphTargetInfluences[ 2 ];\n\t\ttransformed += morphTarget3 * morphTargetInfluences[ 3 ];\n\n\t\t#ifndef USE_MORPHNORMALS\n\n\t\t\ttransformed += morphTarget4 * morphTargetInfluences[ 4 ];\n\t\t\ttransformed += morphTarget5 * morphTargetInfluences[ 5 ];\n\t\t\ttransformed += morphTarget6 * morphTargetInfluences[ 6 ];\n\t\t\ttransformed += morphTarget7 * morphTargetInfluences[ 7 ];\n\n\t\t#endif\n\n\t#endif\n\n#endif\n\n\n#ifdef USE_SKINNING\n\n\tvec4 skinVertex = bindMatrix * vec4( transformed, 1.0 );\n\n\tvec4 skinned = vec4( 0.0 );\n\tskinned += boneMatX * skinVertex * skinWeight.x;\n\tskinned += boneMatY * skinVertex * skinWeight.y;\n\tskinned += boneMatZ * skinVertex * skinWeight.z;\n\tskinned += boneMatW * skinVertex * skinWeight.w;\n\n\ttransformed = ( bindMatrixInverse * skinned ).xyz;\n\n#endif\n\n\nvec4 mvPosition = vec4( transformed, 1.0 );\n\n#ifdef USE_INSTANCING\n\n\tmvPosition = instanceMatrix * mvPosition;\n\n#endif\n\nmvPosition = modelViewMatrix * mvPosition;\n\ngl_Position = projectionMatrix * mvPosition;\n\n\n#ifdef USE_LOGDEPTHBUF\n\n\t#ifdef USE_LOGDEPTHBUF_EXT\n\n\t\tvFragDepth = 1.0 + gl_Position.w;\n\t\tvIsPerspective = float( isPerspectiveMatrix( projectionMatrix ) );\n\n\t#else\n\n\t\tif ( isPerspectiveMatrix( projectionMatrix ) ) {\n\n\t\t\tgl_Position.z = log2( max( EPSILON, gl_Position.w + 1.0 ) ) * logDepthBufFC - 1.0;\n\n\t\t\tgl_Position.z *= gl_Position.w;\n\n\t\t}\n\n\t#endif\n\n#endif\n\n\n#if NUM_CLIPPING_PLANES > 0\n\n\tvClipPosition = - mvPosition.xyz;\n\n#endif\n\n\n\n#if defined( USE_ENVMAP ) || defined( DISTANCE ) || defined ( USE_SHADOWMAP ) || defined ( USE_TRANSMISSION ) || NUM_SPOT_LIGHT_COORDS > 0\n\n\tvec4 worldPosition = vec4( transformed, 1.0 );\n\n\t#ifdef USE_INSTANCING\n\n\t\tworldPosition = instanceMatrix * worldPosition;\n\n\t#endif\n\n\tworldPosition = modelMatrix * worldPosition;\n\n#endif\n\n\n#ifdef USE_ENVMAP\n\n\t#ifdef ENV_WORLDPOS\n\n\t\tvWorldPosition = worldPosition.xyz;\n\n\t#else\n\n\t\tvec3 cameraToVertex;\n\n\t\tif ( isOrthographic ) {\n\n\t\t\tcameraToVertex = normalize( vec3( - viewMatrix[ 0 ][ 2 ], - viewMatrix[ 1 ][ 2 ], - viewMatrix[ 2 ][ 2 ] ) );\n\n\t\t} else {\n\n\t\t\tcameraToVertex = normalize( worldPosition.xyz - cameraPosition );\n\n\t\t}\n\n\t\tvec3 worldNormal = inverseTransformDirection( transformedNormal, viewMatrix );\n\n\t\t#ifdef ENVMAP_MODE_REFLECTION\n\n\t\t\tvReflect = reflect( cameraToVertex, worldNormal );\n\n\t\t#else\n\n\t\t\tvReflect = refract( cameraToVertex, worldNormal, refractionRatio );\n\n\t\t#endif\n\n\t#endif\n\n#endif\n\n\n#ifdef USE_FOG\n\n\tvFogDepth = - mvPosition.z;\n\n#endif\n\n\n}\n\n\n",
-  fragment: "// Created with NodeToy | Three.js r149\n\n// <node_builder>\n\n// uniforms\nuniform float _time; uniform vec4 Color1; uniform vec4 Color2; \n// attributes\n\n// varys\nvarying vec2 nodeVary0; \n// vars\nfloat nodeVar0; float nodeVar1; vec2 nodeVar2; vec4 nodeVar3; vec3 nodeVar4; \n// codes\nvec3 palette ( float d, vec3 Color1, vec3 Color2 ){\n\treturn mix(Color1,Color2,d);\n}\n\nvec2 rotate(vec2 p,float a){\n\tfloat c = cos(a);\n    float s = sin(a);\n    return p*mat2(c,s,-s,c);\n}\n\nfloat map(vec3 p, float iTime){\n    for( int i = 0; i<8; ++i){\n        float t = iTime*0.2;\n        p.xz =rotate(p.xz,t);\n        p.xy =rotate(p.xy,t*1.89);\n        p.xz = abs(p.xz);\n        p.xz-=.5;\n\t}\n\treturn dot(sign(p),p)/5.;\n}\n\nvec4 rm (vec3 ro, vec3 rd, float iTime, vec3 Color1, vec3 Color2, float Intensity){\n    float t = 0.;\n    vec3 col = vec3(0.);\n    float d;\n    for(float i =0.; i<64.; i++){\n\t\tvec3 p = ro + rd*t;\n        d = map(p, iTime)*.5;\n        if(d<0.02){\n            break;\n        }\n        if(d>100.){\n        \tbreak;\n        }\n        \n        col+=palette(length(p)*.1, Color1, Color2)/(Intensity*(d));\n        t+=d;\n    }\n    return vec4(col,1./(d*100.));\n}\nvec4 customFn_wxkpgX4jqc0a ( float iTime, vec2 uv, vec3 Color1, vec3 Color2, float Intensity ) {\n                vec3 ro = vec3(0.,0.,-50.);\nro.xz = rotate(ro.xz,iTime);\nvec3 cf = normalize(-ro);\nvec3 cs = normalize(cross(cf,vec3(0.,1.,0.)));\nvec3 cu = normalize(cross(cf,cs));\n\nvec3 uuv = ro + cf*3.0 + uv.x*cs + uv.y*cu;\n\nvec3 rd = normalize(uuv-ro);\n\nvec4 col = rm(ro,rd, iTime, Color1, Color2, Intensity);\n\nreturn col;\n            }\nfloat customFn_M64MPj8lX4nC ( vec2 UV, float radius, float width, float height ) {\n                \n    \n    //    ----\n    //  (  <3  )\n    //    ----\n    float Radius = max(min(min(abs(radius * 2.0), abs(width)), abs(height)), 1e-5);\n    vec2 uv = abs(UV * 2.0 - 1.0) - vec2(width, height) + Radius;\n    float d = length(max(vec2(0.0, 0.0), uv)) / Radius;\n    return clamp((1.0 - d) / fwidth(d), 0.0, 1.0);\n    \n            }\n\n// variables\n// </node_builder>\n\n\n\n\n\n\n\n\n#ifndef FLAT_SHADED\n\n\tvarying vec3 vNormal;\n\n#endif\n\n\n#define PI 3.141592653589793\n#define PI2 6.283185307179586\n#define PI_HALF 1.5707963267948966\n#define RECIPROCAL_PI 0.3183098861837907\n#define RECIPROCAL_PI2 0.15915494309189535\n#define EPSILON 1e-6\n\n#ifndef saturate\n// <tonemapping_pars_fragment> may have defined saturate() already\n#define saturate( a ) clamp( a, 0.0, 1.0 )\n#endif\n#define whiteComplement( a ) ( 1.0 - saturate( a ) )\n\nfloat pow2( const in float x ) { return x*x; }\nvec3 pow2( const in vec3 x ) { return x*x; }\nfloat pow3( const in float x ) { return x*x*x; }\nfloat pow4( const in float x ) { float x2 = x*x; return x2*x2; }\nfloat max3( const in vec3 v ) { return max( max( v.x, v.y ), v.z ); }\nfloat average( const in vec3 v ) { return dot( v, vec3( 0.3333333 ) ); }\n\n// expects values in the range of [0,1]x[0,1], returns values in the [0,1] range.\n// do not collapse into a single function per: http://byteblacksmith.com/improvements-to-the-canonical-one-liner-glsl-rand-for-opengl-es-2-0/\nhighp float rand( const in vec2 uv ) {\n\n\tconst highp float a = 12.9898, b = 78.233, c = 43758.5453;\n\thighp float dt = dot( uv.xy, vec2( a,b ) ), sn = mod( dt, PI );\n\n\treturn fract( sin( sn ) * c );\n\n}\n\n#ifdef HIGH_PRECISION\n\tfloat precisionSafeLength( vec3 v ) { return length( v ); }\n#else\n\tfloat precisionSafeLength( vec3 v ) {\n\t\tfloat maxComponent = max3( abs( v ) );\n\t\treturn length( v / maxComponent ) * maxComponent;\n\t}\n#endif\n\nstruct IncidentLight {\n\tvec3 color;\n\tvec3 direction;\n\tbool visible;\n};\n\nstruct ReflectedLight {\n\tvec3 directDiffuse;\n\tvec3 directSpecular;\n\tvec3 indirectDiffuse;\n\tvec3 indirectSpecular;\n};\n\nstruct GeometricContext {\n\tvec3 position;\n\tvec3 normal;\n\tvec3 viewDir;\n#ifdef USE_CLEARCOAT\n\tvec3 clearcoatNormal;\n#endif\n};\n\nvec3 transformDirection( in vec3 dir, in mat4 matrix ) {\n\n\treturn normalize( ( matrix * vec4( dir, 0.0 ) ).xyz );\n\n}\n\nvec3 inverseTransformDirection( in vec3 dir, in mat4 matrix ) {\n\n\t// dir can be either a direction vector or a normal vector\n\t// upper-left 3x3 of matrix is assumed to be orthogonal\n\n\treturn normalize( ( vec4( dir, 0.0 ) * matrix ).xyz );\n\n}\n\nmat3 transposeMat3( const in mat3 m ) {\n\n\tmat3 tmp;\n\n\ttmp[ 0 ] = vec3( m[ 0 ].x, m[ 1 ].x, m[ 2 ].x );\n\ttmp[ 1 ] = vec3( m[ 0 ].y, m[ 1 ].y, m[ 2 ].y );\n\ttmp[ 2 ] = vec3( m[ 0 ].z, m[ 1 ].z, m[ 2 ].z );\n\n\treturn tmp;\n\n}\n\nfloat luminance( const in vec3 rgb ) {\n\n\t// assumes rgb is in linear color space with sRGB primaries and D65 white point\n\n\tconst vec3 weights = vec3( 0.2126729, 0.7151522, 0.0721750 );\n\n\treturn dot( weights, rgb );\n\n}\n\nbool isPerspectiveMatrix( mat4 m ) {\n\n\treturn m[ 2 ][ 3 ] == - 1.0;\n\n}\n\nvec2 equirectUv( in vec3 dir ) {\n\n\t// dir is assumed to be unit length\n\n\tfloat u = atan( dir.z, dir.x ) * RECIPROCAL_PI2 + 0.5;\n\n\tfloat v = asin( clamp( dir.y, - 1.0, 1.0 ) ) * RECIPROCAL_PI + 0.5;\n\n\treturn vec2( u, v );\n\n}\n\n\n#ifdef DITHERING\n\n\t// based on https://www.shadertoy.com/view/MslGR8\n\tvec3 dithering( vec3 color ) {\n\t\t//Calculate grid position\n\t\tfloat grid_position = rand( gl_FragCoord.xy );\n\n\t\t//Shift the individual colors differently, thus making it even harder to see the dithering pattern\n\t\tvec3 dither_shift_RGB = vec3( 0.25 / 255.0, -0.25 / 255.0, 0.25 / 255.0 );\n\n\t\t//modify shift according to grid position.\n\t\tdither_shift_RGB = mix( 2.0 * dither_shift_RGB, -2.0 * dither_shift_RGB, grid_position );\n\n\t\t//shift the color by dither_shift\n\t\treturn color + dither_shift_RGB;\n\t}\n\n#endif\n\n\n#if defined( USE_COLOR_ALPHA )\n\n\tvarying vec4 vColor;\n\n#elif defined( USE_COLOR )\n\n\tvarying vec3 vColor;\n\n#endif\n\n\n#if ( defined( USE_UV ) && ! defined( UVS_VERTEX_ONLY ) )\n\n\tvarying vec2 vUv;\n\n#endif\n\n\n#if defined( USE_LIGHTMAP ) || defined( USE_AOMAP )\n\n\tvarying vec2 vUv2;\n\n#endif\n\n\n#ifdef USE_MAP\n\n\tuniform sampler2D map;\n\n#endif\n\n\n#ifdef USE_ALPHAMAP\n\n\tuniform sampler2D alphaMap;\n\n#endif\n\n\n#ifdef USE_ALPHATEST\n\tuniform float alphaTest;\n#endif\n\n\n#ifdef USE_AOMAP\n\n\tuniform sampler2D aoMap;\n\tuniform float aoMapIntensity;\n\n#endif\n\n\n#ifdef USE_LIGHTMAP\n\n\tuniform sampler2D lightMap;\n\tuniform float lightMapIntensity;\n\n#endif\n\n\n#ifdef USE_ENVMAP\n\n\tuniform float envMapIntensity;\n\tuniform float flipEnvMap;\n\n\t#ifdef ENVMAP_TYPE_CUBE\n\t\tuniform samplerCube envMap;\n\t#else\n\t\tuniform sampler2D envMap;\n\t#endif\n\t\n#endif\n\n\n#ifdef USE_ENVMAP\n\n\tuniform float reflectivity;\n\n\t#if defined( USE_BUMPMAP ) || defined( USE_NORMALMAP ) || defined( PHONG ) || defined( LAMBERT )\n\n\t\t#define ENV_WORLDPOS\n\n\t#endif\n\n\t#ifdef ENV_WORLDPOS\n\n\t\tvarying vec3 vWorldPosition;\n\t\tuniform float refractionRatio;\n\t#else\n\t\tvarying vec3 vReflect;\n\t#endif\n\n#endif\n\n\n#ifdef USE_FOG\n\n\tuniform vec3 fogColor;\n\tvarying float vFogDepth;\n\n\t#ifdef FOG_EXP2\n\n\t\tuniform float fogDensity;\n\n\t#else\n\n\t\tuniform float fogNear;\n\t\tuniform float fogFar;\n\n\t#endif\n\n#endif\n\n\n#ifdef USE_SPECULARMAP\n\n\tuniform sampler2D specularMap;\n\n#endif\n\n\n#if defined( USE_LOGDEPTHBUF ) && defined( USE_LOGDEPTHBUF_EXT )\n\n\tuniform float logDepthBufFC;\n\tvarying float vFragDepth;\n\tvarying float vIsPerspective;\n\n#endif\n\n\n#if NUM_CLIPPING_PLANES > 0\n\n\tvarying vec3 vClipPosition;\n\n\tuniform vec4 clippingPlanes[ NUM_CLIPPING_PLANES ];\n\n#endif\n\n\nvoid main() {\n\n\n\n\n#if NUM_CLIPPING_PLANES > 0\n\n\tvec4 plane;\n\n\t#pragma unroll_loop_start\n\tfor ( int i = 0; i < UNION_CLIPPING_PLANES; i ++ ) {\n\n\t\tplane = clippingPlanes[ i ];\n\t\tif ( dot( vClipPosition, plane.xyz ) > plane.w ) discard;\n\n\t}\n\t#pragma unroll_loop_end\n\n\t#if UNION_CLIPPING_PLANES < NUM_CLIPPING_PLANES\n\n\t\tbool clipped = true;\n\n\t\t#pragma unroll_loop_start\n\t\tfor ( int i = UNION_CLIPPING_PLANES; i < NUM_CLIPPING_PLANES; i ++ ) {\n\n\t\t\tplane = clippingPlanes[ i ];\n\t\t\tclipped = ( dot( vClipPosition, plane.xyz ) > plane.w ) && clipped;\n\n\t\t}\n\t\t#pragma unroll_loop_end\n\n\t\tif ( clipped ) discard;\n\n\t#endif\n\n#endif\n\n\n\tvec4 diffuseColor = vec4( 0.0 );\n\n\n#if defined( USE_LOGDEPTHBUF ) && defined( USE_LOGDEPTHBUF_EXT )\n\n\t// Doing a strict comparison with == 1.0 can cause noise artifacts\n\t// on some platforms. See issue #17623.\n\tgl_FragDepthEXT = vIsPerspective == 0.0 ? gl_FragCoord.z : log2( vFragDepth ) * logDepthBufFC * 0.5;\n\n#endif\n\n\n#ifdef USE_MAP\n\n\tvec4 sampledDiffuseColor = texture2D( map, vUv );\n\n\t#ifdef DECODE_VIDEO_TEXTURE\n\n\t\t// inline sRGB decode (TODO: Remove this code when https://crbug.com/1256340 is solved)\n\n\t\tsampledDiffuseColor = vec4( mix( pow( sampledDiffuseColor.rgb * 0.9478672986 + vec3( 0.0521327014 ), vec3( 2.4 ) ), sampledDiffuseColor.rgb * 0.0773993808, vec3( lessThanEqual( sampledDiffuseColor.rgb, vec3( 0.04045 ) ) ) ), sampledDiffuseColor.w );\n\n\t#endif\n\n\tdiffuseColor *= sampledDiffuseColor;\n\n#endif\n\n\n#if defined( USE_COLOR_ALPHA )\n\n\tdiffuseColor *= vColor;\n\n#elif defined( USE_COLOR )\n\n\tdiffuseColor.rgb *= vColor;\n\n#endif\n\nnodeVar0 = ( _time * 0.8 );\n\tnodeVar1 = nodeVar0;\n\tnodeVar2 = (nodeVary0 * vec2( 0.3, 0.5 ) + vec2( -0.1 ));\n\tnodeVar3 = customFn_wxkpgX4jqc0a( nodeVar1, nodeVar2, Color1.xyz, Color2.xyz, 700.0 );\n\tnodeVar4 = ( nodeVar3.xyz * vec3( 1, 1, 1 ) );\n\t\n\tdiffuseColor = vec4( nodeVar4, 1.0 );\n\n\n#ifdef USE_ALPHAMAP\n\n\tdiffuseColor.a *= texture2D( alphaMap, vUv ).g;\n\n#endif\n\n\n\tdiffuseColor.a = customFn_M64MPj8lX4nC( nodeVary0, 0.0, 1.0, 1.0 );\n\n\n#ifdef USE_ALPHATEST\n\n\tif ( diffuseColor.a < alphaTest ) discard;\n\n#endif\n\n\nfloat specularStrength;\n\n#ifdef USE_SPECULARMAP\n\n\tvec4 texelSpecular = texture2D( specularMap, vUv );\n\tspecularStrength = texelSpecular.r;\n\n#else\n\n\tspecularStrength = 1.0;\n\n#endif\n\n\n\tReflectedLight reflectedLight = ReflectedLight( vec3( 0.0 ), vec3( 0.0 ), vec3( 0.0 ), vec3( 0.0 ) );\n\n\t// accumulation (baked indirect lighting only)\n\t#ifdef USE_LIGHTMAP\n\n\t\tvec4 lightMapTexel = texture2D( lightMap, vUv2 );\n\t\treflectedLight.indirectDiffuse += lightMapTexel.rgb * lightMapIntensity * RECIPROCAL_PI;\n\n\t#else\n\n\t\treflectedLight.indirectDiffuse += vec3( 1.0 );\n\n\t#endif\n\n\t// modulation\n\t\n\n\treflectedLight.indirectDiffuse *= diffuseColor.rgb;\n\n\tvec3 outgoingLight = reflectedLight.indirectDiffuse;\n\n\n#ifdef USE_ENVMAP\n\n\t#ifdef ENV_WORLDPOS\n\n\t\tvec3 cameraToFrag;\n\n\t\tif ( isOrthographic ) {\n\n\t\t\tcameraToFrag = normalize( vec3( - viewMatrix[ 0 ][ 2 ], - viewMatrix[ 1 ][ 2 ], - viewMatrix[ 2 ][ 2 ] ) );\n\n\t\t} else {\n\n\t\t\tcameraToFrag = normalize( vWorldPosition - cameraPosition );\n\n\t\t}\n\n\t\t// Transforming Normal Vectors with the Inverse Transformation\n\t\tvec3 worldNormal = inverseTransformDirection( normal, viewMatrix );\n\n\t\t#ifdef ENVMAP_MODE_REFLECTION\n\n\t\t\tvec3 reflectVec = reflect( cameraToFrag, worldNormal );\n\n\t\t#else\n\n\t\t\tvec3 reflectVec = refract( cameraToFrag, worldNormal, refractionRatio );\n\n\t\t#endif\n\n\t#else\n\n\t\tvec3 reflectVec = vReflect;\n\n\t#endif\n\n\t#ifdef ENVMAP_TYPE_CUBE\n\n\t\tvec4 envColor = textureCube( envMap, vec3( flipEnvMap * reflectVec.x, reflectVec.yz ) );\n\n\t#else\n\n\t\tvec4 envColor = vec4( 0.0 );\n\n\t#endif\n\n\t#ifdef ENVMAP_BLENDING_MULTIPLY\n\n\t\toutgoingLight = mix( outgoingLight, outgoingLight * envColor.xyz, specularStrength * reflectivity );\n\n\t#elif defined( ENVMAP_BLENDING_MIX )\n\n\t\toutgoingLight = mix( outgoingLight, envColor.xyz, specularStrength * reflectivity );\n\n\t#elif defined( ENVMAP_BLENDING_ADD )\n\n\t\toutgoingLight += envColor.xyz * specularStrength * reflectivity;\n\n\t#endif\n\n#endif\n\n\n\n#ifdef OPAQUE\ndiffuseColor.a = 1.0;\n#endif\n\n// https://github.com/mrdoob/three.js/pull/22425\n#ifdef USE_TRANSMISSION\ndiffuseColor.a *= material.transmissionAlpha + 0.1;\n#endif\n\ngl_FragColor = vec4( outgoingLight, diffuseColor.a );\n\n\n#if defined( TONE_MAPPING )\n\n\tgl_FragColor.rgb = toneMapping( gl_FragColor.rgb );\n\n#endif\n\n\ngl_FragColor = linearToOutputTexel( gl_FragColor );\n\n\n#ifdef USE_FOG\n\n\t#ifdef FOG_EXP2\n\n\t\tfloat fogFactor = 1.0 - exp( - fogDensity * fogDensity * vFogDepth * vFogDepth );\n\n\t#else\n\n\t\tfloat fogFactor = smoothstep( fogNear, fogFar, vFogDepth );\n\n\t#endif\n\n\tgl_FragColor.rgb = mix( gl_FragColor.rgb, fogColor, fogFactor );\n\n#endif\n\n\n#ifdef PREMULTIPLIED_ALPHA\n\n\t// Get get normal blending with premultipled, use with CustomBlending, OneFactor, OneMinusSrcAlphaFactor, AddEquation.\n\tgl_FragColor.rgb *= gl_FragColor.a;\n\n#endif\n\n\n#ifdef DITHERING\n\n\tgl_FragColor.rgb = dithering( gl_FragColor.rgb );\n\n#endif\n\n\n}\n\n\n",
+  vertex: "// Created with NodeToy | Three.js r149\n\n// <node_builder>\n\n// uniforms\n\n// attributes\n\n// varys\nvarying vec2 nodeVary0; \n// vars\n\n// codes\n\n// variables\n// </node_builder>\n\n\n\n\n\n\n\n#define STANDARD\n\nvarying vec3 vViewPosition;\n\n#ifdef USE_TRANSMISSION\n\n\tvarying vec3 vWorldPosition;\n\n#endif\n\n\n#define PI 3.141592653589793\n#define PI2 6.283185307179586\n#define PI_HALF 1.5707963267948966\n#define RECIPROCAL_PI 0.3183098861837907\n#define RECIPROCAL_PI2 0.15915494309189535\n#define EPSILON 1e-6\n\n#ifndef saturate\n// <tonemapping_pars_fragment> may have defined saturate() already\n#define saturate( a ) clamp( a, 0.0, 1.0 )\n#endif\n#define whiteComplement( a ) ( 1.0 - saturate( a ) )\n\nfloat pow2( const in float x ) { return x*x; }\nvec3 pow2( const in vec3 x ) { return x*x; }\nfloat pow3( const in float x ) { return x*x*x; }\nfloat pow4( const in float x ) { float x2 = x*x; return x2*x2; }\nfloat max3( const in vec3 v ) { return max( max( v.x, v.y ), v.z ); }\nfloat average( const in vec3 v ) { return dot( v, vec3( 0.3333333 ) ); }\n\n// expects values in the range of [0,1]x[0,1], returns values in the [0,1] range.\n// do not collapse into a single function per: http://byteblacksmith.com/improvements-to-the-canonical-one-liner-glsl-rand-for-opengl-es-2-0/\nhighp float rand( const in vec2 uv ) {\n\n\tconst highp float a = 12.9898, b = 78.233, c = 43758.5453;\n\thighp float dt = dot( uv.xy, vec2( a,b ) ), sn = mod( dt, PI );\n\n\treturn fract( sin( sn ) * c );\n\n}\n\n#ifdef HIGH_PRECISION\n\tfloat precisionSafeLength( vec3 v ) { return length( v ); }\n#else\n\tfloat precisionSafeLength( vec3 v ) {\n\t\tfloat maxComponent = max3( abs( v ) );\n\t\treturn length( v / maxComponent ) * maxComponent;\n\t}\n#endif\n\nstruct IncidentLight {\n\tvec3 color;\n\tvec3 direction;\n\tbool visible;\n};\n\nstruct ReflectedLight {\n\tvec3 directDiffuse;\n\tvec3 directSpecular;\n\tvec3 indirectDiffuse;\n\tvec3 indirectSpecular;\n};\n\nstruct GeometricContext {\n\tvec3 position;\n\tvec3 normal;\n\tvec3 viewDir;\n#ifdef USE_CLEARCOAT\n\tvec3 clearcoatNormal;\n#endif\n};\n\nvec3 transformDirection( in vec3 dir, in mat4 matrix ) {\n\n\treturn normalize( ( matrix * vec4( dir, 0.0 ) ).xyz );\n\n}\n\nvec3 inverseTransformDirection( in vec3 dir, in mat4 matrix ) {\n\n\t// dir can be either a direction vector or a normal vector\n\t// upper-left 3x3 of matrix is assumed to be orthogonal\n\n\treturn normalize( ( vec4( dir, 0.0 ) * matrix ).xyz );\n\n}\n\nmat3 transposeMat3( const in mat3 m ) {\n\n\tmat3 tmp;\n\n\ttmp[ 0 ] = vec3( m[ 0 ].x, m[ 1 ].x, m[ 2 ].x );\n\ttmp[ 1 ] = vec3( m[ 0 ].y, m[ 1 ].y, m[ 2 ].y );\n\ttmp[ 2 ] = vec3( m[ 0 ].z, m[ 1 ].z, m[ 2 ].z );\n\n\treturn tmp;\n\n}\n\nfloat luminance( const in vec3 rgb ) {\n\n\t// assumes rgb is in linear color space with sRGB primaries and D65 white point\n\n\tconst vec3 weights = vec3( 0.2126729, 0.7151522, 0.0721750 );\n\n\treturn dot( weights, rgb );\n\n}\n\nbool isPerspectiveMatrix( mat4 m ) {\n\n\treturn m[ 2 ][ 3 ] == - 1.0;\n\n}\n\nvec2 equirectUv( in vec3 dir ) {\n\n\t// dir is assumed to be unit length\n\n\tfloat u = atan( dir.z, dir.x ) * RECIPROCAL_PI2 + 0.5;\n\n\tfloat v = asin( clamp( dir.y, - 1.0, 1.0 ) ) * RECIPROCAL_PI + 0.5;\n\n\treturn vec2( u, v );\n\n}\n\n\n#ifdef USE_UV\n\n\t#ifdef UVS_VERTEX_ONLY\n\n\t\tvec2 vUv;\n\n\t#else\n\n\t\tvarying vec2 vUv;\n\n\t#endif\n\n\tuniform mat3 uvTransform;\n\n#endif\n\n\n#if defined( USE_LIGHTMAP ) || defined( USE_AOMAP )\n\n\tattribute vec2 uv2;\n\tvarying vec2 vUv2;\n\n\tuniform mat3 uv2Transform;\n\n#endif\n\n\n#ifdef USE_DISPLACEMENTMAP\n\n\tuniform sampler2D displacementMap;\n\tuniform float displacementScale;\n\tuniform float displacementBias;\n\n#endif\n\n\n#if defined( USE_COLOR_ALPHA )\n\n\tvarying vec4 vColor;\n\n#elif defined( USE_COLOR ) || defined( USE_INSTANCING_COLOR )\n\n\tvarying vec3 vColor;\n\n#endif\n\n\n#ifdef USE_FOG\n\n\tvarying float vFogDepth;\n\n#endif\n\n\n#ifndef FLAT_SHADED\n\n\tvarying vec3 vNormal;\n\n\t#ifdef USE_TANGENT\n\n\t\tvarying vec3 vTangent;\n\t\tvarying vec3 vBitangent;\n\n\t#endif\n\n#endif\n\n\n#ifdef USE_MORPHTARGETS\n\n\tuniform float morphTargetBaseInfluence;\n\n\t#ifdef MORPHTARGETS_TEXTURE\n\n\t\tuniform float morphTargetInfluences[ MORPHTARGETS_COUNT ];\n\t\tuniform sampler2DArray morphTargetsTexture;\n\t\tuniform ivec2 morphTargetsTextureSize;\n\n\t\tvec4 getMorph( const in int vertexIndex, const in int morphTargetIndex, const in int offset ) {\n\n\t\t\tint texelIndex = vertexIndex * MORPHTARGETS_TEXTURE_STRIDE + offset;\n\t\t\tint y = texelIndex / morphTargetsTextureSize.x;\n\t\t\tint x = texelIndex - y * morphTargetsTextureSize.x;\n\n\t\t\tivec3 morphUV = ivec3( x, y, morphTargetIndex );\n\t\t\treturn texelFetch( morphTargetsTexture, morphUV, 0 );\n\n\t\t}\n\n\t#else\n\n\t\t#ifndef USE_MORPHNORMALS\n\n\t\t\tuniform float morphTargetInfluences[ 8 ];\n\n\t\t#else\n\n\t\t\tuniform float morphTargetInfluences[ 4 ];\n\n\t\t#endif\n\n\t#endif\n\n#endif\n\n\n#ifdef USE_SKINNING\n\n\tuniform mat4 bindMatrix;\n\tuniform mat4 bindMatrixInverse;\n\n\tuniform highp sampler2D boneTexture;\n\tuniform int boneTextureSize;\n\n\tmat4 getBoneMatrix( const in float i ) {\n\n\t\tfloat j = i * 4.0;\n\t\tfloat x = mod( j, float( boneTextureSize ) );\n\t\tfloat y = floor( j / float( boneTextureSize ) );\n\n\t\tfloat dx = 1.0 / float( boneTextureSize );\n\t\tfloat dy = 1.0 / float( boneTextureSize );\n\n\t\ty = dy * ( y + 0.5 );\n\n\t\tvec4 v1 = texture2D( boneTexture, vec2( dx * ( x + 0.5 ), y ) );\n\t\tvec4 v2 = texture2D( boneTexture, vec2( dx * ( x + 1.5 ), y ) );\n\t\tvec4 v3 = texture2D( boneTexture, vec2( dx * ( x + 2.5 ), y ) );\n\t\tvec4 v4 = texture2D( boneTexture, vec2( dx * ( x + 3.5 ), y ) );\n\n\t\tmat4 bone = mat4( v1, v2, v3, v4 );\n\n\t\treturn bone;\n\n\t}\n\n#endif\n\n\n\n#if NUM_SPOT_LIGHT_COORDS > 0\n\n  uniform mat4 spotLightMatrix[ NUM_SPOT_LIGHT_COORDS ];\n  varying vec4 vSpotLightCoord[ NUM_SPOT_LIGHT_COORDS ];\n\n#endif\n\n#ifdef USE_SHADOWMAP\n\n\t#if NUM_DIR_LIGHT_SHADOWS > 0\n\n\t\tuniform mat4 directionalShadowMatrix[ NUM_DIR_LIGHT_SHADOWS ];\n\t\tvarying vec4 vDirectionalShadowCoord[ NUM_DIR_LIGHT_SHADOWS ];\n\n\t\tstruct DirectionalLightShadow {\n\t\t\tfloat shadowBias;\n\t\t\tfloat shadowNormalBias;\n\t\t\tfloat shadowRadius;\n\t\t\tvec2 shadowMapSize;\n\t\t};\n\n\t\tuniform DirectionalLightShadow directionalLightShadows[ NUM_DIR_LIGHT_SHADOWS ];\n\n\t#endif\n\n\t#if NUM_SPOT_LIGHT_SHADOWS > 0\n\n\t\tstruct SpotLightShadow {\n\t\t\tfloat shadowBias;\n\t\t\tfloat shadowNormalBias;\n\t\t\tfloat shadowRadius;\n\t\t\tvec2 shadowMapSize;\n\t\t};\n\n\t\tuniform SpotLightShadow spotLightShadows[ NUM_SPOT_LIGHT_SHADOWS ];\n\n\t#endif\n\n\t#if NUM_POINT_LIGHT_SHADOWS > 0\n\n\t\tuniform mat4 pointShadowMatrix[ NUM_POINT_LIGHT_SHADOWS ];\n\t\tvarying vec4 vPointShadowCoord[ NUM_POINT_LIGHT_SHADOWS ];\n\n\t\tstruct PointLightShadow {\n\t\t\tfloat shadowBias;\n\t\t\tfloat shadowNormalBias;\n\t\t\tfloat shadowRadius;\n\t\t\tvec2 shadowMapSize;\n\t\t\tfloat shadowCameraNear;\n\t\t\tfloat shadowCameraFar;\n\t\t};\n\n\t\tuniform PointLightShadow pointLightShadows[ NUM_POINT_LIGHT_SHADOWS ];\n\n\t#endif\n\n\t/*\n\t#if NUM_RECT_AREA_LIGHTS > 0\n\n\t\t// TODO (abelnation): uniforms for area light shadows\n\n\t#endif\n\t*/\n\n#endif\n\n\n#ifdef USE_LOGDEPTHBUF\n\n\t#ifdef USE_LOGDEPTHBUF_EXT\n\n\t\tvarying float vFragDepth;\n\t\tvarying float vIsPerspective;\n\n\t#else\n\n\t\tuniform float logDepthBufFC;\n\n\t#endif\n\n#endif\n\n\n#if NUM_CLIPPING_PLANES > 0\n\n\tvarying vec3 vClipPosition;\n\n#endif\n\n\nvoid main() {\nnodeVary0 = uv;\n\t\n\n\n\n#ifdef USE_UV\n\n\tvUv = ( uvTransform * vec3( uv, 1 ) ).xy;\n\n#endif\n\n\n#if defined( USE_LIGHTMAP ) || defined( USE_AOMAP )\n\n\tvUv2 = ( uv2Transform * vec3( uv2, 1 ) ).xy;\n\n#endif\n\n\n#if defined( USE_COLOR_ALPHA )\n\n\tvColor = vec4( 1.0 );\n\n#elif defined( USE_COLOR ) || defined( USE_INSTANCING_COLOR )\n\n\tvColor = vec3( 1.0 );\n\n#endif\n\n#ifdef USE_COLOR\n\n\tvColor *= color;\n\n#endif\n\n#ifdef USE_INSTANCING_COLOR\n\n\tvColor.xyz *= instanceColor.xyz;\n\n#endif\n\n\n#if defined( USE_MORPHCOLORS ) && defined( MORPHTARGETS_TEXTURE )\n\n\t// morphTargetBaseInfluence is set based on BufferGeometry.morphTargetsRelative value:\n\t// When morphTargetsRelative is false, this is set to 1 - sum(influences); this results in normal = sum((target - base) * influence)\n\t// When morphTargetsRelative is true, this is set to 1; as a result, all morph targets are simply added to the base after weighting\n\tvColor *= morphTargetBaseInfluence;\n\n\tfor ( int i = 0; i < MORPHTARGETS_COUNT; i ++ ) {\n\n\t\t#if defined( USE_COLOR_ALPHA )\n\n\t\t\tif ( morphTargetInfluences[ i ] != 0.0 ) vColor += getMorph( gl_VertexID, i, 2 ) * morphTargetInfluences[ i ];\n\n\t\t#elif defined( USE_COLOR )\n\n\t\t\tif ( morphTargetInfluences[ i ] != 0.0 ) vColor += getMorph( gl_VertexID, i, 2 ).rgb * morphTargetInfluences[ i ];\n\n\t\t#endif\n\n\t}\n\n#endif\n\n\n\nvec3 objectNormal = vec3( normal );\n\n#ifdef USE_TANGENT\n\n\tvec3 objectTangent = vec3( tangent.xyz );\n\n#endif\n\n\n#ifdef USE_MORPHNORMALS\n\n\t// morphTargetBaseInfluence is set based on BufferGeometry.morphTargetsRelative value:\n\t// When morphTargetsRelative is false, this is set to 1 - sum(influences); this results in normal = sum((target - base) * influence)\n\t// When morphTargetsRelative is true, this is set to 1; as a result, all morph targets are simply added to the base after weighting\n\tobjectNormal *= morphTargetBaseInfluence;\n\n\t#ifdef MORPHTARGETS_TEXTURE\n\n\t\tfor ( int i = 0; i < MORPHTARGETS_COUNT; i ++ ) {\n\n\t\t\tif ( morphTargetInfluences[ i ] != 0.0 ) objectNormal += getMorph( gl_VertexID, i, 1 ).xyz * morphTargetInfluences[ i ];\n\n\t\t}\n\n\t#else\n\n\t\tobjectNormal += morphNormal0 * morphTargetInfluences[ 0 ];\n\t\tobjectNormal += morphNormal1 * morphTargetInfluences[ 1 ];\n\t\tobjectNormal += morphNormal2 * morphTargetInfluences[ 2 ];\n\t\tobjectNormal += morphNormal3 * morphTargetInfluences[ 3 ];\n\n\t#endif\n\n#endif\n\n\n#ifdef USE_SKINNING\n\n\tmat4 boneMatX = getBoneMatrix( skinIndex.x );\n\tmat4 boneMatY = getBoneMatrix( skinIndex.y );\n\tmat4 boneMatZ = getBoneMatrix( skinIndex.z );\n\tmat4 boneMatW = getBoneMatrix( skinIndex.w );\n\n#endif\n\n\n#ifdef USE_SKINNING\n\n\tmat4 skinMatrix = mat4( 0.0 );\n\tskinMatrix += skinWeight.x * boneMatX;\n\tskinMatrix += skinWeight.y * boneMatY;\n\tskinMatrix += skinWeight.z * boneMatZ;\n\tskinMatrix += skinWeight.w * boneMatW;\n\tskinMatrix = bindMatrixInverse * skinMatrix * bindMatrix;\n\n\tobjectNormal = vec4( skinMatrix * vec4( objectNormal, 0.0 ) ).xyz;\n\n\t#ifdef USE_TANGENT\n\n\t\tobjectTangent = vec4( skinMatrix * vec4( objectTangent, 0.0 ) ).xyz;\n\n\t#endif\n\n#endif\n\n\nvec3 transformedNormal = objectNormal;\n\n#ifdef USE_INSTANCING\n\n\t// this is in lieu of a per-instance normal-matrix\n\t// shear transforms in the instance matrix are not supported\n\n\tmat3 m = mat3( instanceMatrix );\n\n\ttransformedNormal /= vec3( dot( m[ 0 ], m[ 0 ] ), dot( m[ 1 ], m[ 1 ] ), dot( m[ 2 ], m[ 2 ] ) );\n\n\ttransformedNormal = m * transformedNormal;\n\n#endif\n\ntransformedNormal = normalMatrix * transformedNormal;\n\n#ifdef FLIP_SIDED\n\n\ttransformedNormal = - transformedNormal;\n\n#endif\n\n#ifdef USE_TANGENT\n\n\tvec3 transformedTangent = ( modelViewMatrix * vec4( objectTangent, 0.0 ) ).xyz;\n\n\t#ifdef FLIP_SIDED\n\n\t\ttransformedTangent = - transformedTangent;\n\n\t#endif\n\n#endif\n\n\n#ifndef FLAT_SHADED // normal is computed with derivatives when FLAT_SHADED\n\n\tvNormal = normalize( transformedNormal );\n\n\t#ifdef USE_TANGENT\n\n\t\tvTangent = normalize( transformedTangent );\n\t\tvBitangent = normalize( cross( vNormal, vTangent ) * tangent.w );\n\n\t#endif\n\n#endif\n\n\n\nvec3 transformed = vec3( position );\n\n\n#ifdef USE_MORPHTARGETS\n\n\t// morphTargetBaseInfluence is set based on BufferGeometry.morphTargetsRelative value:\n\t// When morphTargetsRelative is false, this is set to 1 - sum(influences); this results in position = sum((target - base) * influence)\n\t// When morphTargetsRelative is true, this is set to 1; as a result, all morph targets are simply added to the base after weighting\n\ttransformed *= morphTargetBaseInfluence;\n\n\t#ifdef MORPHTARGETS_TEXTURE\n\n\t\tfor ( int i = 0; i < MORPHTARGETS_COUNT; i ++ ) {\n\n\t\t\tif ( morphTargetInfluences[ i ] != 0.0 ) transformed += getMorph( gl_VertexID, i, 0 ).xyz * morphTargetInfluences[ i ];\n\n\t\t}\n\n\t#else\n\n\t\ttransformed += morphTarget0 * morphTargetInfluences[ 0 ];\n\t\ttransformed += morphTarget1 * morphTargetInfluences[ 1 ];\n\t\ttransformed += morphTarget2 * morphTargetInfluences[ 2 ];\n\t\ttransformed += morphTarget3 * morphTargetInfluences[ 3 ];\n\n\t\t#ifndef USE_MORPHNORMALS\n\n\t\t\ttransformed += morphTarget4 * morphTargetInfluences[ 4 ];\n\t\t\ttransformed += morphTarget5 * morphTargetInfluences[ 5 ];\n\t\t\ttransformed += morphTarget6 * morphTargetInfluences[ 6 ];\n\t\t\ttransformed += morphTarget7 * morphTargetInfluences[ 7 ];\n\n\t\t#endif\n\n\t#endif\n\n#endif\n\n\n#ifdef USE_SKINNING\n\n\tvec4 skinVertex = bindMatrix * vec4( transformed, 1.0 );\n\n\tvec4 skinned = vec4( 0.0 );\n\tskinned += boneMatX * skinVertex * skinWeight.x;\n\tskinned += boneMatY * skinVertex * skinWeight.y;\n\tskinned += boneMatZ * skinVertex * skinWeight.z;\n\tskinned += boneMatW * skinVertex * skinWeight.w;\n\n\ttransformed = ( bindMatrixInverse * skinned ).xyz;\n\n#endif\n\n\n#ifdef USE_DISPLACEMENTMAP\n\n\ttransformed += normalize( objectNormal ) * ( texture2D( displacementMap, vUv ).x * displacementScale + displacementBias );\n\n#endif\n\n\nvec4 mvPosition = vec4( transformed, 1.0 );\n\n#ifdef USE_INSTANCING\n\n\tmvPosition = instanceMatrix * mvPosition;\n\n#endif\n\nmvPosition = modelViewMatrix * mvPosition;\n\ngl_Position = projectionMatrix * mvPosition;\n\n\n#ifdef USE_LOGDEPTHBUF\n\n\t#ifdef USE_LOGDEPTHBUF_EXT\n\n\t\tvFragDepth = 1.0 + gl_Position.w;\n\t\tvIsPerspective = float( isPerspectiveMatrix( projectionMatrix ) );\n\n\t#else\n\n\t\tif ( isPerspectiveMatrix( projectionMatrix ) ) {\n\n\t\t\tgl_Position.z = log2( max( EPSILON, gl_Position.w + 1.0 ) ) * logDepthBufFC - 1.0;\n\n\t\t\tgl_Position.z *= gl_Position.w;\n\n\t\t}\n\n\t#endif\n\n#endif\n\n\n#if NUM_CLIPPING_PLANES > 0\n\n\tvClipPosition = - mvPosition.xyz;\n\n#endif\n\n\n\tvViewPosition = - mvPosition.xyz;\n\n\n#if defined( USE_ENVMAP ) || defined( DISTANCE ) || defined ( USE_SHADOWMAP ) || defined ( USE_TRANSMISSION ) || NUM_SPOT_LIGHT_COORDS > 0\n\n\tvec4 worldPosition = vec4( transformed, 1.0 );\n\n\t#ifdef USE_INSTANCING\n\n\t\tworldPosition = instanceMatrix * worldPosition;\n\n\t#endif\n\n\tworldPosition = modelMatrix * worldPosition;\n\n#endif\n\n\n\n#if ( defined( USE_SHADOWMAP ) && ( NUM_DIR_LIGHT_SHADOWS > 0 || NUM_POINT_LIGHT_SHADOWS > 0 ) ) || ( NUM_SPOT_LIGHT_COORDS > 0 )\n\n\t// Offsetting the position used for querying occlusion along the world normal can be used to reduce shadow acne.\n\tvec3 shadowWorldNormal = inverseTransformDirection( transformedNormal, viewMatrix );\n\tvec4 shadowWorldPosition;\n\n#endif\n\n#if defined( USE_SHADOWMAP )\n\n\t#if NUM_DIR_LIGHT_SHADOWS > 0\n\n\t\t#pragma unroll_loop_start\n\t\tfor ( int i = 0; i < NUM_DIR_LIGHT_SHADOWS; i ++ ) {\n\n\t\t\tshadowWorldPosition = worldPosition + vec4( shadowWorldNormal * directionalLightShadows[ i ].shadowNormalBias, 0 );\n\t\t\tvDirectionalShadowCoord[ i ] = directionalShadowMatrix[ i ] * shadowWorldPosition;\n\n\t\t}\n\t\t#pragma unroll_loop_end\n\n\t#endif\n\n\t#if NUM_POINT_LIGHT_SHADOWS > 0\n\n\t\t#pragma unroll_loop_start\n\t\tfor ( int i = 0; i < NUM_POINT_LIGHT_SHADOWS; i ++ ) {\n\n\t\t\tshadowWorldPosition = worldPosition + vec4( shadowWorldNormal * pointLightShadows[ i ].shadowNormalBias, 0 );\n\t\t\tvPointShadowCoord[ i ] = pointShadowMatrix[ i ] * shadowWorldPosition;\n\n\t\t}\n\t\t#pragma unroll_loop_end\n\n\t#endif\n\n\t/*\n\t#if NUM_RECT_AREA_LIGHTS > 0\n\n\t\t// TODO (abelnation): update vAreaShadowCoord with area light info\n\n\t#endif\n\t*/\n\n#endif\n\n// spot lights can be evaluated without active shadow mapping (when SpotLight.map is used)\n\n#if NUM_SPOT_LIGHT_COORDS > 0\n\n\t#pragma unroll_loop_start\n\tfor ( int i = 0; i < NUM_SPOT_LIGHT_COORDS; i ++ ) {\n\n\t\tshadowWorldPosition = worldPosition;\n\t\t#if ( defined( USE_SHADOWMAP ) && UNROLLED_LOOP_INDEX < NUM_SPOT_LIGHT_SHADOWS )\n\t\t\tshadowWorldPosition.xyz += shadowWorldNormal * spotLightShadows[ i ].shadowNormalBias;\n\t\t#endif\n\t\tvSpotLightCoord[ i ] = spotLightMatrix[ i ] * shadowWorldPosition;\n\n\t}\n\t#pragma unroll_loop_end\n\n#endif\n\n\n\n\n#ifdef USE_FOG\n\n\tvFogDepth = - mvPosition.z;\n\n#endif\n\n\n#ifdef USE_TRANSMISSION\n\n\tvWorldPosition = worldPosition.xyz;\n\n#endif\n}\n\n\n",
+  fragment: "// Created with NodeToy | Three.js r149\n\n// <node_builder>\n\n// uniforms\nuniform vec3 Lavacolor; uniform float _time; uniform float noiseintensityreduction; uniform float lavacontrast; uniform float darkpatchredness; uniform float emicolintensity; \n// attributes\n\n// varys\nvarying vec2 nodeVary0; \n// vars\nfloat nodeVar0; float nodeVar1; vec2 nodeVar2; float nodeVar3; float nodeVar4; vec2 nodeVar5; float nodeVar6; float nodeVar7; float nodeVar8; vec3 nodeVar9; vec3 nodeVar10; vec3 nodeVar11; \n// codes\nvec4 CalculateContrast_rY7rcDCumd3A ( float contrastValue, vec4 colorTarget )\n\t\t{\n\t\t\tfloat t = 0.5 * ( 1.0 - contrastValue );\n\t\t\treturn  mat4( contrastValue,0,0,t, 0,contrastValue,0,t, 0,0,contrastValue,t, 0,0,0,1 ) * colorTarget ;\n\t\t}\nvec3 customFn_0F0JN3hc5LPA ( vec4 RGBA, float Value ) {\n                \n        vec4 color = RGBA;\n        vec4 SimpleContrast = CalculateContrast_rY7rcDCumd3A(Value,color);\n        return vec3(SimpleContrast.x, SimpleContrast.y, SimpleContrast.z);\n        \n            }\nvec3 mod2D289_ZYvSjmJ1eRYO ( vec3 x ) { return x - floor( x * ( 1.0 / 289.0 ) ) * 289.0; }\n\n\tvec2 mod2D289_ZYvSjmJ1eRYO( vec2 x ) { return x - floor( x * ( 1.0 / 289.0 ) ) * 289.0; }\n\n\tvec3 permute_ZYvSjmJ1eRYO( vec3 x ) { return mod2D289_ZYvSjmJ1eRYO( ( ( x * 34.0 ) + 1.0 ) * x ); }\n\n    float snoise_ZYvSjmJ1eRYO( vec2 v ){\n        const vec4 C = vec4( 0.211324865405187, 0.366025403784439, -0.577350269189626, 0.024390243902439 );\n        vec2 i = floor( v + dot( v, C.yy ) );\n        vec2 x0 = v - i + dot( i, C.xx );\n        vec2 i1;\n        i1 = ( x0.x > x0.y ) ? vec2( 1.0, 0.0 ) : vec2( 0.0, 1.0 );\n        vec4 x12 = x0.xyxy + C.xxzz;\n        x12.xy -= i1;\n        i = mod2D289_ZYvSjmJ1eRYO( i );\n        vec3 p = permute_ZYvSjmJ1eRYO( permute_ZYvSjmJ1eRYO( i.y + vec3( 0.0, i1.y, 1.0 ) ) + i.x + vec3( 0.0, i1.x, 1.0 ) );\n        vec3 m = max( 0.5 - vec3( dot( x0, x0 ), dot( x12.xy, x12.xy ), dot( x12.zw, x12.zw ) ), 0.0 );\n        m = m * m;\n        m = m * m;\n        vec3 x = 2.0 * fract( p * C.www ) - 1.0;\n        vec3 h = abs( x ) - 0.5;\n        vec3 ox = floor( x + 0.5 );\n        vec3 a0 = x - ox;\n        m *= 1.79284291400159 - 0.85373472095314 * ( a0 * a0 + h * h );\n        vec3 g;\n        g.x = a0.x * x0.x + h.x * x0.y;\n        g.yz = a0.yz * x12.xz + h.yz * x12.yw;\n        return 130.0 * dot( m, g );\n    }\nfloat customFn_dZFZkL420ekU ( vec2 uv, float scale ) {\n                \n    float noise = snoise_ZYvSjmJ1eRYO( uv * scale );\n    \n    noise = noise*0.5 + 0.5;\n    return noise;\n    \n            \n            }\nvec3 mod2D289_dtGWMceV6TuX ( vec3 x ) { return x - floor( x * ( 1.0 / 289.0 ) ) * 289.0; }\n\n\tvec2 mod2D289_dtGWMceV6TuX( vec2 x ) { return x - floor( x * ( 1.0 / 289.0 ) ) * 289.0; }\n\n\tvec3 permute_dtGWMceV6TuX( vec3 x ) { return mod2D289_dtGWMceV6TuX( ( ( x * 34.0 ) + 1.0 ) * x ); }\n\n    float snoise_dtGWMceV6TuX( vec2 v ){\n        const vec4 C = vec4( 0.211324865405187, 0.366025403784439, -0.577350269189626, 0.024390243902439 );\n        vec2 i = floor( v + dot( v, C.yy ) );\n        vec2 x0 = v - i + dot( i, C.xx );\n        vec2 i1;\n        i1 = ( x0.x > x0.y ) ? vec2( 1.0, 0.0 ) : vec2( 0.0, 1.0 );\n        vec4 x12 = x0.xyxy + C.xxzz;\n        x12.xy -= i1;\n        i = mod2D289_dtGWMceV6TuX( i );\n        vec3 p = permute_dtGWMceV6TuX( permute_dtGWMceV6TuX( i.y + vec3( 0.0, i1.y, 1.0 ) ) + i.x + vec3( 0.0, i1.x, 1.0 ) );\n        vec3 m = max( 0.5 - vec3( dot( x0, x0 ), dot( x12.xy, x12.xy ), dot( x12.zw, x12.zw ) ), 0.0 );\n        m = m * m;\n        m = m * m;\n        vec3 x = 2.0 * fract( p * C.www ) - 1.0;\n        vec3 h = abs( x ) - 0.5;\n        vec3 ox = floor( x + 0.5 );\n        vec3 a0 = x - ox;\n        m *= 1.79284291400159 - 0.85373472095314 * ( a0 * a0 + h * h );\n        vec3 g;\n        g.x = a0.x * x0.x + h.x * x0.y;\n        g.yz = a0.yz * x12.xz + h.yz * x12.yw;\n        return 130.0 * dot( m, g );\n    }\nfloat customFn_Z8kJqFIgVk9F ( vec2 uv, float scale ) {\n                \n    float noise = snoise_dtGWMceV6TuX( uv * scale );\n    \n    noise = noise*0.5 + 0.5;\n    return noise;\n    \n            \n            }\n\n// variables\n// </node_builder>\n\n\n\n\n\n\n\n#define STANDARD\n\n#ifdef PHYSICAL\n\t#define IOR\n\t#define SPECULAR\n#endif\n\n#ifdef IOR\n\tfloat ior;\n#endif\n\n#ifdef SPECULAR\n\tuniform float specularIntensity;\n\tuniform vec3 specularColor;\n\n\t#ifdef USE_SPECULARINTENSITYMAP\n\t\tuniform sampler2D specularIntensityMap;\n\t#endif\n\n\t#ifdef USE_SPECULARCOLORMAP\n\t\tuniform sampler2D specularColorMap;\n\t#endif\n#endif\n\n#ifdef USE_CLEARCOAT\n\tfloat clearcoat;\n\tfloat clearcoatRoughness;\n#endif\n\n#ifdef USE_IRIDESCENCE\n\tfloat iridescence;\n\tfloat iridescenceIOR;\n\tuniform float iridescenceThicknessMinimum;\n\tfloat iridescenceThicknessMaximum;\n#endif\n\n#ifdef USE_SHEEN\n\tuniform vec3 sheenColor;\n\tuniform float sheenRoughness;\n\n\t#ifdef USE_SHEENCOLORMAP\n\t\tuniform sampler2D sheenColorMap;\n\t#endif\n\n\t#ifdef USE_SHEENROUGHNESSMAP\n\t\tuniform sampler2D sheenRoughnessMap;\n\t#endif\n#endif\n\nvarying vec3 vViewPosition;\n\n\n#define PI 3.141592653589793\n#define PI2 6.283185307179586\n#define PI_HALF 1.5707963267948966\n#define RECIPROCAL_PI 0.3183098861837907\n#define RECIPROCAL_PI2 0.15915494309189535\n#define EPSILON 1e-6\n\n#ifndef saturate\n// <tonemapping_pars_fragment> may have defined saturate() already\n#define saturate( a ) clamp( a, 0.0, 1.0 )\n#endif\n#define whiteComplement( a ) ( 1.0 - saturate( a ) )\n\nfloat pow2( const in float x ) { return x*x; }\nvec3 pow2( const in vec3 x ) { return x*x; }\nfloat pow3( const in float x ) { return x*x*x; }\nfloat pow4( const in float x ) { float x2 = x*x; return x2*x2; }\nfloat max3( const in vec3 v ) { return max( max( v.x, v.y ), v.z ); }\nfloat average( const in vec3 v ) { return dot( v, vec3( 0.3333333 ) ); }\n\n// expects values in the range of [0,1]x[0,1], returns values in the [0,1] range.\n// do not collapse into a single function per: http://byteblacksmith.com/improvements-to-the-canonical-one-liner-glsl-rand-for-opengl-es-2-0/\nhighp float rand( const in vec2 uv ) {\n\n\tconst highp float a = 12.9898, b = 78.233, c = 43758.5453;\n\thighp float dt = dot( uv.xy, vec2( a,b ) ), sn = mod( dt, PI );\n\n\treturn fract( sin( sn ) * c );\n\n}\n\n#ifdef HIGH_PRECISION\n\tfloat precisionSafeLength( vec3 v ) { return length( v ); }\n#else\n\tfloat precisionSafeLength( vec3 v ) {\n\t\tfloat maxComponent = max3( abs( v ) );\n\t\treturn length( v / maxComponent ) * maxComponent;\n\t}\n#endif\n\nstruct IncidentLight {\n\tvec3 color;\n\tvec3 direction;\n\tbool visible;\n};\n\nstruct ReflectedLight {\n\tvec3 directDiffuse;\n\tvec3 directSpecular;\n\tvec3 indirectDiffuse;\n\tvec3 indirectSpecular;\n};\n\nstruct GeometricContext {\n\tvec3 position;\n\tvec3 normal;\n\tvec3 viewDir;\n#ifdef USE_CLEARCOAT\n\tvec3 clearcoatNormal;\n#endif\n};\n\nvec3 transformDirection( in vec3 dir, in mat4 matrix ) {\n\n\treturn normalize( ( matrix * vec4( dir, 0.0 ) ).xyz );\n\n}\n\nvec3 inverseTransformDirection( in vec3 dir, in mat4 matrix ) {\n\n\t// dir can be either a direction vector or a normal vector\n\t// upper-left 3x3 of matrix is assumed to be orthogonal\n\n\treturn normalize( ( vec4( dir, 0.0 ) * matrix ).xyz );\n\n}\n\nmat3 transposeMat3( const in mat3 m ) {\n\n\tmat3 tmp;\n\n\ttmp[ 0 ] = vec3( m[ 0 ].x, m[ 1 ].x, m[ 2 ].x );\n\ttmp[ 1 ] = vec3( m[ 0 ].y, m[ 1 ].y, m[ 2 ].y );\n\ttmp[ 2 ] = vec3( m[ 0 ].z, m[ 1 ].z, m[ 2 ].z );\n\n\treturn tmp;\n\n}\n\nfloat luminance( const in vec3 rgb ) {\n\n\t// assumes rgb is in linear color space with sRGB primaries and D65 white point\n\n\tconst vec3 weights = vec3( 0.2126729, 0.7151522, 0.0721750 );\n\n\treturn dot( weights, rgb );\n\n}\n\nbool isPerspectiveMatrix( mat4 m ) {\n\n\treturn m[ 2 ][ 3 ] == - 1.0;\n\n}\n\nvec2 equirectUv( in vec3 dir ) {\n\n\t// dir is assumed to be unit length\n\n\tfloat u = atan( dir.z, dir.x ) * RECIPROCAL_PI2 + 0.5;\n\n\tfloat v = asin( clamp( dir.y, - 1.0, 1.0 ) ) * RECIPROCAL_PI + 0.5;\n\n\treturn vec2( u, v );\n\n}\n\n\nvec3 packNormalToRGB( const in vec3 normal ) {\n\treturn normalize( normal ) * 0.5 + 0.5;\n}\n\nvec3 unpackRGBToNormal( const in vec3 rgb ) {\n\treturn 2.0 * rgb.xyz - 1.0;\n}\n\nconst float PackUpscale = 256. / 255.; // fraction -> 0..1 (including 1)\nconst float UnpackDownscale = 255. / 256.; // 0..1 -> fraction (excluding 1)\n\nconst vec3 PackFactors = vec3( 256. * 256. * 256., 256. * 256., 256. );\nconst vec4 UnpackFactors = UnpackDownscale / vec4( PackFactors, 1. );\n\nconst float ShiftRight8 = 1. / 256.;\n\nvec4 packDepthToRGBA( const in float v ) {\n\tvec4 r = vec4( fract( v * PackFactors ), v );\n\tr.yzw -= r.xyz * ShiftRight8; // tidy overflow\n\treturn r * PackUpscale;\n}\n\nfloat unpackRGBAToDepth( const in vec4 v ) {\n\treturn dot( v, UnpackFactors );\n}\n\nvec2 packDepthToRG( in highp float v ) {\n\treturn packDepthToRGBA( v ).yx;\n}\n\nfloat unpackRGToDepth( const in highp vec2 v ) {\n\treturn unpackRGBAToDepth( vec4( v.xy, 0.0, 0.0 ) );\n}\n\nvec4 pack2HalfToRGBA( vec2 v ) {\n\tvec4 r = vec4( v.x, fract( v.x * 255.0 ), v.y, fract( v.y * 255.0 ) );\n\treturn vec4( r.x - r.y / 255.0, r.y, r.z - r.w / 255.0, r.w );\n}\n\nvec2 unpackRGBATo2Half( vec4 v ) {\n\treturn vec2( v.x + ( v.y / 255.0 ), v.z + ( v.w / 255.0 ) );\n}\n\n// NOTE: viewZ/eyeZ is < 0 when in front of the camera per OpenGL conventions\n\nfloat viewZToOrthographicDepth( const in float viewZ, const in float near, const in float far ) {\n\treturn ( viewZ + near ) / ( near - far );\n}\nfloat orthographicDepthToViewZ( const in float linearClipZ, const in float near, const in float far ) {\n\treturn linearClipZ * ( near - far ) - near;\n}\n\n// NOTE: https://twitter.com/gonnavis/status/1377183786949959682\n\nfloat viewZToPerspectiveDepth( const in float viewZ, const in float near, const in float far ) {\n\treturn ( ( near + viewZ ) * far ) / ( ( far - near ) * viewZ );\n}\nfloat perspectiveDepthToViewZ( const in float invClipZ, const in float near, const in float far ) {\n\treturn ( near * far ) / ( ( far - near ) * invClipZ - far );\n}\n\n\n#ifdef DITHERING\n\n\t// based on https://www.shadertoy.com/view/MslGR8\n\tvec3 dithering( vec3 color ) {\n\t\t//Calculate grid position\n\t\tfloat grid_position = rand( gl_FragCoord.xy );\n\n\t\t//Shift the individual colors differently, thus making it even harder to see the dithering pattern\n\t\tvec3 dither_shift_RGB = vec3( 0.25 / 255.0, -0.25 / 255.0, 0.25 / 255.0 );\n\n\t\t//modify shift according to grid position.\n\t\tdither_shift_RGB = mix( 2.0 * dither_shift_RGB, -2.0 * dither_shift_RGB, grid_position );\n\n\t\t//shift the color by dither_shift\n\t\treturn color + dither_shift_RGB;\n\t}\n\n#endif\n\n\n#if defined( USE_COLOR_ALPHA )\n\n\tvarying vec4 vColor;\n\n#elif defined( USE_COLOR )\n\n\tvarying vec3 vColor;\n\n#endif\n\n\n#if ( defined( USE_UV ) && ! defined( UVS_VERTEX_ONLY ) )\n\n\tvarying vec2 vUv;\n\n#endif\n\n\n#if defined( USE_LIGHTMAP ) || defined( USE_AOMAP )\n\n\tvarying vec2 vUv2;\n\n#endif\n\n\n#ifdef USE_MAP\n\n\tuniform sampler2D map;\n\n#endif\n\n\n#ifdef USE_ALPHAMAP\n\n\tuniform sampler2D alphaMap;\n\n#endif\n\n\n#ifdef USE_ALPHATEST\n\tuniform float alphaTest;\n#endif\n\n\n#ifdef USE_AOMAP\n\n\tuniform sampler2D aoMap;\n\tuniform float aoMapIntensity;\n\n#endif\n\n\n#ifdef USE_LIGHTMAP\n\n\tuniform sampler2D lightMap;\n\tuniform float lightMapIntensity;\n\n#endif\n\n\n#ifdef USE_EMISSIVEMAP\n\n\tuniform sampler2D emissiveMap;\n\n#endif\n\n\n\nvec3 BRDF_Lambert( const in vec3 diffuseColor ) {\n\n\treturn RECIPROCAL_PI * diffuseColor;\n\n} // validated\n\nvec3 F_Schlick( const in vec3 f0, const in float f90, const in float dotVH ) {\n\n\t// Original approximation by Christophe Schlick '94\n\t// float fresnel = pow( 1.0 - dotVH, 5.0 );\n\n\t// Optimized variant (presented by Epic at SIGGRAPH '13)\n\t// https://cdn2.unrealengine.com/Resources/files/2013SiggraphPresentationsNotes-26915738.pdf\n\tfloat fresnel = exp2( ( - 5.55473 * dotVH - 6.98316 ) * dotVH );\n\n\treturn f0 * ( 1.0 - fresnel ) + ( f90 * fresnel );\n\n} // validated\n\nfloat F_Schlick( const in float f0, const in float f90, const in float dotVH ) {\n\n\t// Original approximation by Christophe Schlick '94\n\t// float fresnel = pow( 1.0 - dotVH, 5.0 );\n\n\t// Optimized variant (presented by Epic at SIGGRAPH '13)\n\t// https://cdn2.unrealengine.com/Resources/files/2013SiggraphPresentationsNotes-26915738.pdf\n\tfloat fresnel = exp2( ( - 5.55473 * dotVH - 6.98316 ) * dotVH );\n\n\treturn f0 * ( 1.0 - fresnel ) + ( f90 * fresnel );\n\n} // validated\n\nvec3 Schlick_to_F0( const in vec3 f, const in float f90, const in float dotVH ) {\n    float x = clamp( 1.0 - dotVH, 0.0, 1.0 );\n    float x2 = x * x;\n    float x5 = clamp( x * x2 * x2, 0.0, 0.9999 );\n\n    return ( f - vec3( f90 ) * x5 ) / ( 1.0 - x5 );\n}\n\n// Moving Frostbite to Physically Based Rendering 3.0 - page 12, listing 2\n// https://seblagarde.files.wordpress.com/2015/07/course_notes_moving_frostbite_to_pbr_v32.pdf\nfloat V_GGX_SmithCorrelated( const in float alpha, const in float dotNL, const in float dotNV ) {\n\n\tfloat a2 = pow2( alpha );\n\n\tfloat gv = dotNL * sqrt( a2 + ( 1.0 - a2 ) * pow2( dotNV ) );\n\tfloat gl = dotNV * sqrt( a2 + ( 1.0 - a2 ) * pow2( dotNL ) );\n\n\treturn 0.5 / max( gv + gl, EPSILON );\n\n}\n\n// Microfacet Models for Refraction through Rough Surfaces - equation (33)\n// http://graphicrants.blogspot.com/2013/08/specular-brdf-reference.html\n// alpha is \"roughness squared\" in Disney’s reparameterization\nfloat D_GGX( const in float alpha, const in float dotNH ) {\n\n\tfloat a2 = pow2( alpha );\n\n\tfloat denom = pow2( dotNH ) * ( a2 - 1.0 ) + 1.0; // avoid alpha = 0 with dotNH = 1\n\n\treturn RECIPROCAL_PI * a2 / pow2( denom );\n\n}\n\n// GGX Distribution, Schlick Fresnel, GGX_SmithCorrelated Visibility\nvec3 BRDF_GGX( const in vec3 lightDir, const in vec3 viewDir, const in vec3 normal, const in vec3 f0, const in float f90, const in float roughness ) {\n\n\tfloat alpha = pow2( roughness ); // UE4's roughness\n\n\tvec3 halfDir = normalize( lightDir + viewDir );\n\n\tfloat dotNL = saturate( dot( normal, lightDir ) );\n\tfloat dotNV = saturate( dot( normal, viewDir ) );\n\tfloat dotNH = saturate( dot( normal, halfDir ) );\n\tfloat dotVH = saturate( dot( viewDir, halfDir ) );\n\n\tvec3 F = F_Schlick( f0, f90, dotVH );\n\n\tfloat V = V_GGX_SmithCorrelated( alpha, dotNL, dotNV );\n\n\tfloat D = D_GGX( alpha, dotNH );\n\n\treturn F * ( V * D );\n\n}\n\n#ifdef USE_IRIDESCENCE\n\n\tvec3 BRDF_GGX_Iridescence( const in vec3 lightDir, const in vec3 viewDir, const in vec3 normal, const in vec3 f0, const in float f90, const in float iridescence, const in vec3 iridescenceFresnel, const in float roughness ) {\n\n\t\tfloat alpha = pow2( roughness ); // UE4's roughness\n\n\t\tvec3 halfDir = normalize( lightDir + viewDir );\n\n\t\tfloat dotNL = saturate( dot( normal, lightDir ) );\n\t\tfloat dotNV = saturate( dot( normal, viewDir ) );\n\t\tfloat dotNH = saturate( dot( normal, halfDir ) );\n\t\tfloat dotVH = saturate( dot( viewDir, halfDir ) );\n\n\t\tvec3 F = mix( F_Schlick( f0, f90, dotVH ), iridescenceFresnel, iridescence );\n\n\t\tfloat V = V_GGX_SmithCorrelated( alpha, dotNL, dotNV );\n\n\t\tfloat D = D_GGX( alpha, dotNH );\n\n\t\treturn F * ( V * D );\n\n\t}\n\n#endif\n\n// Rect Area Light\n\n// Real-Time Polygonal-Light Shading with Linearly Transformed Cosines\n// by Eric Heitz, Jonathan Dupuy, Stephen Hill and David Neubelt\n// code: https://github.com/selfshadow/ltc_code/\n\nvec2 LTC_Uv( const in vec3 N, const in vec3 V, const in float roughness ) {\n\n\tconst float LUT_SIZE = 64.0;\n\tconst float LUT_SCALE = ( LUT_SIZE - 1.0 ) / LUT_SIZE;\n\tconst float LUT_BIAS = 0.5 / LUT_SIZE;\n\n\tfloat dotNV = saturate( dot( N, V ) );\n\n\t// texture parameterized by sqrt( GGX alpha ) and sqrt( 1 - cos( theta ) )\n\tvec2 uv = vec2( roughness, sqrt( 1.0 - dotNV ) );\n\n\tuv = uv * LUT_SCALE + LUT_BIAS;\n\n\treturn uv;\n\n}\n\nfloat LTC_ClippedSphereFormFactor( const in vec3 f ) {\n\n\t// Real-Time Area Lighting: a Journey from Research to Production (p.102)\n\t// An approximation of the form factor of a horizon-clipped rectangle.\n\n\tfloat l = length( f );\n\n\treturn max( ( l * l + f.z ) / ( l + 1.0 ), 0.0 );\n\n}\n\nvec3 LTC_EdgeVectorFormFactor( const in vec3 v1, const in vec3 v2 ) {\n\n\tfloat x = dot( v1, v2 );\n\n\tfloat y = abs( x );\n\n\t// rational polynomial approximation to theta / sin( theta ) / 2PI\n\tfloat a = 0.8543985 + ( 0.4965155 + 0.0145206 * y ) * y;\n\tfloat b = 3.4175940 + ( 4.1616724 + y ) * y;\n\tfloat v = a / b;\n\n\tfloat theta_sintheta = ( x > 0.0 ) ? v : 0.5 * inversesqrt( max( 1.0 - x * x, 1e-7 ) ) - v;\n\n\treturn cross( v1, v2 ) * theta_sintheta;\n\n}\n\nvec3 LTC_Evaluate( const in vec3 N, const in vec3 V, const in vec3 P, const in mat3 mInv, const in vec3 rectCoords[ 4 ] ) {\n\n\t// bail if point is on back side of plane of light\n\t// assumes ccw winding order of light vertices\n\tvec3 v1 = rectCoords[ 1 ] - rectCoords[ 0 ];\n\tvec3 v2 = rectCoords[ 3 ] - rectCoords[ 0 ];\n\tvec3 lightNormal = cross( v1, v2 );\n\n\tif( dot( lightNormal, P - rectCoords[ 0 ] ) < 0.0 ) return vec3( 0.0 );\n\n\t// construct orthonormal basis around N\n\tvec3 T1, T2;\n\tT1 = normalize( V - N * dot( V, N ) );\n\tT2 = - cross( N, T1 ); // negated from paper; possibly due to a different handedness of world coordinate system\n\n\t// compute transform\n\tmat3 mat = mInv * transposeMat3( mat3( T1, T2, N ) );\n\n\t// transform rect\n\tvec3 coords[ 4 ];\n\tcoords[ 0 ] = mat * ( rectCoords[ 0 ] - P );\n\tcoords[ 1 ] = mat * ( rectCoords[ 1 ] - P );\n\tcoords[ 2 ] = mat * ( rectCoords[ 2 ] - P );\n\tcoords[ 3 ] = mat * ( rectCoords[ 3 ] - P );\n\n\t// project rect onto sphere\n\tcoords[ 0 ] = normalize( coords[ 0 ] );\n\tcoords[ 1 ] = normalize( coords[ 1 ] );\n\tcoords[ 2 ] = normalize( coords[ 2 ] );\n\tcoords[ 3 ] = normalize( coords[ 3 ] );\n\n\t// calculate vector form factor\n\tvec3 vectorFormFactor = vec3( 0.0 );\n\tvectorFormFactor += LTC_EdgeVectorFormFactor( coords[ 0 ], coords[ 1 ] );\n\tvectorFormFactor += LTC_EdgeVectorFormFactor( coords[ 1 ], coords[ 2 ] );\n\tvectorFormFactor += LTC_EdgeVectorFormFactor( coords[ 2 ], coords[ 3 ] );\n\tvectorFormFactor += LTC_EdgeVectorFormFactor( coords[ 3 ], coords[ 0 ] );\n\n\t// adjust for horizon clipping\n\tfloat result = LTC_ClippedSphereFormFactor( vectorFormFactor );\n\n/*\n\t// alternate method of adjusting for horizon clipping (see referece)\n\t// refactoring required\n\tfloat len = length( vectorFormFactor );\n\tfloat z = vectorFormFactor.z / len;\n\n\tconst float LUT_SIZE = 64.0;\n\tconst float LUT_SCALE = ( LUT_SIZE - 1.0 ) / LUT_SIZE;\n\tconst float LUT_BIAS = 0.5 / LUT_SIZE;\n\n\t// tabulated horizon-clipped sphere, apparently...\n\tvec2 uv = vec2( z * 0.5 + 0.5, len );\n\tuv = uv * LUT_SCALE + LUT_BIAS;\n\n\tfloat scale = texture2D( ltc_2, uv ).w;\n\n\tfloat result = len * scale;\n*/\n\n\treturn vec3( result );\n\n}\n\n// End Rect Area Light\n\n\nfloat G_BlinnPhong_Implicit( /* const in float dotNL, const in float dotNV */ ) {\n\n\t// geometry term is (n dot l)(n dot v) / 4(n dot l)(n dot v)\n\treturn 0.25;\n\n}\n\nfloat D_BlinnPhong( const in float shininess, const in float dotNH ) {\n\n\treturn RECIPROCAL_PI * ( shininess * 0.5 + 1.0 ) * pow( dotNH, shininess );\n\n}\n\nvec3 BRDF_BlinnPhong( const in vec3 lightDir, const in vec3 viewDir, const in vec3 normal, const in vec3 specularColor, const in float shininess ) {\n\n\tvec3 halfDir = normalize( lightDir + viewDir );\n\n\tfloat dotNH = saturate( dot( normal, halfDir ) );\n\tfloat dotVH = saturate( dot( viewDir, halfDir ) );\n\n\tvec3 F = F_Schlick( specularColor, 1.0, dotVH );\n\n\tfloat G = G_BlinnPhong_Implicit( /* dotNL, dotNV */ );\n\n\tfloat D = D_BlinnPhong( shininess, dotNH );\n\n\treturn F * ( G * D );\n\n} // validated\n\n#if defined( USE_SHEEN )\n\n// https://github.com/google/filament/blob/master/shaders/src/brdf.fs\nfloat D_Charlie( float roughness, float dotNH ) {\n\n\tfloat alpha = pow2( roughness );\n\n\t// Estevez and Kulla 2017, \"Production Friendly Microfacet Sheen BRDF\"\n\tfloat invAlpha = 1.0 / alpha;\n\tfloat cos2h = dotNH * dotNH;\n\tfloat sin2h = max( 1.0 - cos2h, 0.0078125 ); // 2^(-14/2), so sin2h^2 > 0 in fp16\n\n\treturn ( 2.0 + invAlpha ) * pow( sin2h, invAlpha * 0.5 ) / ( 2.0 * PI );\n\n}\n\n// https://github.com/google/filament/blob/master/shaders/src/brdf.fs\nfloat V_Neubelt( float dotNV, float dotNL ) {\n\n\t// Neubelt and Pettineo 2013, \"Crafting a Next-gen Material Pipeline for The Order: 1886\"\n\treturn saturate( 1.0 / ( 4.0 * ( dotNL + dotNV - dotNL * dotNV ) ) );\n\n}\n\nvec3 BRDF_Sheen( const in vec3 lightDir, const in vec3 viewDir, const in vec3 normal, vec3 sheenColor, const in float sheenRoughness ) {\n\n\tvec3 halfDir = normalize( lightDir + viewDir );\n\n\tfloat dotNL = saturate( dot( normal, lightDir ) );\n\tfloat dotNV = saturate( dot( normal, viewDir ) );\n\tfloat dotNH = saturate( dot( normal, halfDir ) );\n\n\tfloat D = D_Charlie( sheenRoughness, dotNH );\n\tfloat V = V_Neubelt( dotNV, dotNL );\n\n\treturn sheenColor * ( D * V );\n\n}\n\n#endif\n\n\n\n#ifdef USE_IRIDESCENCE\n\n\t// XYZ to linear-sRGB color space\n\tconst mat3 XYZ_TO_REC709 = mat3(\n\t\t 3.2404542, -0.9692660,  0.0556434,\n\t\t-1.5371385,  1.8760108, -0.2040259,\n\t\t-0.4985314,  0.0415560,  1.0572252\n\t);\n\n\t// Assume air interface for top\n\t// Note: We don't handle the case fresnel0 == 1\n\tvec3 Fresnel0ToIor( vec3 fresnel0 ) {\n\n\t\tvec3 sqrtF0 = sqrt( fresnel0 );\n\t\treturn ( vec3( 1.0 ) + sqrtF0 ) / ( vec3( 1.0 ) - sqrtF0 );\n\n\t}\n\n\t// Conversion FO/IOR\n\tvec3 IorToFresnel0( vec3 transmittedIor, float incidentIor ) {\n\n\t\treturn pow2( ( transmittedIor - vec3( incidentIor ) ) / ( transmittedIor + vec3( incidentIor ) ) );\n\n\t}\n\n\t// ior is a value between 1.0 and 3.0. 1.0 is air interface\n\tfloat IorToFresnel0( float transmittedIor, float incidentIor ) {\n\n\t\treturn pow2( ( transmittedIor - incidentIor ) / ( transmittedIor + incidentIor ));\n\n\t}\n\n\t// Fresnel equations for dielectric/dielectric interfaces.\n\t// Ref: https://belcour.github.io/blog/research/2017/05/01/brdf-thin-film.html\n\t// Evaluation XYZ sensitivity curves in Fourier space\n\tvec3 evalSensitivity( float OPD, vec3 shift ) {\n\n\t\tfloat phase = 2.0 * PI * OPD * 1.0e-9;\n\t\tvec3 val = vec3( 5.4856e-13, 4.4201e-13, 5.2481e-13 );\n\t\tvec3 pos = vec3( 1.6810e+06, 1.7953e+06, 2.2084e+06 );\n\t\tvec3 var = vec3( 4.3278e+09, 9.3046e+09, 6.6121e+09 );\n\n\t\tvec3 xyz = val * sqrt( 2.0 * PI * var ) * cos( pos * phase + shift ) * exp( - pow2( phase ) * var );\n\t\txyz.x += 9.7470e-14 * sqrt( 2.0 * PI * 4.5282e+09 ) * cos( 2.2399e+06 * phase + shift[ 0 ] ) * exp( - 4.5282e+09 * pow2( phase ) );\n\t\txyz /= 1.0685e-7;\n\n\t\tvec3 rgb = XYZ_TO_REC709 * xyz;\n\t\treturn rgb;\n\n\t}\n\n\tvec3 evalIridescence( float outsideIOR, float eta2, float cosTheta1, float thinFilmThickness, vec3 baseF0 ) {\n\n\t\tvec3 I;\n\n\t\t// Force iridescenceIOR -> outsideIOR when thinFilmThickness -> 0.0\n\t\tfloat iridescenceIOR = mix( outsideIOR, eta2, smoothstep( 0.0, 0.03, thinFilmThickness ) );\n\t\t// Evaluate the cosTheta on the base layer (Snell law)\n\t\tfloat sinTheta2Sq = pow2( outsideIOR / iridescenceIOR ) * ( 1.0 - pow2( cosTheta1 ) );\n\n\t\t// Handle TIR:\n\t\tfloat cosTheta2Sq = 1.0 - sinTheta2Sq;\n\t\tif ( cosTheta2Sq < 0.0 ) {\n\n\t\t\t return vec3( 1.0 );\n\n\t\t}\n\n\t\tfloat cosTheta2 = sqrt( cosTheta2Sq );\n\n\t\t// First interface\n\t\tfloat R0 = IorToFresnel0( iridescenceIOR, outsideIOR );\n\t\tfloat R12 = F_Schlick( R0, 1.0, cosTheta1 );\n\t\tfloat R21 = R12;\n\t\tfloat T121 = 1.0 - R12;\n\t\tfloat phi12 = 0.0;\n\t\tif ( iridescenceIOR < outsideIOR ) phi12 = PI;\n\t\tfloat phi21 = PI - phi12;\n\n\t\t// Second interface\n\t\tvec3 baseIOR = Fresnel0ToIor( clamp( baseF0, 0.0, 0.9999 ) ); // guard against 1.0\n\t\tvec3 R1 = IorToFresnel0( baseIOR, iridescenceIOR );\n\t\tvec3 R23 = F_Schlick( R1, 1.0, cosTheta2 );\n\t\tvec3 phi23 = vec3( 0.0 );\n\t\tif ( baseIOR[ 0 ] < iridescenceIOR ) phi23[ 0 ] = PI;\n\t\tif ( baseIOR[ 1 ] < iridescenceIOR ) phi23[ 1 ] = PI;\n\t\tif ( baseIOR[ 2 ] < iridescenceIOR ) phi23[ 2 ] = PI;\n\n\t\t// Phase shift\n\t\tfloat OPD = 2.0 * iridescenceIOR * thinFilmThickness * cosTheta2;\n\t\tvec3 phi = vec3( phi21 ) + phi23;\n\n\t\t// Compound terms\n\t\tvec3 R123 = clamp( R12 * R23, 1e-5, 0.9999 );\n\t\tvec3 r123 = sqrt( R123 );\n\t\tvec3 Rs = pow2( T121 ) * R23 / ( vec3( 1.0 ) - R123 );\n\n\t\t// Reflectance term for m = 0 (DC term amplitude)\n\t\tvec3 C0 = R12 + Rs;\n\t\tI = C0;\n\n\t\t// Reflectance term for m > 0 (pairs of diracs)\n\t\tvec3 Cm = Rs - T121;\n\t\tfor ( int m = 1; m <= 2; ++ m ) {\n\n\t\t\tCm *= r123;\n\t\t\tvec3 Sm = 2.0 * evalSensitivity( float( m ) * OPD, float( m ) * phi );\n\t\t\tI += Cm * Sm;\n\n\t\t}\n\n\t\t// Since out of gamut colors might be produced, negative color values are clamped to 0.\n\t\treturn max( I, vec3( 0.0 ) );\n\n\t}\n\n#endif\n\n\n\n#ifdef ENVMAP_TYPE_CUBE_UV\n\n\t#define cubeUV_minMipLevel 4.0\n\t#define cubeUV_minTileSize 16.0\n\n\t// These shader functions convert between the UV coordinates of a single face of\n\t// a cubemap, the 0-5 integer index of a cube face, and the direction vector for\n\t// sampling a textureCube (not generally normalized ).\n\n\tfloat getFace( vec3 direction ) {\n\n\t\tvec3 absDirection = abs( direction );\n\n\t\tfloat face = - 1.0;\n\n\t\tif ( absDirection.x > absDirection.z ) {\n\n\t\t\tif ( absDirection.x > absDirection.y )\n\n\t\t\t\tface = direction.x > 0.0 ? 0.0 : 3.0;\n\n\t\t\telse\n\n\t\t\t\tface = direction.y > 0.0 ? 1.0 : 4.0;\n\n\t\t} else {\n\n\t\t\tif ( absDirection.z > absDirection.y )\n\n\t\t\t\tface = direction.z > 0.0 ? 2.0 : 5.0;\n\n\t\t\telse\n\n\t\t\t\tface = direction.y > 0.0 ? 1.0 : 4.0;\n\n\t\t}\n\n\t\treturn face;\n\n\t}\n\n\t// RH coordinate system; PMREM face-indexing convention\n\tvec2 getUV( vec3 direction, float face ) {\n\n\t\tvec2 uv;\n\n\t\tif ( face == 0.0 ) {\n\n\t\t\tuv = vec2( direction.z, direction.y ) / abs( direction.x ); // pos x\n\n\t\t} else if ( face == 1.0 ) {\n\n\t\t\tuv = vec2( - direction.x, - direction.z ) / abs( direction.y ); // pos y\n\n\t\t} else if ( face == 2.0 ) {\n\n\t\t\tuv = vec2( - direction.x, direction.y ) / abs( direction.z ); // pos z\n\n\t\t} else if ( face == 3.0 ) {\n\n\t\t\tuv = vec2( - direction.z, direction.y ) / abs( direction.x ); // neg x\n\n\t\t} else if ( face == 4.0 ) {\n\n\t\t\tuv = vec2( - direction.x, direction.z ) / abs( direction.y ); // neg y\n\n\t\t} else {\n\n\t\t\tuv = vec2( direction.x, direction.y ) / abs( direction.z ); // neg z\n\n\t\t}\n\n\t\treturn 0.5 * ( uv + 1.0 );\n\n\t}\n\n\tvec3 bilinearCubeUV( sampler2D envMap, vec3 direction, float mipInt ) {\n\n\t\tfloat face = getFace( direction );\n\n\t\tfloat filterInt = max( cubeUV_minMipLevel - mipInt, 0.0 );\n\n\t\tmipInt = max( mipInt, cubeUV_minMipLevel );\n\n\t\tfloat faceSize = exp2( mipInt );\n\n\t\thighp vec2 uv = getUV( direction, face ) * ( faceSize - 2.0 ) + 1.0; // #25071\n\n\t\tif ( face > 2.0 ) {\n\n\t\t\tuv.y += faceSize;\n\n\t\t\tface -= 3.0;\n\n\t\t}\n\n\t\tuv.x += face * faceSize;\n\n\t\tuv.x += filterInt * 3.0 * cubeUV_minTileSize;\n\n\t\tuv.y += 4.0 * ( exp2( CUBEUV_MAX_MIP ) - faceSize );\n\n\t\tuv.x *= CUBEUV_TEXEL_WIDTH;\n\t\tuv.y *= CUBEUV_TEXEL_HEIGHT;\n\n\t\t#ifdef texture2DGradEXT\n\n\t\t\treturn texture2DGradEXT( envMap, uv, vec2( 0.0 ), vec2( 0.0 ) ).rgb; // disable anisotropic filtering\n\n\t\t#else\n\n\t\t\treturn texture2D( envMap, uv ).rgb;\n\n\t\t#endif\n\n\t}\n\n\t// These defines must match with PMREMGenerator\n\n\t#define cubeUV_r0 1.0\n\t#define cubeUV_v0 0.339\n\t#define cubeUV_m0 - 2.0\n\t#define cubeUV_r1 0.8\n\t#define cubeUV_v1 0.276\n\t#define cubeUV_m1 - 1.0\n\t#define cubeUV_r4 0.4\n\t#define cubeUV_v4 0.046\n\t#define cubeUV_m4 2.0\n\t#define cubeUV_r5 0.305\n\t#define cubeUV_v5 0.016\n\t#define cubeUV_m5 3.0\n\t#define cubeUV_r6 0.21\n\t#define cubeUV_v6 0.0038\n\t#define cubeUV_m6 4.0\n\n\tfloat roughnessToMip( float roughness ) {\n\n\t\tfloat mip = 0.0;\n\n\t\tif ( roughness >= cubeUV_r1 ) {\n\n\t\t\tmip = ( cubeUV_r0 - roughness ) * ( cubeUV_m1 - cubeUV_m0 ) / ( cubeUV_r0 - cubeUV_r1 ) + cubeUV_m0;\n\n\t\t} else if ( roughness >= cubeUV_r4 ) {\n\n\t\t\tmip = ( cubeUV_r1 - roughness ) * ( cubeUV_m4 - cubeUV_m1 ) / ( cubeUV_r1 - cubeUV_r4 ) + cubeUV_m1;\n\n\t\t} else if ( roughness >= cubeUV_r5 ) {\n\n\t\t\tmip = ( cubeUV_r4 - roughness ) * ( cubeUV_m5 - cubeUV_m4 ) / ( cubeUV_r4 - cubeUV_r5 ) + cubeUV_m4;\n\n\t\t} else if ( roughness >= cubeUV_r6 ) {\n\n\t\t\tmip = ( cubeUV_r5 - roughness ) * ( cubeUV_m6 - cubeUV_m5 ) / ( cubeUV_r5 - cubeUV_r6 ) + cubeUV_m5;\n\n\t\t} else {\n\n\t\t\tmip = - 2.0 * log2( 1.16 * roughness ); // 1.16 = 1.79^0.25\n\t\t}\n\n\t\treturn mip;\n\n\t}\n\n\tvec4 textureCubeUV( sampler2D envMap, vec3 sampleDir, float roughness ) {\n\n\t\tfloat mip = clamp( roughnessToMip( roughness ), cubeUV_m0, CUBEUV_MAX_MIP );\n\n\t\tfloat mipF = fract( mip );\n\n\t\tfloat mipInt = floor( mip );\n\n\t\tvec3 color0 = bilinearCubeUV( envMap, sampleDir, mipInt );\n\n\t\tif ( mipF == 0.0 ) {\n\n\t\t\treturn vec4( color0, 1.0 );\n\n\t\t} else {\n\n\t\t\tvec3 color1 = bilinearCubeUV( envMap, sampleDir, mipInt + 1.0 );\n\n\t\t\treturn vec4( mix( color0, color1, mipF ), 1.0 );\n\n\t\t}\n\n\t}\n\n#endif\n\n\n#ifdef USE_ENVMAP\n\n\tuniform float envMapIntensity;\n\tuniform float flipEnvMap;\n\n\t#ifdef ENVMAP_TYPE_CUBE\n\t\tuniform samplerCube envMap;\n\t#else\n\t\tuniform sampler2D envMap;\n\t#endif\n\t\n#endif\n\n\n#if defined( USE_ENVMAP )\n\n\tvec3 getIBLIrradiance( const in vec3 normal ) {\n\n\t\t#if defined( ENVMAP_TYPE_CUBE_UV )\n\n\t\t\tvec3 worldNormal = inverseTransformDirection( normal, viewMatrix );\n\n\t\t\tvec4 envMapColor = textureCubeUV( envMap, worldNormal, 1.0 );\n\n\t\t\treturn PI * envMapColor.rgb * envMapIntensity;\n\n\t\t#else\n\n\t\t\treturn vec3( 0.0 );\n\n\t\t#endif\n\n\t}\n\n\tvec3 getIBLRadiance( const in vec3 viewDir, const in vec3 normal, const in float roughness ) {\n\n\t\t#if defined( ENVMAP_TYPE_CUBE_UV )\n\n\t\t\tvec3 reflectVec = reflect( - viewDir, normal );\n\n\t\t\t// Mixing the reflection with the normal is more accurate and keeps rough objects from gathering light from behind their tangent plane.\n\t\t\treflectVec = normalize( mix( reflectVec, normal, roughness * roughness) );\n\n\t\t\treflectVec = inverseTransformDirection( reflectVec, viewMatrix );\n\n\t\t\tvec4 envMapColor = textureCubeUV( envMap, reflectVec, roughness );\n\n\t\t\treturn envMapColor.rgb * envMapIntensity;\n\n\t\t#else\n\n\t\t\treturn vec3( 0.0 );\n\n\t\t#endif\n\n\t}\n\n#endif\n\n\n#ifdef USE_FOG\n\n\tuniform vec3 fogColor;\n\tvarying float vFogDepth;\n\n\t#ifdef FOG_EXP2\n\n\t\tuniform float fogDensity;\n\n\t#else\n\n\t\tuniform float fogNear;\n\t\tuniform float fogFar;\n\n\t#endif\n\n#endif\n\n\nuniform bool receiveShadow;\nuniform vec3 ambientLightColor;\nuniform vec3 lightProbe[ 9 ];\n\n// get the irradiance (radiance convolved with cosine lobe) at the point 'normal' on the unit sphere\n// source: https://graphics.stanford.edu/papers/envmap/envmap.pdf\nvec3 shGetIrradianceAt( in vec3 normal, in vec3 shCoefficients[ 9 ] ) {\n\n\t// normal is assumed to have unit length\n\n\tfloat x = normal.x, y = normal.y, z = normal.z;\n\n\t// band 0\n\tvec3 result = shCoefficients[ 0 ] * 0.886227;\n\n\t// band 1\n\tresult += shCoefficients[ 1 ] * 2.0 * 0.511664 * y;\n\tresult += shCoefficients[ 2 ] * 2.0 * 0.511664 * z;\n\tresult += shCoefficients[ 3 ] * 2.0 * 0.511664 * x;\n\n\t// band 2\n\tresult += shCoefficients[ 4 ] * 2.0 * 0.429043 * x * y;\n\tresult += shCoefficients[ 5 ] * 2.0 * 0.429043 * y * z;\n\tresult += shCoefficients[ 6 ] * ( 0.743125 * z * z - 0.247708 );\n\tresult += shCoefficients[ 7 ] * 2.0 * 0.429043 * x * z;\n\tresult += shCoefficients[ 8 ] * 0.429043 * ( x * x - y * y );\n\n\treturn result;\n\n}\n\nvec3 getLightProbeIrradiance( const in vec3 lightProbe[ 9 ], const in vec3 normal ) {\n\n\tvec3 worldNormal = inverseTransformDirection( normal, viewMatrix );\n\n\tvec3 irradiance = shGetIrradianceAt( worldNormal, lightProbe );\n\n\treturn irradiance;\n\n}\n\nvec3 getAmbientLightIrradiance( const in vec3 ambientLightColor ) {\n\n\tvec3 irradiance = ambientLightColor;\n\n\treturn irradiance;\n\n}\n\nfloat getDistanceAttenuation( const in float lightDistance, const in float cutoffDistance, const in float decayExponent ) {\n\n\t#if defined ( PHYSICALLY_CORRECT_LIGHTS )\n\n\t\t// based upon Frostbite 3 Moving to Physically-based Rendering\n\t\t// page 32, equation 26: E[window1]\n\t\t// https://seblagarde.files.wordpress.com/2015/07/course_notes_moving_frostbite_to_pbr_v32.pdf\n\t\tfloat distanceFalloff = 1.0 / max( pow( lightDistance, decayExponent ), 0.01 );\n\n\t\tif ( cutoffDistance > 0.0 ) {\n\n\t\t\tdistanceFalloff *= pow2( saturate( 1.0 - pow4( lightDistance / cutoffDistance ) ) );\n\n\t\t}\n\n\t\treturn distanceFalloff;\n\n\t#else\n\n\t\tif ( cutoffDistance > 0.0 && decayExponent > 0.0 ) {\n\n\t\t\treturn pow( saturate( - lightDistance / cutoffDistance + 1.0 ), decayExponent );\n\n\t\t}\n\n\t\treturn 1.0;\n\n\t#endif\n\n}\n\nfloat getSpotAttenuation( const in float coneCosine, const in float penumbraCosine, const in float angleCosine ) {\n\n\treturn smoothstep( coneCosine, penumbraCosine, angleCosine );\n\n}\n\n#if NUM_DIR_LIGHTS > 0\n\n\tstruct DirectionalLight {\n\t\tvec3 direction;\n\t\tvec3 color;\n\t};\n\n\tuniform DirectionalLight directionalLights[ NUM_DIR_LIGHTS ];\n\n\tvoid getDirectionalLightInfo( const in DirectionalLight directionalLight, const in GeometricContext geometry, out IncidentLight light ) {\n\n\t\tlight.color = directionalLight.color;\n\t\tlight.direction = directionalLight.direction;\n\t\tlight.visible = true;\n\n\t}\n\n#endif\n\n\n#if NUM_POINT_LIGHTS > 0\n\n\tstruct PointLight {\n\t\tvec3 position;\n\t\tvec3 color;\n\t\tfloat distance;\n\t\tfloat decay;\n\t};\n\n\tuniform PointLight pointLights[ NUM_POINT_LIGHTS ];\n\n\t// light is an out parameter as having it as a return value caused compiler errors on some devices\n\tvoid getPointLightInfo( const in PointLight pointLight, const in GeometricContext geometry, out IncidentLight light ) {\n\n\t\tvec3 lVector = pointLight.position - geometry.position;\n\n\t\tlight.direction = normalize( lVector );\n\n\t\tfloat lightDistance = length( lVector );\n\n\t\tlight.color = pointLight.color;\n\t\tlight.color *= getDistanceAttenuation( lightDistance, pointLight.distance, pointLight.decay );\n\t\tlight.visible = ( light.color != vec3( 0.0 ) );\n\n\t}\n\n#endif\n\n\n#if NUM_SPOT_LIGHTS > 0\n\n\tstruct SpotLight {\n\t\tvec3 position;\n\t\tvec3 direction;\n\t\tvec3 color;\n\t\tfloat distance;\n\t\tfloat decay;\n\t\tfloat coneCos;\n\t\tfloat penumbraCos;\n\t};\n\n\tuniform SpotLight spotLights[ NUM_SPOT_LIGHTS ];\n\n\t// light is an out parameter as having it as a return value caused compiler errors on some devices\n\tvoid getSpotLightInfo( const in SpotLight spotLight, const in GeometricContext geometry, out IncidentLight light ) {\n\n\t\tvec3 lVector = spotLight.position - geometry.position;\n\n\t\tlight.direction = normalize( lVector );\n\n\t\tfloat angleCos = dot( light.direction, spotLight.direction );\n\n\t\tfloat spotAttenuation = getSpotAttenuation( spotLight.coneCos, spotLight.penumbraCos, angleCos );\n\n\t\tif ( spotAttenuation > 0.0 ) {\n\n\t\t\tfloat lightDistance = length( lVector );\n\n\t\t\tlight.color = spotLight.color * spotAttenuation;\n\t\t\tlight.color *= getDistanceAttenuation( lightDistance, spotLight.distance, spotLight.decay );\n\t\t\tlight.visible = ( light.color != vec3( 0.0 ) );\n\n\t\t} else {\n\n\t\t\tlight.color = vec3( 0.0 );\n\t\t\tlight.visible = false;\n\n\t\t}\n\n\t}\n\n#endif\n\n\n#if NUM_RECT_AREA_LIGHTS > 0\n\n\tstruct RectAreaLight {\n\t\tvec3 color;\n\t\tvec3 position;\n\t\tvec3 halfWidth;\n\t\tvec3 halfHeight;\n\t};\n\n\t// Pre-computed values of LinearTransformedCosine approximation of BRDF\n\t// BRDF approximation Texture is 64x64\n\tuniform sampler2D ltc_1; // RGBA Float\n\tuniform sampler2D ltc_2; // RGBA Float\n\n\tuniform RectAreaLight rectAreaLights[ NUM_RECT_AREA_LIGHTS ];\n\n#endif\n\n\n#if NUM_HEMI_LIGHTS > 0\n\n\tstruct HemisphereLight {\n\t\tvec3 direction;\n\t\tvec3 skyColor;\n\t\tvec3 groundColor;\n\t};\n\n\tuniform HemisphereLight hemisphereLights[ NUM_HEMI_LIGHTS ];\n\n\tvec3 getHemisphereLightIrradiance( const in HemisphereLight hemiLight, const in vec3 normal ) {\n\n\t\tfloat dotNL = dot( normal, hemiLight.direction );\n\t\tfloat hemiDiffuseWeight = 0.5 * dotNL + 0.5;\n\n\t\tvec3 irradiance = mix( hemiLight.groundColor, hemiLight.skyColor, hemiDiffuseWeight );\n\n\t\treturn irradiance;\n\n\t}\n\n#endif\n\n\n#ifndef FLAT_SHADED\n\n\tvarying vec3 vNormal;\n\n\t#ifdef USE_TANGENT\n\n\t\tvarying vec3 vTangent;\n\t\tvarying vec3 vBitangent;\n\n\t#endif\n\n#endif\n\n\nstruct PhysicalMaterial {\n\n\tvec3 diffuseColor;\n\tfloat roughness;\n\tvec3 specularColor;\n\tfloat specularF90;\n\n\t#ifdef USE_CLEARCOAT\n\t\tfloat clearcoat;\n\t\tfloat clearcoatRoughness;\n\t\tvec3 clearcoatF0;\n\t\tfloat clearcoatF90;\n\t#endif\n\n\t#ifdef USE_IRIDESCENCE\n\t\tfloat iridescence;\n\t\tfloat iridescenceIOR;\n\t\tfloat iridescenceThickness;\n\t\tvec3 iridescenceFresnel;\n\t\tvec3 iridescenceF0;\n\t#endif\n\n\t#ifdef USE_SHEEN\n\t\tvec3 sheenColor;\n\t\tfloat sheenRoughness;\n\t#endif\n\n\t#ifdef IOR\n\t\tfloat ior;\n\t#endif\n\n\t#ifdef USE_TRANSMISSION\n\t\tfloat transmission;\n\t\tfloat transmissionAlpha;\n\t\tfloat thickness;\n\t\tfloat attenuationDistance;\n\t\tvec3 attenuationColor;\n\t#endif\n\n};\n\n// temporary\nvec3 clearcoatSpecular = vec3( 0.0 );\nvec3 sheenSpecular = vec3( 0.0 );\n\n// This is a curve-fit approxmation to the \"Charlie sheen\" BRDF integrated over the hemisphere from \n// Estevez and Kulla 2017, \"Production Friendly Microfacet Sheen BRDF\". The analysis can be found\n// in the Sheen section of https://drive.google.com/file/d/1T0D1VSyR4AllqIJTQAraEIzjlb5h4FKH/view?usp=sharing\nfloat IBLSheenBRDF( const in vec3 normal, const in vec3 viewDir, const in float roughness ) {\n\n\tfloat dotNV = saturate( dot( normal, viewDir ) );\n\n\tfloat r2 = roughness * roughness;\n\n\tfloat a = roughness < 0.25 ? -339.2 * r2 + 161.4 * roughness - 25.9 : -8.48 * r2 + 14.3 * roughness - 9.95;\n\n\tfloat b = roughness < 0.25 ? 44.0 * r2 - 23.7 * roughness + 3.26 : 1.97 * r2 - 3.27 * roughness + 0.72;\n\n\tfloat DG = exp( a * dotNV + b ) + ( roughness < 0.25 ? 0.0 : 0.1 * ( roughness - 0.25 ) );\n\n\treturn saturate( DG * RECIPROCAL_PI );\n\n}\n\n// Analytical approximation of the DFG LUT, one half of the\n// split-sum approximation used in indirect specular lighting.\n// via 'environmentBRDF' from \"Physically Based Shading on Mobile\"\n// https://www.unrealengine.com/blog/physically-based-shading-on-mobile\nvec2 DFGApprox( const in vec3 normal, const in vec3 viewDir, const in float roughness ) {\n\n\tfloat dotNV = saturate( dot( normal, viewDir ) );\n\n\tconst vec4 c0 = vec4( - 1, - 0.0275, - 0.572, 0.022 );\n\n\tconst vec4 c1 = vec4( 1, 0.0425, 1.04, - 0.04 );\n\n\tvec4 r = roughness * c0 + c1;\n\n\tfloat a004 = min( r.x * r.x, exp2( - 9.28 * dotNV ) ) * r.x + r.y;\n\n\tvec2 fab = vec2( - 1.04, 1.04 ) * a004 + r.zw;\n\n\treturn fab;\n\n}\n\nvec3 EnvironmentBRDF( const in vec3 normal, const in vec3 viewDir, const in vec3 specularColor, const in float specularF90, const in float roughness ) {\n\n\tvec2 fab = DFGApprox( normal, viewDir, roughness );\n\n\treturn specularColor * fab.x + specularF90 * fab.y;\n\n}\n\n// Fdez-Agüera's \"Multiple-Scattering Microfacet Model for Real-Time Image Based Lighting\"\n// Approximates multiscattering in order to preserve energy.\n// http://www.jcgt.org/published/0008/01/03/\n#ifdef USE_IRIDESCENCE\nvoid computeMultiscatteringIridescence( const in vec3 normal, const in vec3 viewDir, const in vec3 specularColor, const in float specularF90, const in float iridescence, const in vec3 iridescenceF0, const in float roughness, inout vec3 singleScatter, inout vec3 multiScatter ) {\n#else\nvoid computeMultiscattering( const in vec3 normal, const in vec3 viewDir, const in vec3 specularColor, const in float specularF90, const in float roughness, inout vec3 singleScatter, inout vec3 multiScatter ) {\n#endif\n\n\tvec2 fab = DFGApprox( normal, viewDir, roughness );\n\n\t#ifdef USE_IRIDESCENCE\n\n\t\tvec3 Fr = mix( specularColor, iridescenceF0, iridescence );\n\n\t#else\n\n\t\tvec3 Fr = specularColor;\n\n\t#endif\n\n\tvec3 FssEss = Fr * fab.x + specularF90 * fab.y;\n\n\tfloat Ess = fab.x + fab.y;\n\tfloat Ems = 1.0 - Ess;\n\n\tvec3 Favg = Fr + ( 1.0 - Fr ) * 0.047619; // 1/21\n\tvec3 Fms = FssEss * Favg / ( 1.0 - Ems * Favg );\n\n\tsingleScatter += FssEss;\n\tmultiScatter += Fms * Ems;\n\n}\n\n#if NUM_RECT_AREA_LIGHTS > 0\n\n\tvoid RE_Direct_RectArea_Physical( const in RectAreaLight rectAreaLight, const in GeometricContext geometry, const in PhysicalMaterial material, inout ReflectedLight reflectedLight ) {\n\n\t\tvec3 normal = geometry.normal;\n\t\tvec3 viewDir = geometry.viewDir;\n\t\tvec3 position = geometry.position;\n\t\tvec3 lightPos = rectAreaLight.position;\n\t\tvec3 halfWidth = rectAreaLight.halfWidth;\n\t\tvec3 halfHeight = rectAreaLight.halfHeight;\n\t\tvec3 lightColor = rectAreaLight.color;\n\t\tfloat roughness = material.roughness;\n\n\t\tvec3 rectCoords[ 4 ];\n\t\trectCoords[ 0 ] = lightPos + halfWidth - halfHeight; // counterclockwise; light shines in local neg z direction\n\t\trectCoords[ 1 ] = lightPos - halfWidth - halfHeight;\n\t\trectCoords[ 2 ] = lightPos - halfWidth + halfHeight;\n\t\trectCoords[ 3 ] = lightPos + halfWidth + halfHeight;\n\n\t\tvec2 uv = LTC_Uv( normal, viewDir, roughness );\n\n\t\tvec4 t1 = texture2D( ltc_1, uv );\n\t\tvec4 t2 = texture2D( ltc_2, uv );\n\n\t\tmat3 mInv = mat3(\n\t\t\tvec3( t1.x, 0, t1.y ),\n\t\t\tvec3(    0, 1,    0 ),\n\t\t\tvec3( t1.z, 0, t1.w )\n\t\t);\n\n\t\t// LTC Fresnel Approximation by Stephen Hill\n\t\t// http://blog.selfshadow.com/publications/s2016-advances/s2016_ltc_fresnel.pdf\n\t\tvec3 fresnel = ( material.specularColor * t2.x + ( vec3( 1.0 ) - material.specularColor ) * t2.y );\n\n\t\treflectedLight.directSpecular += lightColor * fresnel * LTC_Evaluate( normal, viewDir, position, mInv, rectCoords );\n\n\t\treflectedLight.directDiffuse += lightColor * material.diffuseColor * LTC_Evaluate( normal, viewDir, position, mat3( 1.0 ), rectCoords );\n\n\t}\n\n#endif\n\nvoid RE_Direct_Physical( const in IncidentLight directLight, const in GeometricContext geometry, const in PhysicalMaterial material, inout ReflectedLight reflectedLight ) {\n\n\tfloat dotNL = saturate( dot( geometry.normal, directLight.direction ) );\n\n\tvec3 irradiance = dotNL * directLight.color;\n\n\t#ifdef USE_CLEARCOAT\n\n\t\tfloat dotNLcc = saturate( dot( geometry.clearcoatNormal, directLight.direction ) );\n\n\t\tvec3 ccIrradiance = dotNLcc * directLight.color;\n\n\t\tclearcoatSpecular += ccIrradiance * BRDF_GGX( directLight.direction, geometry.viewDir, geometry.clearcoatNormal, material.clearcoatF0, material.clearcoatF90, material.clearcoatRoughness );\n\n\t#endif\n\n\t#ifdef USE_SHEEN\n\n\t\tsheenSpecular += irradiance * BRDF_Sheen( directLight.direction, geometry.viewDir, geometry.normal, material.sheenColor, material.sheenRoughness );\n\n\t#endif\n\n\t#ifdef USE_IRIDESCENCE\n\n\t\treflectedLight.directSpecular += irradiance * BRDF_GGX_Iridescence( directLight.direction, geometry.viewDir, geometry.normal, material.specularColor, material.specularF90, material.iridescence, material.iridescenceFresnel, material.roughness );\n\n\t#else\n\n\t\treflectedLight.directSpecular += irradiance * BRDF_GGX( directLight.direction, geometry.viewDir, geometry.normal, material.specularColor, material.specularF90, material.roughness );\n\n\t#endif\n\n\treflectedLight.directDiffuse += irradiance * BRDF_Lambert( material.diffuseColor );\n}\n\nvoid RE_IndirectDiffuse_Physical( const in vec3 irradiance, const in GeometricContext geometry, const in PhysicalMaterial material, inout ReflectedLight reflectedLight ) {\n\n\treflectedLight.indirectDiffuse += irradiance * BRDF_Lambert( material.diffuseColor );\n\n}\n\nvoid RE_IndirectSpecular_Physical( const in vec3 radiance, const in vec3 irradiance, const in vec3 clearcoatRadiance, const in GeometricContext geometry, const in PhysicalMaterial material, inout ReflectedLight reflectedLight) {\n\n\t#ifdef USE_CLEARCOAT\n\n\t\tclearcoatSpecular += clearcoatRadiance * EnvironmentBRDF( geometry.clearcoatNormal, geometry.viewDir, material.clearcoatF0, material.clearcoatF90, material.clearcoatRoughness );\n\n\t#endif\n\n\t#ifdef USE_SHEEN\n\n\t\tsheenSpecular += irradiance * material.sheenColor * IBLSheenBRDF( geometry.normal, geometry.viewDir, material.sheenRoughness );\n\n\t#endif\n\n\t// Both indirect specular and indirect diffuse light accumulate here\n\n\tvec3 singleScattering = vec3( 0.0 );\n\tvec3 multiScattering = vec3( 0.0 );\n\tvec3 cosineWeightedIrradiance = irradiance * RECIPROCAL_PI;\n\n\t#ifdef USE_IRIDESCENCE\n\n\t\tcomputeMultiscatteringIridescence( geometry.normal, geometry.viewDir, material.specularColor, material.specularF90, material.iridescence, material.iridescenceFresnel, material.roughness, singleScattering, multiScattering );\n\n\t#else\n\n\t\tcomputeMultiscattering( geometry.normal, geometry.viewDir, material.specularColor, material.specularF90, material.roughness, singleScattering, multiScattering );\n\n\t#endif\n\n\tvec3 totalScattering = singleScattering + multiScattering;\n\tvec3 diffuse = material.diffuseColor * ( 1.0 - max( max( totalScattering.r, totalScattering.g ), totalScattering.b ) );\n\n\treflectedLight.indirectSpecular += radiance * singleScattering;\n\treflectedLight.indirectSpecular += multiScattering * cosineWeightedIrradiance;\n\n\treflectedLight.indirectDiffuse += diffuse * cosineWeightedIrradiance;\n\n}\n\n#define RE_Direct\t\t\t\tRE_Direct_Physical\n#define RE_Direct_RectArea\t\tRE_Direct_RectArea_Physical\n#define RE_IndirectDiffuse\t\tRE_IndirectDiffuse_Physical\n#define RE_IndirectSpecular\t\tRE_IndirectSpecular_Physical\n\n// ref: https://seblagarde.files.wordpress.com/2015/07/course_notes_moving_frostbite_to_pbr_v32.pdf\nfloat computeSpecularOcclusion( const in float dotNV, const in float ambientOcclusion, const in float roughness ) {\n\n\treturn saturate( pow( dotNV + ambientOcclusion, exp2( - 16.0 * roughness - 1.0 ) ) - 1.0 + ambientOcclusion );\n\n}\n\n\n#ifdef USE_TRANSMISSION\n\n\t// Transmission code is based on glTF-Sampler-Viewer\n\t// https://github.com/KhronosGroup/glTF-Sample-Viewer\n\n\tfloat transmission;\n\tuniform float thickness;\n\tuniform float attenuationDistance;\n\tuniform vec3 attenuationColor;\n\n\t#ifdef USE_TRANSMISSIONMAP\n\n\t\tuniform sampler2D transmissionMap;\n\n\t#endif\n\n\t#ifdef USE_THICKNESSMAP\n\n\t\tuniform sampler2D thicknessMap;\n\n\t#endif\n\n\tuniform vec2 transmissionSamplerSize;\n\tuniform sampler2D transmissionSamplerMap;\n\n\tuniform mat4 modelMatrix;\n\tuniform mat4 projectionMatrix;\n\n\tvarying vec3 vWorldPosition;\n\n\tvec3 getVolumeTransmissionRay( const in vec3 n, const in vec3 v, const in float thickness, const in float ior, const in mat4 modelMatrix ) {\n\n\t\t// Direction of refracted light.\n\t\tvec3 refractionVector = refract( - v, normalize( n ), 1.0 / ior );\n\n\t\t// Compute rotation-independant scaling of the model matrix.\n\t\tvec3 modelScale;\n\t\tmodelScale.x = length( vec3( modelMatrix[ 0 ].xyz ) );\n\t\tmodelScale.y = length( vec3( modelMatrix[ 1 ].xyz ) );\n\t\tmodelScale.z = length( vec3( modelMatrix[ 2 ].xyz ) );\n\n\t\t// The thickness is specified in local space.\n\t\treturn normalize( refractionVector ) * thickness * modelScale;\n\n\t}\n\n\tfloat applyIorToRoughness( const in float roughness, const in float ior ) {\n\n\t\t// Scale roughness with IOR so that an IOR of 1.0 results in no microfacet refraction and\n\t\t// an IOR of 1.5 results in the default amount of microfacet refraction.\n\t\treturn roughness * clamp( ior * 2.0 - 2.0, 0.0, 1.0 );\n\n\t}\n\n\tvec4 getTransmissionSample( const in vec2 fragCoord, const in float roughness, const in float ior ) {\n\n\t\tfloat framebufferLod = log2( transmissionSamplerSize.x ) * applyIorToRoughness( roughness, ior );\n\n\t\t#ifdef texture2DLodEXT\n\n\t\t\treturn texture2DLodEXT( transmissionSamplerMap, fragCoord.xy, framebufferLod );\n\n\t\t#else\n\n\t\t\treturn texture2D( transmissionSamplerMap, fragCoord.xy, framebufferLod );\n\n\t\t#endif\n\n\t}\n\n\tvec3 applyVolumeAttenuation( const in vec3 radiance, const in float transmissionDistance, const in vec3 attenuationColor, const in float attenuationDistance ) {\n\n\t\tif ( isinf( attenuationDistance ) ) {\n\n\t\t\t// Attenuation distance is +∞, i.e. the transmitted color is not attenuated at all.\n\t\t\treturn radiance;\n\n\t\t} else {\n\n\t\t\t// Compute light attenuation using Beer's law.\n\t\t\tvec3 attenuationCoefficient = -log( attenuationColor ) / attenuationDistance;\n\t\t\tvec3 transmittance = exp( - attenuationCoefficient * transmissionDistance ); // Beer's law\n\t\t\treturn transmittance * radiance;\n\n\t\t}\n\n\t}\n\n\tvec4 getIBLVolumeRefraction( const in vec3 n, const in vec3 v, const in float roughness, const in vec3 diffuseColor,\n\t\tconst in vec3 specularColor, const in float specularF90, const in vec3 position, const in mat4 modelMatrix,\n\t\tconst in mat4 viewMatrix, const in mat4 projMatrix, const in float ior, const in float thickness,\n\t\tconst in vec3 attenuationColor, const in float attenuationDistance ) {\n\n\t\tvec3 transmissionRay = getVolumeTransmissionRay( n, v, thickness, ior, modelMatrix );\n\t\tvec3 refractedRayExit = position + transmissionRay;\n\n\t\t// Project refracted vector on the framebuffer, while mapping to normalized device coordinates.\n\t\tvec4 ndcPos = projMatrix * viewMatrix * vec4( refractedRayExit, 1.0 );\n\t\tvec2 refractionCoords = ndcPos.xy / ndcPos.w;\n\t\trefractionCoords += 1.0;\n\t\trefractionCoords /= 2.0;\n\n\t\t// Sample framebuffer to get pixel the refracted ray hits.\n\t\tvec4 transmittedLight = getTransmissionSample( refractionCoords, roughness, ior );\n\n\t\tvec3 attenuatedColor = applyVolumeAttenuation( transmittedLight.rgb, length( transmissionRay ), attenuationColor, attenuationDistance );\n\n\t\t// Get the specular component.\n\t\tvec3 F = EnvironmentBRDF( n, v, specularColor, specularF90, roughness );\n\n\t\treturn vec4( ( 1.0 - F ) * attenuatedColor * diffuseColor, transmittedLight.a );\n\n\t}\n#endif\n\n\n#if NUM_SPOT_LIGHT_COORDS > 0\n\n  varying vec4 vSpotLightCoord[ NUM_SPOT_LIGHT_COORDS ];\n\n#endif\n\n#if NUM_SPOT_LIGHT_MAPS > 0\n\n  uniform sampler2D spotLightMap[ NUM_SPOT_LIGHT_MAPS ];\n\n#endif\n\n#ifdef USE_SHADOWMAP\n\n\t#if NUM_DIR_LIGHT_SHADOWS > 0\n\n\t\tuniform sampler2D directionalShadowMap[ NUM_DIR_LIGHT_SHADOWS ];\n\t\tvarying vec4 vDirectionalShadowCoord[ NUM_DIR_LIGHT_SHADOWS ];\n\n\t\tstruct DirectionalLightShadow {\n\t\t\tfloat shadowBias;\n\t\t\tfloat shadowNormalBias;\n\t\t\tfloat shadowRadius;\n\t\t\tvec2 shadowMapSize;\n\t\t};\n\n\t\tuniform DirectionalLightShadow directionalLightShadows[ NUM_DIR_LIGHT_SHADOWS ];\n\n\t#endif\n\n\t#if NUM_SPOT_LIGHT_SHADOWS > 0\n\n\t\tuniform sampler2D spotShadowMap[ NUM_SPOT_LIGHT_SHADOWS ];\n\n\t\tstruct SpotLightShadow {\n\t\t\tfloat shadowBias;\n\t\t\tfloat shadowNormalBias;\n\t\t\tfloat shadowRadius;\n\t\t\tvec2 shadowMapSize;\n\t\t};\n\n\t\tuniform SpotLightShadow spotLightShadows[ NUM_SPOT_LIGHT_SHADOWS ];\n\n\t#endif\n\n\t#if NUM_POINT_LIGHT_SHADOWS > 0\n\n\t\tuniform sampler2D pointShadowMap[ NUM_POINT_LIGHT_SHADOWS ];\n\t\tvarying vec4 vPointShadowCoord[ NUM_POINT_LIGHT_SHADOWS ];\n\n\t\tstruct PointLightShadow {\n\t\t\tfloat shadowBias;\n\t\t\tfloat shadowNormalBias;\n\t\t\tfloat shadowRadius;\n\t\t\tvec2 shadowMapSize;\n\t\t\tfloat shadowCameraNear;\n\t\t\tfloat shadowCameraFar;\n\t\t};\n\n\t\tuniform PointLightShadow pointLightShadows[ NUM_POINT_LIGHT_SHADOWS ];\n\n\t#endif\n\n\t/*\n\t#if NUM_RECT_AREA_LIGHTS > 0\n\n\t\t// TODO (abelnation): create uniforms for area light shadows\n\n\t#endif\n\t*/\n\n\tfloat texture2DCompare( sampler2D depths, vec2 uv, float compare ) {\n\n\t\treturn step( compare, unpackRGBAToDepth( texture2D( depths, uv ) ) );\n\n\t}\n\n\tvec2 texture2DDistribution( sampler2D shadow, vec2 uv ) {\n\n\t\treturn unpackRGBATo2Half( texture2D( shadow, uv ) );\n\n\t}\n\n\tfloat VSMShadow (sampler2D shadow, vec2 uv, float compare ){\n\n\t\tfloat occlusion = 1.0;\n\n\t\tvec2 distribution = texture2DDistribution( shadow, uv );\n\n\t\tfloat hard_shadow = step( compare , distribution.x ); // Hard Shadow\n\n\t\tif (hard_shadow != 1.0 ) {\n\n\t\t\tfloat distance = compare - distribution.x ;\n\t\t\tfloat variance = max( 0.00000, distribution.y * distribution.y );\n\t\t\tfloat softness_probability = variance / (variance + distance * distance ); // Chebeyshevs inequality\n\t\t\tsoftness_probability = clamp( ( softness_probability - 0.3 ) / ( 0.95 - 0.3 ), 0.0, 1.0 ); // 0.3 reduces light bleed\n\t\t\tocclusion = clamp( max( hard_shadow, softness_probability ), 0.0, 1.0 );\n\n\t\t}\n\t\treturn occlusion;\n\n\t}\n\n\tfloat getShadow( sampler2D shadowMap, vec2 shadowMapSize, float shadowBias, float shadowRadius, vec4 shadowCoord ) {\n\n\t\tfloat shadow = 1.0;\n\n\t\tshadowCoord.xyz /= shadowCoord.w;\n\t\tshadowCoord.z += shadowBias;\n\n\t\tbool inFrustum = shadowCoord.x >= 0.0 && shadowCoord.x <= 1.0 && shadowCoord.y >= 0.0 && shadowCoord.y <= 1.0;\n\t\tbool frustumTest = inFrustum && shadowCoord.z <= 1.0;\n\n\t\tif ( frustumTest ) {\n\n\t\t#if defined( SHADOWMAP_TYPE_PCF )\n\n\t\t\tvec2 texelSize = vec2( 1.0 ) / shadowMapSize;\n\n\t\t\tfloat dx0 = - texelSize.x * shadowRadius;\n\t\t\tfloat dy0 = - texelSize.y * shadowRadius;\n\t\t\tfloat dx1 = + texelSize.x * shadowRadius;\n\t\t\tfloat dy1 = + texelSize.y * shadowRadius;\n\t\t\tfloat dx2 = dx0 / 2.0;\n\t\t\tfloat dy2 = dy0 / 2.0;\n\t\t\tfloat dx3 = dx1 / 2.0;\n\t\t\tfloat dy3 = dy1 / 2.0;\n\n\t\t\tshadow = (\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( dx0, dy0 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( 0.0, dy0 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( dx1, dy0 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( dx2, dy2 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( 0.0, dy2 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( dx3, dy2 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( dx0, 0.0 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( dx2, 0.0 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy, shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( dx3, 0.0 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( dx1, 0.0 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( dx2, dy3 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( 0.0, dy3 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( dx3, dy3 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( dx0, dy1 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( 0.0, dy1 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, shadowCoord.xy + vec2( dx1, dy1 ), shadowCoord.z )\n\t\t\t) * ( 1.0 / 17.0 );\n\n\t\t#elif defined( SHADOWMAP_TYPE_PCF_SOFT )\n\n\t\t\tvec2 texelSize = vec2( 1.0 ) / shadowMapSize;\n\t\t\tfloat dx = texelSize.x;\n\t\t\tfloat dy = texelSize.y;\n\n\t\t\tvec2 uv = shadowCoord.xy;\n\t\t\tvec2 f = fract( uv * shadowMapSize + 0.5 );\n\t\t\tuv -= f * texelSize;\n\n\t\t\tshadow = (\n\t\t\t\ttexture2DCompare( shadowMap, uv, shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, uv + vec2( dx, 0.0 ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, uv + vec2( 0.0, dy ), shadowCoord.z ) +\n\t\t\t\ttexture2DCompare( shadowMap, uv + texelSize, shadowCoord.z ) +\n\t\t\t\tmix( texture2DCompare( shadowMap, uv + vec2( -dx, 0.0 ), shadowCoord.z ),\n\t\t\t\t\t texture2DCompare( shadowMap, uv + vec2( 2.0 * dx, 0.0 ), shadowCoord.z ),\n\t\t\t\t\t f.x ) +\n\t\t\t\tmix( texture2DCompare( shadowMap, uv + vec2( -dx, dy ), shadowCoord.z ),\n\t\t\t\t\t texture2DCompare( shadowMap, uv + vec2( 2.0 * dx, dy ), shadowCoord.z ),\n\t\t\t\t\t f.x ) +\n\t\t\t\tmix( texture2DCompare( shadowMap, uv + vec2( 0.0, -dy ), shadowCoord.z ),\n\t\t\t\t\t texture2DCompare( shadowMap, uv + vec2( 0.0, 2.0 * dy ), shadowCoord.z ),\n\t\t\t\t\t f.y ) +\n\t\t\t\tmix( texture2DCompare( shadowMap, uv + vec2( dx, -dy ), shadowCoord.z ),\n\t\t\t\t\t texture2DCompare( shadowMap, uv + vec2( dx, 2.0 * dy ), shadowCoord.z ),\n\t\t\t\t\t f.y ) +\n\t\t\t\tmix( mix( texture2DCompare( shadowMap, uv + vec2( -dx, -dy ), shadowCoord.z ),\n\t\t\t\t\t\t  texture2DCompare( shadowMap, uv + vec2( 2.0 * dx, -dy ), shadowCoord.z ),\n\t\t\t\t\t\t  f.x ),\n\t\t\t\t\t mix( texture2DCompare( shadowMap, uv + vec2( -dx, 2.0 * dy ), shadowCoord.z ),\n\t\t\t\t\t\t  texture2DCompare( shadowMap, uv + vec2( 2.0 * dx, 2.0 * dy ), shadowCoord.z ),\n\t\t\t\t\t\t  f.x ),\n\t\t\t\t\t f.y )\n\t\t\t) * ( 1.0 / 9.0 );\n\n\t\t#elif defined( SHADOWMAP_TYPE_VSM )\n\n\t\t\tshadow = VSMShadow( shadowMap, shadowCoord.xy, shadowCoord.z );\n\n\t\t#else // no percentage-closer filtering:\n\n\t\t\tshadow = texture2DCompare( shadowMap, shadowCoord.xy, shadowCoord.z );\n\n\t\t#endif\n\n\t\t}\n\n\t\treturn shadow;\n\n\t}\n\n\t// cubeToUV() maps a 3D direction vector suitable for cube texture mapping to a 2D\n\t// vector suitable for 2D texture mapping. This code uses the following layout for the\n\t// 2D texture:\n\t//\n\t// xzXZ\n\t//  y Y\n\t//\n\t// Y - Positive y direction\n\t// y - Negative y direction\n\t// X - Positive x direction\n\t// x - Negative x direction\n\t// Z - Positive z direction\n\t// z - Negative z direction\n\t//\n\t// Source and test bed:\n\t// https://gist.github.com/tschw/da10c43c467ce8afd0c4\n\n\tvec2 cubeToUV( vec3 v, float texelSizeY ) {\n\n\t\t// Number of texels to avoid at the edge of each square\n\n\t\tvec3 absV = abs( v );\n\n\t\t// Intersect unit cube\n\n\t\tfloat scaleToCube = 1.0 / max( absV.x, max( absV.y, absV.z ) );\n\t\tabsV *= scaleToCube;\n\n\t\t// Apply scale to avoid seams\n\n\t\t// two texels less per square (one texel will do for NEAREST)\n\t\tv *= scaleToCube * ( 1.0 - 2.0 * texelSizeY );\n\n\t\t// Unwrap\n\n\t\t// space: -1 ... 1 range for each square\n\t\t//\n\t\t// #X##\t\tdim    := ( 4 , 2 )\n\t\t//  # #\t\tcenter := ( 1 , 1 )\n\n\t\tvec2 planar = v.xy;\n\n\t\tfloat almostATexel = 1.5 * texelSizeY;\n\t\tfloat almostOne = 1.0 - almostATexel;\n\n\t\tif ( absV.z >= almostOne ) {\n\n\t\t\tif ( v.z > 0.0 )\n\t\t\t\tplanar.x = 4.0 - v.x;\n\n\t\t} else if ( absV.x >= almostOne ) {\n\n\t\t\tfloat signX = sign( v.x );\n\t\t\tplanar.x = v.z * signX + 2.0 * signX;\n\n\t\t} else if ( absV.y >= almostOne ) {\n\n\t\t\tfloat signY = sign( v.y );\n\t\t\tplanar.x = v.x + 2.0 * signY + 2.0;\n\t\t\tplanar.y = v.z * signY - 2.0;\n\n\t\t}\n\n\t\t// Transform to UV space\n\n\t\t// scale := 0.5 / dim\n\t\t// translate := ( center + 0.5 ) / dim\n\t\treturn vec2( 0.125, 0.25 ) * planar + vec2( 0.375, 0.75 );\n\n\t}\n\n\tfloat getPointShadow( sampler2D shadowMap, vec2 shadowMapSize, float shadowBias, float shadowRadius, vec4 shadowCoord, float shadowCameraNear, float shadowCameraFar ) {\n\n\t\tvec2 texelSize = vec2( 1.0 ) / ( shadowMapSize * vec2( 4.0, 2.0 ) );\n\n\t\t// for point lights, the uniform @vShadowCoord is re-purposed to hold\n\t\t// the vector from the light to the world-space position of the fragment.\n\t\tvec3 lightToPosition = shadowCoord.xyz;\n\n\t\t// dp = normalized distance from light to fragment position\n\t\tfloat dp = ( length( lightToPosition ) - shadowCameraNear ) / ( shadowCameraFar - shadowCameraNear ); // need to clamp?\n\t\tdp += shadowBias;\n\n\t\t// bd3D = base direction 3D\n\t\tvec3 bd3D = normalize( lightToPosition );\n\n\t\t#if defined( SHADOWMAP_TYPE_PCF ) || defined( SHADOWMAP_TYPE_PCF_SOFT ) || defined( SHADOWMAP_TYPE_VSM )\n\n\t\t\tvec2 offset = vec2( - 1, 1 ) * shadowRadius * texelSize.y;\n\n\t\t\treturn (\n\t\t\t\ttexture2DCompare( shadowMap, cubeToUV( bd3D + offset.xyy, texelSize.y ), dp ) +\n\t\t\t\ttexture2DCompare( shadowMap, cubeToUV( bd3D + offset.yyy, texelSize.y ), dp ) +\n\t\t\t\ttexture2DCompare( shadowMap, cubeToUV( bd3D + offset.xyx, texelSize.y ), dp ) +\n\t\t\t\ttexture2DCompare( shadowMap, cubeToUV( bd3D + offset.yyx, texelSize.y ), dp ) +\n\t\t\t\ttexture2DCompare( shadowMap, cubeToUV( bd3D, texelSize.y ), dp ) +\n\t\t\t\ttexture2DCompare( shadowMap, cubeToUV( bd3D + offset.xxy, texelSize.y ), dp ) +\n\t\t\t\ttexture2DCompare( shadowMap, cubeToUV( bd3D + offset.yxy, texelSize.y ), dp ) +\n\t\t\t\ttexture2DCompare( shadowMap, cubeToUV( bd3D + offset.xxx, texelSize.y ), dp ) +\n\t\t\t\ttexture2DCompare( shadowMap, cubeToUV( bd3D + offset.yxx, texelSize.y ), dp )\n\t\t\t) * ( 1.0 / 9.0 );\n\n\t\t#else // no percentage-closer filtering\n\n\t\t\treturn texture2DCompare( shadowMap, cubeToUV( bd3D, texelSize.y ), dp );\n\n\t\t#endif\n\n\t}\n\n#endif\n\n\n#ifdef USE_BUMPMAP\n\n\tuniform sampler2D bumpMap;\n\tuniform float bumpScale;\n\n\t// Bump Mapping Unparametrized Surfaces on the GPU by Morten S. Mikkelsen\n\t// https://mmikk.github.io/papers3d/mm_sfgrad_bump.pdf\n\n\t// Evaluate the derivative of the height w.r.t. screen-space using forward differencing (listing 2)\n\n\tvec2 dHdxy_fwd() {\n\n\t\tvec2 dSTdx = dFdx( vUv );\n\t\tvec2 dSTdy = dFdy( vUv );\n\n\t\tfloat Hll = bumpScale * texture2D( bumpMap, vUv ).x;\n\t\tfloat dBx = bumpScale * texture2D( bumpMap, vUv + dSTdx ).x - Hll;\n\t\tfloat dBy = bumpScale * texture2D( bumpMap, vUv + dSTdy ).x - Hll;\n\n\t\treturn vec2( dBx, dBy );\n\n\t}\n\n\tvec3 perturbNormalArb( vec3 surf_pos, vec3 surf_norm, vec2 dHdxy, float faceDirection ) {\n\n\t\tvec3 vSigmaX = dFdx( surf_pos.xyz );\n\t\tvec3 vSigmaY = dFdy( surf_pos.xyz );\n\t\tvec3 vN = surf_norm; // normalized\n\n\t\tvec3 R1 = cross( vSigmaY, vN );\n\t\tvec3 R2 = cross( vN, vSigmaX );\n\n\t\tfloat fDet = dot( vSigmaX, R1 ) * faceDirection;\n\n\t\tvec3 vGrad = sign( fDet ) * ( dHdxy.x * R1 + dHdxy.y * R2 );\n\t\treturn normalize( abs( fDet ) * surf_norm - vGrad );\n\n\t}\n\n#endif\n\n\n#ifdef USE_NORMALMAP\n\n\tuniform sampler2D normalMap;\n\tuniform vec2 normalScale;\n\n#endif\n\n#ifdef OBJECTSPACE_NORMALMAP\n\n\tuniform mat3 normalMatrix;\n\n#endif\n\n#if ! defined ( USE_TANGENT ) && ( defined ( TANGENTSPACE_NORMALMAP ) || defined ( USE_CLEARCOAT_NORMALMAP ) )\n\n\t// Normal Mapping Without Precomputed Tangents\n\t// http://www.thetenthplanet.de/archives/1180\n\n\tvec3 perturbNormal2Arb( vec3 eye_pos, vec3 surf_norm, vec3 mapN, float faceDirection ) {\n\n\t\tvec3 q0 = dFdx( eye_pos.xyz );\n\t\tvec3 q1 = dFdy( eye_pos.xyz );\n\t\tvec2 st0 = dFdx( vUv.st );\n\t\tvec2 st1 = dFdy( vUv.st );\n\n\t\tvec3 N = surf_norm; // normalized\n\n\t\tvec3 q1perp = cross( q1, N );\n\t\tvec3 q0perp = cross( N, q0 );\n\n\t\tvec3 T = q1perp * st0.x + q0perp * st1.x;\n\t\tvec3 B = q1perp * st0.y + q0perp * st1.y;\n\n\t\tfloat det = max( dot( T, T ), dot( B, B ) );\n\t\tfloat scale = ( det == 0.0 ) ? 0.0 : faceDirection * inversesqrt( det );\n\n\t\treturn normalize( T * ( mapN.x * scale ) + B * ( mapN.y * scale ) + N * mapN.z );\n\n\t}\n\n#endif\n\n\n\n#ifdef USE_CLEARCOATMAP\n\n\tuniform sampler2D clearcoatMap;\n\n#endif\n\n#ifdef USE_CLEARCOAT_ROUGHNESSMAP\n\n\tuniform sampler2D clearcoatRoughnessMap;\n\n#endif\n\n#ifdef USE_CLEARCOAT_NORMALMAP\n\n\tuniform sampler2D clearcoatNormalMap;\n\tuniform vec2 clearcoatNormalScale;\n\n#endif\n\n\n\n#ifdef USE_IRIDESCENCEMAP\n\n\tuniform sampler2D iridescenceMap;\n\n#endif\n\n#ifdef USE_IRIDESCENCE_THICKNESSMAP\n\n\tuniform sampler2D iridescenceThicknessMap;\n\n#endif\n\n\n#ifdef USE_ROUGHNESSMAP\n\n\tuniform sampler2D roughnessMap;\n\n#endif\n\n\n#ifdef USE_METALNESSMAP\n\n\tuniform sampler2D metalnessMap;\n\n#endif\n\n\n#if defined( USE_LOGDEPTHBUF ) && defined( USE_LOGDEPTHBUF_EXT )\n\n\tuniform float logDepthBufFC;\n\tvarying float vFragDepth;\n\tvarying float vIsPerspective;\n\n#endif\n\n\n#if NUM_CLIPPING_PLANES > 0\n\n\tvarying vec3 vClipPosition;\n\n\tuniform vec4 clippingPlanes[ NUM_CLIPPING_PLANES ];\n\n#endif\n\n\nvoid main() {\n\n\n\n\n#if NUM_CLIPPING_PLANES > 0\n\n\tvec4 plane;\n\n\t#pragma unroll_loop_start\n\tfor ( int i = 0; i < UNION_CLIPPING_PLANES; i ++ ) {\n\n\t\tplane = clippingPlanes[ i ];\n\t\tif ( dot( vClipPosition, plane.xyz ) > plane.w ) discard;\n\n\t}\n\t#pragma unroll_loop_end\n\n\t#if UNION_CLIPPING_PLANES < NUM_CLIPPING_PLANES\n\n\t\tbool clipped = true;\n\n\t\t#pragma unroll_loop_start\n\t\tfor ( int i = UNION_CLIPPING_PLANES; i < NUM_CLIPPING_PLANES; i ++ ) {\n\n\t\t\tplane = clippingPlanes[ i ];\n\t\t\tclipped = ( dot( vClipPosition, plane.xyz ) > plane.w ) && clipped;\n\n\t\t}\n\t\t#pragma unroll_loop_end\n\n\t\tif ( clipped ) discard;\n\n\t#endif\n\n#endif\n\n\n\tvec4 diffuseColor = vec4( 0.0 );\n\tReflectedLight reflectedLight = ReflectedLight( vec3( 0.0 ), vec3( 0.0 ), vec3( 0.0 ), vec3( 0.0 ) );\n\tvec3 totalEmissiveRadiance = vec3( 0.0 );\n\n\n#if defined( USE_LOGDEPTHBUF ) && defined( USE_LOGDEPTHBUF_EXT )\n\n\t// Doing a strict comparison with == 1.0 can cause noise artifacts\n\t// on some platforms. See issue #17623.\n\tgl_FragDepthEXT = vIsPerspective == 0.0 ? gl_FragCoord.z : log2( vFragDepth ) * logDepthBufFC * 0.5;\n\n#endif\n\n\n#ifdef USE_MAP\n\n\tvec4 sampledDiffuseColor = texture2D( map, vUv );\n\n\t#ifdef DECODE_VIDEO_TEXTURE\n\n\t\t// inline sRGB decode (TODO: Remove this code when https://crbug.com/1256340 is solved)\n\n\t\tsampledDiffuseColor = vec4( mix( pow( sampledDiffuseColor.rgb * 0.9478672986 + vec3( 0.0521327014 ), vec3( 2.4 ) ), sampledDiffuseColor.rgb * 0.0773993808, vec3( lessThanEqual( sampledDiffuseColor.rgb, vec3( 0.04045 ) ) ) ), sampledDiffuseColor.w );\n\n\t#endif\n\n\tdiffuseColor *= sampledDiffuseColor;\n\n#endif\n\n\n#if defined( USE_COLOR_ALPHA )\n\n\tdiffuseColor *= vColor;\n\n#elif defined( USE_COLOR )\n\n\tdiffuseColor.rgb *= vColor;\n\n#endif\n\n\n\tdiffuseColor = vec4( 0, 0, 0, 1 );\n\n\n#ifdef USE_ALPHAMAP\n\n\tdiffuseColor.a *= texture2D( alphaMap, vUv ).g;\n\n#endif\n\n\n#ifdef USE_ALPHATEST\n\n\tif ( diffuseColor.a < alphaTest ) discard;\n\n#endif\n\n\nfloat roughnessFactor = 0.0;\n\n#ifdef USE_ROUGHNESSMAP\n\n\tvec4 texelRoughness = texture2D( roughnessMap, vUv );\n\n\t// reads channel G, compatible with a combined OcclusionRoughnessMetallic (RGB) texture\n\troughnessFactor *= texelRoughness.g;\n\n#endif\n\n\n\troughnessFactor = 0.5;\n\n\nfloat metalnessFactor = 0.0;\n\n#ifdef USE_METALNESSMAP\n\n\tvec4 texelMetalness = texture2D( metalnessMap, vUv );\n\n\t// reads channel B, compatible with a combined OcclusionRoughnessMetallic (RGB) texture\n\tmetalnessFactor *= texelMetalness.b;\n\n#endif\n\n\nfloat faceDirection = gl_FrontFacing ? 1.0 : - 1.0;\n\n#ifdef FLAT_SHADED\n\n\tvec3 fdx = dFdx( vViewPosition );\n\tvec3 fdy = dFdy( vViewPosition );\n\tvec3 normal = normalize( cross( fdx, fdy ) );\n\n#else\n\n\tvec3 normal = normalize( vNormal );\n\n\t#ifdef DOUBLE_SIDED\n\n\t\tnormal = normal * faceDirection;\n\n\t#endif\n\n\t#ifdef USE_TANGENT\n\n\t\tvec3 tangent = normalize( vTangent );\n\t\tvec3 bitangent = normalize( vBitangent );\n\n\t\t#ifdef DOUBLE_SIDED\n\n\t\t\ttangent = tangent * faceDirection;\n\t\t\tbitangent = bitangent * faceDirection;\n\n\t\t#endif\n\n\t\t#if defined( TANGENTSPACE_NORMALMAP ) || defined( USE_CLEARCOAT_NORMALMAP )\n\n\t\t\tmat3 vTBN = mat3( tangent, bitangent, normal );\n\n\t\t#endif\n\n\t#endif\n\n#endif\n\n// non perturbed normal for clearcoat among others\n\nvec3 geometryNormal = normal;\n\n\n\t\n\n#ifdef USE_CLEARCOAT\n\n\tvec3 clearcoatNormal = geometryNormal;\n\n#endif\n\n\n#ifdef USE_CLEARCOAT_NORMALMAP\n\n\tvec3 clearcoatMapN = texture2D( clearcoatNormalMap, vUv ).xyz * 2.0 - 1.0;\n\tclearcoatMapN.xy *= clearcoatNormalScale;\n\n\t#ifdef USE_TANGENT\n\n\t\tclearcoatNormal = normalize( vTBN * clearcoatMapN );\n\n\t#else\n\n\t\tclearcoatNormal = perturbNormal2Arb( - vViewPosition, clearcoatNormal, clearcoatMapN, faceDirection );\n\n\t#endif\n\n#endif\n\n\n#ifdef USE_EMISSIVEMAP\n\n\tvec4 emissiveColor = texture2D( emissiveMap, vUv );\n\n\ttotalEmissiveRadiance *= emissiveColor.rgb;\n\n#endif\n\nnodeVar0 = ( _time * 0.5 );\n\tnodeVar1 = nodeVar0;\n\tnodeVar2 = (nodeVary0 * vec2( 7, 7 ) + vec2( nodeVar1 ));\n\tnodeVar3 = customFn_dZFZkL420ekU( nodeVar2, 3.0 );\n\tnodeVar4 = ( nodeVar3 - noiseintensityreduction );\n\tnodeVar5 = (nodeVary0 * vec2( 10, 10 ) + vec2( 0, 0 ));\n\tnodeVar6 = customFn_Z8kJqFIgVk9F( nodeVar5, 1.0 );\n\tnodeVar7 = ( nodeVar4 + nodeVar6 );\n\tnodeVar8 = (pow(nodeVar7,5.0));\n\tnodeVar9 = ( customFn_0F0JN3hc5LPA( vec4( vec3( nodeVar8 ), 1.0 ), lavacontrast ) + vec3( darkpatchredness ) );\n\tnodeVar10 = ( Lavacolor * nodeVar9 );\n\tnodeVar11 = ( nodeVar10 * vec3( emicolintensity ) );\n\t\n\ttotalEmissiveRadiance = nodeVar11 * vec3(1);\n\n\n\t// accumulation\n\nPhysicalMaterial material;\nmaterial.diffuseColor = diffuseColor.rgb * ( 1.0 - metalnessFactor );\n\nvec3 dxy = max( abs( dFdx( geometryNormal ) ), abs( dFdy( geometryNormal ) ) );\nfloat geometryRoughness = max( max( dxy.x, dxy.y ), dxy.z );\n\nmaterial.roughness = max( roughnessFactor, 0.0525 );// 0.0525 corresponds to the base mip of a 256 cubemap.\nmaterial.roughness += geometryRoughness;\nmaterial.roughness = min( material.roughness, 1.0 );\n\n#ifdef IOR\n\n\tmaterial.ior = ior;\n\n\t#ifdef SPECULAR\n\n\t\tfloat specularIntensityFactor = specularIntensity;\n\t\tvec3 specularColorFactor = specularColor;\n\n\t\t#ifdef USE_SPECULARINTENSITYMAP\n\n\t\t\tspecularIntensityFactor *= texture2D( specularIntensityMap, vUv ).a;\n\n\t\t#endif\n\n\t\t#ifdef USE_SPECULARCOLORMAP\n\n\t\t\tspecularColorFactor *= texture2D( specularColorMap, vUv ).rgb;\n\n\t\t#endif\n\n\t\tmaterial.specularF90 = mix( specularIntensityFactor, 1.0, metalnessFactor );\n\n\t#else\n\n\t\tfloat specularIntensityFactor = 1.0;\n\t\tvec3 specularColorFactor = vec3( 1.0 );\n\t\tmaterial.specularF90 = 1.0;\n\n\t#endif\n\n\tmaterial.specularColor = mix( min( pow2( ( material.ior - 1.0 ) / ( material.ior + 1.0 ) ) * specularColorFactor, vec3( 1.0 ) ) * specularIntensityFactor, diffuseColor.rgb, metalnessFactor );\n\n#else\n\n\tmaterial.specularColor = mix( vec3( 0.04 ), diffuseColor.rgb, metalnessFactor );\n\tmaterial.specularF90 = 1.0;\n\n#endif\n\n#ifdef USE_CLEARCOAT\n\n\tmaterial.clearcoat = clearcoat;\n\tmaterial.clearcoatRoughness = clearcoatRoughness;\n\tmaterial.clearcoatF0 = vec3( 0.04 );\n\tmaterial.clearcoatF90 = 1.0;\n\n\t#ifdef USE_CLEARCOATMAP\n\n\t\tmaterial.clearcoat *= texture2D( clearcoatMap, vUv ).x;\n\n\t#endif\n\n\t#ifdef USE_CLEARCOAT_ROUGHNESSMAP\n\n\t\tmaterial.clearcoatRoughness *= texture2D( clearcoatRoughnessMap, vUv ).y;\n\n\t#endif\n\n\tmaterial.clearcoat = saturate( material.clearcoat ); // Burley clearcoat model\n\tmaterial.clearcoatRoughness = max( material.clearcoatRoughness, 0.0525 );\n\tmaterial.clearcoatRoughness += geometryRoughness;\n\tmaterial.clearcoatRoughness = min( material.clearcoatRoughness, 1.0 );\n\n#endif\n\n#ifdef USE_IRIDESCENCE\n\n\tmaterial.iridescence = iridescence;\n\tmaterial.iridescenceIOR = iridescenceIOR;\n\n\t#ifdef USE_IRIDESCENCEMAP\n\n\t\tmaterial.iridescence *= texture2D( iridescenceMap, vUv ).r;\n\n\t#endif\n\n\t#ifdef USE_IRIDESCENCE_THICKNESSMAP\n\n\t\tmaterial.iridescenceThickness = (iridescenceThicknessMaximum - iridescenceThicknessMinimum) * texture2D( iridescenceThicknessMap, vUv ).g + iridescenceThicknessMinimum;\n\n\t#else\n\n\t\tmaterial.iridescenceThickness = iridescenceThicknessMaximum;\n\n\t#endif\n\n#endif\n\n#ifdef USE_SHEEN\n\n\tmaterial.sheenColor = sheenColor;\n\n\t#ifdef USE_SHEENCOLORMAP\n\n\t\tmaterial.sheenColor *= texture2D( sheenColorMap, vUv ).rgb;\n\n\t#endif\n\n\tmaterial.sheenRoughness = clamp( sheenRoughness, 0.07, 1.0 );\n\n\t#ifdef USE_SHEENROUGHNESSMAP\n\n\t\tmaterial.sheenRoughness *= texture2D( sheenRoughnessMap, vUv ).a;\n\n\t#endif\n\n#endif\n\n\n/**\n * This is a template that can be used to light a material, it uses pluggable\n * RenderEquations (RE)for specific lighting scenarios.\n *\n * Instructions for use:\n * - Ensure that both RE_Direct, RE_IndirectDiffuse and RE_IndirectSpecular are defined\n * - Create a material parameter that is to be passed as the third parameter to your lighting functions.\n *\n * TODO:\n * - Add area light support.\n * - Add sphere light support.\n * - Add diffuse light probe (irradiance cubemap) support.\n */\n\nGeometricContext geometry;\n\ngeometry.position = - vViewPosition;\ngeometry.normal = normal;\ngeometry.viewDir = ( isOrthographic ) ? vec3( 0, 0, 1 ) : normalize( vViewPosition );\n\n#ifdef USE_CLEARCOAT\n\n\tgeometry.clearcoatNormal = clearcoatNormal;\n\n#endif\n\n#ifdef USE_IRIDESCENCE\n\n\tfloat dotNVi = saturate( dot( normal, geometry.viewDir ) );\n\n\tif ( material.iridescenceThickness == 0.0 ) {\n\n\t\tmaterial.iridescence = 0.0;\n\n\t} else {\n\n\t\tmaterial.iridescence = saturate( material.iridescence );\n\n\t}\n\n\tif ( material.iridescence > 0.0 ) {\n\n\t\tmaterial.iridescenceFresnel = evalIridescence( 1.0, material.iridescenceIOR, dotNVi, material.iridescenceThickness, material.specularColor );\n\n\t\t// Iridescence F0 approximation\n\t\tmaterial.iridescenceF0 = Schlick_to_F0( material.iridescenceFresnel, 1.0, dotNVi );\n\n\t}\n\n#endif\n\nIncidentLight directLight;\n\n#if ( NUM_POINT_LIGHTS > 0 ) && defined( RE_Direct )\n\n\tPointLight pointLight;\n\t#if defined( USE_SHADOWMAP ) && NUM_POINT_LIGHT_SHADOWS > 0\n\tPointLightShadow pointLightShadow;\n\t#endif\n\n\t#pragma unroll_loop_start\n\tfor ( int i = 0; i < NUM_POINT_LIGHTS; i ++ ) {\n\n\t\tpointLight = pointLights[ i ];\n\n\t\tgetPointLightInfo( pointLight, geometry, directLight );\n\n\t\t#if defined( USE_SHADOWMAP ) && ( UNROLLED_LOOP_INDEX < NUM_POINT_LIGHT_SHADOWS )\n\t\tpointLightShadow = pointLightShadows[ i ];\n\t\tdirectLight.color *= ( directLight.visible && receiveShadow ) ? getPointShadow( pointShadowMap[ i ], pointLightShadow.shadowMapSize, pointLightShadow.shadowBias, pointLightShadow.shadowRadius, vPointShadowCoord[ i ], pointLightShadow.shadowCameraNear, pointLightShadow.shadowCameraFar ) : 1.0;\n\t\t#endif\n\n\t\tRE_Direct( directLight, geometry, material, reflectedLight );\n\n\t}\n\t#pragma unroll_loop_end\n\n#endif\n\n#if ( NUM_SPOT_LIGHTS > 0 ) && defined( RE_Direct )\n\n\tSpotLight spotLight;\n\tvec4 spotColor;\n\tvec3 spotLightCoord;\n\tbool inSpotLightMap;\n\n\t#if defined( USE_SHADOWMAP ) && NUM_SPOT_LIGHT_SHADOWS > 0\n\tSpotLightShadow spotLightShadow;\n\t#endif\n\n\t#pragma unroll_loop_start\n\tfor ( int i = 0; i < NUM_SPOT_LIGHTS; i ++ ) {\n\n\t\tspotLight = spotLights[ i ];\n\n\t\tgetSpotLightInfo( spotLight, geometry, directLight );\n\n\t\t// spot lights are ordered [shadows with maps, shadows without maps, maps without shadows, none]\n\t\t#if ( UNROLLED_LOOP_INDEX < NUM_SPOT_LIGHT_SHADOWS_WITH_MAPS )\n\t\t#define SPOT_LIGHT_MAP_INDEX UNROLLED_LOOP_INDEX\n\t\t#elif ( UNROLLED_LOOP_INDEX < NUM_SPOT_LIGHT_SHADOWS )\n\t\t#define SPOT_LIGHT_MAP_INDEX NUM_SPOT_LIGHT_MAPS\n\t\t#else\n\t\t#define SPOT_LIGHT_MAP_INDEX ( UNROLLED_LOOP_INDEX - NUM_SPOT_LIGHT_SHADOWS + NUM_SPOT_LIGHT_SHADOWS_WITH_MAPS )\n\t\t#endif\n\n\t\t#if ( SPOT_LIGHT_MAP_INDEX < NUM_SPOT_LIGHT_MAPS )\n\t\t\tspotLightCoord = vSpotLightCoord[ i ].xyz / vSpotLightCoord[ i ].w;\n\t\t\tinSpotLightMap = all( lessThan( abs( spotLightCoord * 2. - 1. ), vec3( 1.0 ) ) );\n\t\t\tspotColor = texture2D( spotLightMap[ SPOT_LIGHT_MAP_INDEX ], spotLightCoord.xy );\n\t\t\tdirectLight.color = inSpotLightMap ? directLight.color * spotColor.rgb : directLight.color;\n\t\t#endif\n\n\t\t#undef SPOT_LIGHT_MAP_INDEX\n\n\t\t#if defined( USE_SHADOWMAP ) && ( UNROLLED_LOOP_INDEX < NUM_SPOT_LIGHT_SHADOWS )\n\t\tspotLightShadow = spotLightShadows[ i ];\n\t\tdirectLight.color *= ( directLight.visible && receiveShadow ) ? getShadow( spotShadowMap[ i ], spotLightShadow.shadowMapSize, spotLightShadow.shadowBias, spotLightShadow.shadowRadius, vSpotLightCoord[ i ] ) : 1.0;\n\t\t#endif\n\n\t\tRE_Direct( directLight, geometry, material, reflectedLight );\n\n\t}\n\t#pragma unroll_loop_end\n\n#endif\n\n#if ( NUM_DIR_LIGHTS > 0 ) && defined( RE_Direct )\n\n\tDirectionalLight directionalLight;\n\t#if defined( USE_SHADOWMAP ) && NUM_DIR_LIGHT_SHADOWS > 0\n\tDirectionalLightShadow directionalLightShadow;\n\t#endif\n\n\t#pragma unroll_loop_start\n\tfor ( int i = 0; i < NUM_DIR_LIGHTS; i ++ ) {\n\n\t\tdirectionalLight = directionalLights[ i ];\n\n\t\tgetDirectionalLightInfo( directionalLight, geometry, directLight );\n\n\t\t#if defined( USE_SHADOWMAP ) && ( UNROLLED_LOOP_INDEX < NUM_DIR_LIGHT_SHADOWS )\n\t\tdirectionalLightShadow = directionalLightShadows[ i ];\n\t\tdirectLight.color *= ( directLight.visible && receiveShadow ) ? getShadow( directionalShadowMap[ i ], directionalLightShadow.shadowMapSize, directionalLightShadow.shadowBias, directionalLightShadow.shadowRadius, vDirectionalShadowCoord[ i ] ) : 1.0;\n\t\t#endif\n\n\t\tRE_Direct( directLight, geometry, material, reflectedLight );\n\n\t}\n\t#pragma unroll_loop_end\n\n#endif\n\n#if ( NUM_RECT_AREA_LIGHTS > 0 ) && defined( RE_Direct_RectArea )\n\n\tRectAreaLight rectAreaLight;\n\n\t#pragma unroll_loop_start\n\tfor ( int i = 0; i < NUM_RECT_AREA_LIGHTS; i ++ ) {\n\n\t\trectAreaLight = rectAreaLights[ i ];\n\t\tRE_Direct_RectArea( rectAreaLight, geometry, material, reflectedLight );\n\n\t}\n\t#pragma unroll_loop_end\n\n#endif\n\n#if defined( RE_IndirectDiffuse )\n\n\tvec3 iblIrradiance = vec3( 0.0 );\n\n\tvec3 irradiance = getAmbientLightIrradiance( ambientLightColor );\n\n\tirradiance += getLightProbeIrradiance( lightProbe, geometry.normal );\n\n\t#if ( NUM_HEMI_LIGHTS > 0 )\n\n\t\t#pragma unroll_loop_start\n\t\tfor ( int i = 0; i < NUM_HEMI_LIGHTS; i ++ ) {\n\n\t\t\tirradiance += getHemisphereLightIrradiance( hemisphereLights[ i ], geometry.normal );\n\n\t\t}\n\t\t#pragma unroll_loop_end\n\n\t#endif\n\n#endif\n\n#if defined( RE_IndirectSpecular )\n\n\tvec3 radiance = vec3( 0.0 );\n\tvec3 clearcoatRadiance = vec3( 0.0 );\n\n#endif\n\n\n#if defined( RE_IndirectDiffuse )\n\n\t#ifdef USE_LIGHTMAP\n\n\t\tvec4 lightMapTexel = texture2D( lightMap, vUv2 );\n\t\tvec3 lightMapIrradiance = lightMapTexel.rgb * lightMapIntensity;\n\n\t\tirradiance += lightMapIrradiance;\n\n\t#endif\n\n\t#if defined( USE_ENVMAP ) && defined( STANDARD ) && defined( ENVMAP_TYPE_CUBE_UV )\n\n\t\tiblIrradiance += getIBLIrradiance( geometry.normal );\n\n\t#endif\n\n#endif\n\n#if defined( USE_ENVMAP ) && defined( RE_IndirectSpecular )\n\n\tradiance += getIBLRadiance( geometry.viewDir, geometry.normal, material.roughness );\n\n\t#ifdef USE_CLEARCOAT\n\n\t\tclearcoatRadiance += getIBLRadiance( geometry.viewDir, geometry.clearcoatNormal, material.clearcoatRoughness );\n\n\t#endif\n\n#endif\n\n\n#if defined( RE_IndirectDiffuse )\n\n\tRE_IndirectDiffuse( irradiance, geometry, material, reflectedLight );\n\n#endif\n\n#if defined( RE_IndirectSpecular )\n\n\tRE_IndirectSpecular( radiance, iblIrradiance, clearcoatRadiance, geometry, material, reflectedLight );\n\n#endif\n\n\n\t// modulation\n\t\n\n\tvec3 totalDiffuse = reflectedLight.directDiffuse + reflectedLight.indirectDiffuse;\n\tvec3 totalSpecular = reflectedLight.directSpecular + reflectedLight.indirectSpecular;\n\n\n#ifdef USE_TRANSMISSION\n\n\tmaterial.transmission = transmission;\n\tmaterial.transmissionAlpha = 1.0;\n\tmaterial.thickness = thickness;\n\tmaterial.attenuationDistance = attenuationDistance;\n\tmaterial.attenuationColor = attenuationColor;\n\n\t#ifdef USE_TRANSMISSIONMAP\n\n\t\tmaterial.transmission *= texture2D( transmissionMap, vUv ).r;\n\n\t#endif\n\n\t#ifdef USE_THICKNESSMAP\n\n\t\tmaterial.thickness *= texture2D( thicknessMap, vUv ).g;\n\n\t#endif\n\n\tvec3 pos = vWorldPosition;\n\tvec3 v = normalize( cameraPosition - pos );\n\tvec3 n = inverseTransformDirection( normal, viewMatrix );\n\n\tvec4 transmission = getIBLVolumeRefraction(\n\t\tn, v, material.roughness, material.diffuseColor, material.specularColor, material.specularF90,\n\t\tpos, modelMatrix, viewMatrix, projectionMatrix, material.ior, material.thickness,\n\t\tmaterial.attenuationColor, material.attenuationDistance );\n\n\tmaterial.transmissionAlpha = mix( material.transmissionAlpha, transmission.a, material.transmission );\n\n\ttotalDiffuse = mix( totalDiffuse, transmission.rgb, material.transmission );\n\n#endif\n\n\n\tvec3 outgoingLight = totalDiffuse + totalSpecular + totalEmissiveRadiance;\n\n\t#ifdef USE_SHEEN\n\n\t\t// Sheen energy compensation approximation calculation can be found at the end of\n\t\t// https://drive.google.com/file/d/1T0D1VSyR4AllqIJTQAraEIzjlb5h4FKH/view?usp=sharing\n\t\tfloat sheenEnergyComp = 1.0 - 0.157 * max3( material.sheenColor );\n\n\t\toutgoingLight = outgoingLight * sheenEnergyComp + sheenSpecular;\n\n\t#endif\n\n\t#ifdef USE_CLEARCOAT\n\n\t\tfloat dotNVcc = saturate( dot( geometry.clearcoatNormal, geometry.viewDir ) );\n\n\t\tvec3 Fcc = F_Schlick( material.clearcoatF0, material.clearcoatF90, dotNVcc );\n\n\t\toutgoingLight = outgoingLight * ( 1.0 - material.clearcoat * Fcc ) + clearcoatSpecular * material.clearcoat;\n\n\t#endif\n\n\n#ifdef OPAQUE\ndiffuseColor.a = 1.0;\n#endif\n\n// https://github.com/mrdoob/three.js/pull/22425\n#ifdef USE_TRANSMISSION\ndiffuseColor.a *= material.transmissionAlpha + 0.1;\n#endif\n\ngl_FragColor = vec4( outgoingLight, diffuseColor.a );\n\n\n#if defined( TONE_MAPPING )\n\n\tgl_FragColor.rgb = toneMapping( gl_FragColor.rgb );\n\n#endif\n\n\ngl_FragColor = linearToOutputTexel( gl_FragColor );\n\n\n#ifdef USE_FOG\n\n\t#ifdef FOG_EXP2\n\n\t\tfloat fogFactor = 1.0 - exp( - fogDensity * fogDensity * vFogDepth * vFogDepth );\n\n\t#else\n\n\t\tfloat fogFactor = smoothstep( fogNear, fogFar, vFogDepth );\n\n\t#endif\n\n\tgl_FragColor.rgb = mix( gl_FragColor.rgb, fogColor, fogFactor );\n\n#endif\n\n\n#ifdef PREMULTIPLIED_ALPHA\n\n\t// Get get normal blending with premultipled, use with CustomBlending, OneFactor, OneMinusSrcAlphaFactor, AddEquation.\n\tgl_FragColor.rgb *= gl_FragColor.a;\n\n#endif\n\n\n#ifdef DITHERING\n\n\tgl_FragColor.rgb = dithering( gl_FragColor.rgb );\n\n#endif\n\n\n}\n\n\n",
   cullMode: "back",
-  lightModel: "unlit",
-  renderType: "transparent"
+  lightModel: "standard",
+  renderType: "opaque"
 };
 
 /***/ }),
@@ -5170,6 +5141,38 @@ const pinkGlowing = () => {
     data: _pinkGlow_data__WEBPACK_IMPORTED_MODULE_1__.data
   });
   return material;
+};
+
+/***/ }),
+
+/***/ "./src/game/game-config.ts":
+/*!*********************************!*\
+  !*** ./src/game/game-config.ts ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "GameConfig": () => (/* binding */ GameConfig)
+/* harmony export */ });
+// this config for basic changes!
+// for blocks to win etc
+const GameConfig = {
+  //block to win value: 15
+  maxBlockToWin: 21,
+  //size radius for weapon when it hit the blocks value:2
+  radiusWeapon: 2,
+  //count to block to destroy to hit value: 1
+  maxDestroyBlocksOneHit: 2,
+  //discord link value: "https://diamond-rush.vercel.app/#gameplay"
+  discordUrl: "https://diamond-rush.vercel.app/#gameplay",
+  //block base color value: 0x964b00
+  blockColor: 0x964b00,
+  //player main base color value:  0x000000
+  characterMainColor: 0x000000,
+  //player neon base color value:  0x00ffee
+  characterNeonColor: 0xff00ee
 };
 
 /***/ }),
@@ -5410,22 +5413,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _game_state_game_state__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./game-state/game-state */ "./src/game/game-state/game-state.ts");
 /* harmony import */ var _managers_game_manager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./managers/game-manager */ "./src/game/managers/game-manager.ts");
-/* harmony import */ var _entities_create_light__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./entities/create-light */ "./src/game/entities/create-light.ts");
-/* harmony import */ var _entities_create_camera__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./entities/create-camera */ "./src/game/entities/create-camera.ts");
-/* harmony import */ var _entities_create_character__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./entities/create-character */ "./src/game/entities/create-character.ts");
-/* harmony import */ var _entities_create_scene__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./entities/create-scene */ "./src/game/entities/create-scene.ts");
-/* harmony import */ var _entities_create_controller__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./entities/create-controller */ "./src/game/entities/create-controller.ts");
-/* harmony import */ var _entities_creat_sky_box__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./entities/creat-sky-box */ "./src/game/entities/creat-sky-box.ts");
-/* harmony import */ var _nodetoy_three_nodetoy__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @nodetoy/three-nodetoy */ "./node_modules/@nodetoy/three-nodetoy/dist/three-nodetoy.es.js");
+/* harmony import */ var _nodetoy_three_nodetoy__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @nodetoy/three-nodetoy */ "./node_modules/@nodetoy/three-nodetoy/dist/three-nodetoy.es.js");
+/* harmony import */ var _entities_create_light__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./entities/create-light */ "./src/game/entities/create-light.ts");
+/* harmony import */ var _entities_create_camera__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./entities/create-camera */ "./src/game/entities/create-camera.ts");
+/* harmony import */ var _entities_create_character__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./entities/create-character */ "./src/game/entities/create-character.ts");
+/* harmony import */ var _entities_create_scene__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./entities/create-scene */ "./src/game/entities/create-scene.ts");
+/* harmony import */ var _entities_create_controller__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./entities/create-controller */ "./src/game/entities/create-controller.ts");
+/* harmony import */ var _entities_creat_sky_box__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./entities/creat-sky-box */ "./src/game/entities/creat-sky-box.ts");
 /* harmony import */ var _entities_create_blocks__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./entities/create-blocks */ "./src/game/entities/create-blocks.ts");
 /* harmony import */ var _entities_create_walls__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./entities/create-walls */ "./src/game/entities/create-walls.ts");
-/* harmony import */ var _fx_shaders_grass_shader_grass__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./fx/shaders/grass/shader-grass */ "./src/game/fx/shaders/grass/shader-grass.ts");
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
-/* harmony import */ var _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./managers/assets-manager/prefabs-manager */ "./src/game/managers/assets-manager/prefabs-manager.ts");
-/* harmony import */ var _prefabs_material_prefabs__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./prefabs/material-prefabs */ "./src/game/prefabs/material-prefabs.ts");
-
-
-
+/* harmony import */ var _entities_create_shader_grass__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./entities/create-shader-grass */ "./src/game/entities/create-shader-grass.ts");
 
 
 
@@ -5439,7 +5436,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class Game {
-  // @ts-ignore
   //  private stats = new Stats();
 
   constructor() {
@@ -5464,45 +5460,22 @@ class Game {
         if (stage === _game_state_game_state__WEBPACK_IMPORTED_MODULE_0__.GameStage.GAMESTART) {
           console.log("GAMESTART");
         }
-        if (stage === _game_state_game_state__WEBPACK_IMPORTED_MODULE_0__.GameStage.ENDCARD) {
-          console.log("ENDCARD");
-        }
       };
     })();
     this.addEntities = () => {
-      (0,_entities_create_scene__WEBPACK_IMPORTED_MODULE_5__.createScene)();
-      (0,_entities_creat_sky_box__WEBPACK_IMPORTED_MODULE_7__.creatSkyBox)();
-      (0,_entities_create_camera__WEBPACK_IMPORTED_MODULE_3__.createCamera)();
-      (0,_entities_create_light__WEBPACK_IMPORTED_MODULE_2__.createLight)();
-      (0,_entities_create_controller__WEBPACK_IMPORTED_MODULE_6__.createController)();
-      (0,_entities_create_character__WEBPACK_IMPORTED_MODULE_4__.createCharacter)();
+      (0,_entities_create_scene__WEBPACK_IMPORTED_MODULE_6__.createScene)();
+      (0,_entities_creat_sky_box__WEBPACK_IMPORTED_MODULE_8__.creatSkyBox)();
+      (0,_entities_create_camera__WEBPACK_IMPORTED_MODULE_4__.createCamera)();
+      (0,_entities_create_light__WEBPACK_IMPORTED_MODULE_3__.createLight)();
+
+      //for control
+      (0,_entities_create_controller__WEBPACK_IMPORTED_MODULE_7__.createController)();
+      (0,_entities_create_character__WEBPACK_IMPORTED_MODULE_5__.createCharacter)();
+
+      //init game object
       (0,_entities_create_walls__WEBPACK_IMPORTED_MODULE_10__.createWalls)();
       (0,_entities_create_blocks__WEBPACK_IMPORTED_MODULE_9__.createBlocks)();
-      const terrainWidthExtents = 100;
-      const terrainDepthExtents = 100;
-      const terrainWidth = 320;
-      const terrainDepth = 320;
-      const terrainHalfWidth = terrainWidth / 2;
-      const terrainHalfDepth = terrainDepth / 2;
-      const terrainMaxHeight = 5;
-      const terrainMinHeight = -2;
-      const heightData = generateHeight(terrainWidth, terrainDepth, terrainMinHeight, terrainMaxHeight);
-      const geometry = new three__WEBPACK_IMPORTED_MODULE_14__.PlaneGeometry(terrainWidthExtents, terrainDepthExtents, terrainWidth - 1, terrainDepth - 1);
-      geometry.rotateX(-Math.PI / 2);
-      const vertices = geometry.attributes.position.array;
-      for (let i = 0, j = 0, l = vertices.length; i < l; i++, j += 3) {
-        // j + 1 because it is the y component that we modify
-        // @ts-ignore
-        vertices[j + 1] = heightData[i];
-      }
-      geometry.computeVertexNormals();
-      const groundMaterial = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_12__["default"].getMaterial(_prefabs_material_prefabs__WEBPACK_IMPORTED_MODULE_13__.MaterialPrefabs.DR_TERRAIN_GRASS);
-      const terrainMesh = new three__WEBPACK_IMPORTED_MODULE_14__.Mesh(geometry, groundMaterial);
-      terrainMesh.receiveShadow = true;
-      terrainMesh.castShadow = true;
-      new _fx_shaders_grass_shader_grass__WEBPACK_IMPORTED_MODULE_11__.ShaderGrass(terrainMesh);
-      _managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.GameManager.SCENE.add(terrainMesh);
-      terrainMesh.position.y = 0;
+      (0,_entities_create_shader_grass__WEBPACK_IMPORTED_MODULE_11__.createShaderGrass)();
     };
     this.animate = () => {
       requestAnimationFrame(this.animate);
@@ -5513,8 +5486,6 @@ class Game {
     _managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.GameManager.GAMEUPDATESERVICE.register(this);
     this.addEntities();
     this.startTheGame();
-    //   document.body.appendChild(this.stats.dom);
-    // stats.showPanel(1);
   }
 
   //basic GameLoop
@@ -5525,16 +5496,10 @@ class Game {
     _managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.GameManager.tickHandler();
     _managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.GameManager.CANNON_WORLD.fixedStep();
     this.isNeedPostProcess(_managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.postProcessing);
-    // GameManager.RENDERER.clear();
-    //GameManager.RENDERER.render(GameManager.SCENE, GameManager.CAMERA);
-    // GameManager.RENDERER.clearDepth();
-    //GameManager.RENDERER.render(GameManager.UISCENE, GameManager.UICAMERA);
-    //GameManager.UICAMERA.updateMatrix();
     _managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.GameManager.CAMERA.updateMatrix();
     _managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.GameManager.CONTROLS.update();
-    _nodetoy_three_nodetoy__WEBPACK_IMPORTED_MODULE_8__.NodeToyMaterial.tick();
+    _nodetoy_three_nodetoy__WEBPACK_IMPORTED_MODULE_2__.NodeToyMaterial.tick();
     // this.stats.end();
-    // console.log(GameManager.RENDERER.info.render.triangles);
   }
 
   reset() {
@@ -5553,42 +5518,17 @@ class Game {
       case true:
         {
           _managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.GameManager.RENDERER.clear();
-          //   GameManager.RENDERER.clear();
           _managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.GameManager.COMPOSER.render();
           _managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.GameManager.RENDERER.clearDepth();
-          // GameManager.RENDERER.render(GameManager.UISCENE, GameManager.UICAMERA);
           break;
         }
       case false:
         {
-          // GameManager.RENDERER.clear();
           _managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.GameManager.RENDERER.render(_managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.GameManager.SCENE, _managers_game_manager__WEBPACK_IMPORTED_MODULE_1__.GameManager.CAMERA);
-          //  GameManager.RENDERER.clearDepth();
-          // GameManager.RENDERER.render(GameManager.UISCENE, GameManager.UICAMERA);
           break;
         }
     }
   }
-}
-function generateHeight(width, depth, minHeight, maxHeight) {
-  // Generates the height data (a sinus wave)
-
-  const size = width * depth;
-  const data = new Float32Array(size);
-  const hRange = maxHeight - minHeight;
-  const w2 = width / 2;
-  const d2 = depth / 2;
-  const phaseMult = 2.4;
-  let p = 0;
-  for (let j = 0; j < depth; j++) {
-    for (let i = 0; i < width; i++) {
-      const radius = Math.sqrt(Math.pow((i - w2) / w2, 2.0) + Math.pow((j - d2) / d2, 2.0));
-      const height = Math.sin(radius * phaseMult - 0.2) * 2.5 * hRange + minHeight;
-      data[p] = height - 7.5;
-      p++;
-    }
-  }
-  return data;
 }
 
 /***/ }),
@@ -6768,9 +6708,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../utils/assets-utils */ "./src/game/utils/assets-utils.ts");
 /* harmony import */ var _asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../asset-list/raw-assets/texture-raw-assets */ "./src/game/asset-list/raw-assets/texture-raw-assets.ts");
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
 /* harmony import */ var _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../managers/assets-manager/prefabs-manager */ "./src/game/managers/assets-manager/prefabs-manager.ts");
 /* harmony import */ var _material_prefabs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../material-prefabs */ "./src/game/prefabs/material-prefabs.ts");
+/* harmony import */ var _game_config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../game-config */ "./src/game/game-config.ts");
+
 
 
 
@@ -6780,8 +6722,8 @@ const addDiamondRushMaterial = () => {
   const normal_map_character_texture = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DR_CHARACTER_NORMAL);
   const emmisive_character_texture = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DR_CHARACTER_EMMISIVE);
   const roughness_character_texture = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DR_CHARACTER_ROUGHNES);
-  const characterMaterial = new three__WEBPACK_IMPORTED_MODULE_4__.MeshStandardMaterial({
-    color: new three__WEBPACK_IMPORTED_MODULE_4__.Color(0x000000).convertLinearToSRGB(),
+  const characterMaterial = new three__WEBPACK_IMPORTED_MODULE_5__.MeshStandardMaterial({
+    color: new three__WEBPACK_IMPORTED_MODULE_5__.Color(_game_config__WEBPACK_IMPORTED_MODULE_4__.GameConfig.characterMainColor).convertLinearToSRGB(),
     //map: emmisive_character_texture,
     emissiveMap: emmisive_character_texture,
     toneMapped: false,
@@ -6791,30 +6733,30 @@ const addDiamondRushMaterial = () => {
     //   normalMap: normal_map_character_texture,
     //   normalMapType: 0,
     metalness: 0.5,
-    emissive: new three__WEBPACK_IMPORTED_MODULE_4__.Color(0x00ffee).convertLinearToSRGB()
+    emissive: new three__WEBPACK_IMPORTED_MODULE_5__.Color(_game_config__WEBPACK_IMPORTED_MODULE_4__.GameConfig.characterNeonColor).convertLinearToSRGB()
   });
   _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_2__["default"].registerMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_3__.MaterialPrefabs.DR_CHARACTER_MATERIAL, characterMaterial);
 
   //terrain
   const terrainTexture = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DR_TERRAIN_GRASS, 6);
-  const terrainMaterial = new three__WEBPACK_IMPORTED_MODULE_4__.MeshStandardMaterial({
+  const terrainMaterial = new three__WEBPACK_IMPORTED_MODULE_5__.MeshStandardMaterial({
     map: terrainTexture,
-    side: three__WEBPACK_IMPORTED_MODULE_4__.DoubleSide
+    side: three__WEBPACK_IMPORTED_MODULE_5__.DoubleSide
   });
   _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_2__["default"].registerMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_3__.MaterialPrefabs.DR_TERRAIN_GRASS, terrainMaterial);
 
   //ground
   const groundBlockTexture = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DR_BLOCK_TEXTURE, 4);
-  const groundBlockMaterial = new three__WEBPACK_IMPORTED_MODULE_4__.MeshStandardMaterial({
+  const groundBlockMaterial = new three__WEBPACK_IMPORTED_MODULE_5__.MeshStandardMaterial({
     map: groundBlockTexture
   });
   _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_2__["default"].registerMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_3__.MaterialPrefabs.DR_GROUND_MATERIAL, groundBlockMaterial);
 
   //blocks
-  const blockMaterial = new three__WEBPACK_IMPORTED_MODULE_4__.MeshStandardMaterial({
-    color: new three__WEBPACK_IMPORTED_MODULE_4__.Color().setHex(0x964b00),
+  const blockMaterial = new three__WEBPACK_IMPORTED_MODULE_5__.MeshStandardMaterial({
+    color: new three__WEBPACK_IMPORTED_MODULE_5__.Color().setHex(_game_config__WEBPACK_IMPORTED_MODULE_4__.GameConfig.blockColor),
     //  flatShading: true,
-    side: three__WEBPACK_IMPORTED_MODULE_4__.DoubleSide
+    side: three__WEBPACK_IMPORTED_MODULE_5__.DoubleSide
   });
   _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_2__["default"].registerMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_3__.MaterialPrefabs.DR_BLOCK_MATERIAL, blockMaterial);
 };
@@ -6832,27 +6774,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "addDungeonMaterials": () => (/* binding */ addDungeonMaterials)
 /* harmony export */ });
-/* harmony import */ var _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../utils/assets-utils */ "./src/game/utils/assets-utils.ts");
-/* harmony import */ var _asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../asset-list/raw-assets/texture-raw-assets */ "./src/game/asset-list/raw-assets/texture-raw-assets.ts");
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
-/* harmony import */ var _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../managers/assets-manager/prefabs-manager */ "./src/game/managers/assets-manager/prefabs-manager.ts");
-/* harmony import */ var _material_prefabs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../material-prefabs */ "./src/game/prefabs/material-prefabs.ts");
-
-
-
-
-
-const addDungeonMaterials = () => {
-  const dungeonTexture = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DUNGEON_TEXTURES);
-  const emmisiveDungeonTexture = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.EMMISIVE_DUNGEON_TEXTURE);
-  const dungeonMaterial = new three__WEBPACK_IMPORTED_MODULE_4__.MeshStandardMaterial({
-    map: dungeonTexture,
-    emissiveMap: emmisiveDungeonTexture,
-    metalness: 1,
-    emissive: 1
-  });
-  _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_2__["default"].registerMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_3__.MaterialPrefabs.DUNGEONMATERIAL, dungeonMaterial);
-};
+const addDungeonMaterials = () => {};
 
 /***/ }),
 
@@ -6878,17 +6800,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const addSkyBoxMaterial = () => {
-  const back = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DR_SKYBOX_BACK);
-  const front = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DR_SKYBOX_FRONT);
-  const up = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DR_SKYBOX_UP);
-  const down = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DR_SKYBOX_DOWN);
-  const right = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DR_SKYBOX_RIGHT);
-  const left = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DR_SKYBOX_LEFT);
-
-  // const textureArray: Texture[] = [front, back, up, down, right, left];
-  const textureArray = [left, right, down, up, front, back];
-  const materialArray = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].createMaterialArray(textureArray);
-  _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_2__["default"].registerMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_3__.MaterialPrefabs.DR_SKYBOX_MATERIAL, materialArray);
   const blueTexture = _utils_assets_utils__WEBPACK_IMPORTED_MODULE_0__["default"].fastFixAndGetTexture(_asset_list_raw_assets_texture_raw_assets__WEBPACK_IMPORTED_MODULE_1__.RawTexture.DR_BLUE_SKYBOX, 1, three__WEBPACK_IMPORTED_MODULE_4__.ClampToEdgeWrapping);
   const blueMaterial = new three__WEBPACK_IMPORTED_MODULE_4__.MeshBasicMaterial({
     map: blueTexture,
@@ -7012,35 +6923,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const addCharacters = () => {
-  //all characters in one
-
-  const fantasyCharacter = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerObject3D(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_3__.ModelPrefabs.FANTASY_CHARACTER, _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.FANTASY_CHARACTER);
-  const dungeonMaterial = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].getMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_5__.MaterialPrefabs.DUNGEONMATERIAL);
-  _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__["default"].addMaterial(fantasyCharacter, dungeonMaterial);
-
-  //register all animations from gltf
-  const animation = _utils_animation_utils__WEBPACK_IMPORTED_MODULE_2__["default"].registerAnimations({
-    walk: _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.ANIMATION_WALK,
-    run: _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.ANIMATION_RUN,
-    idle: _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.ANIMATION_IDLE
-  }, fantasyCharacter);
-
-  //hero
-  const heroName = "Character_Hero_Knight_Male";
-  const heroMesh = _utils_animation_utils__WEBPACK_IMPORTED_MODULE_2__["default"].getSkinnedMeshWithAnimation(fantasyCharacter, heroName);
-  _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__["default"].addMaterial(heroMesh, dungeonMaterial);
-  const hero = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerMesh(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_3__.ModelPrefabs.HERO, heroMesh);
-
-  //goblin_1
-  const goblinShamanMesh = _utils_animation_utils__WEBPACK_IMPORTED_MODULE_2__["default"].getSkinnedMeshWithAnimation(fantasyCharacter, "Character_Goblin_Shaman");
-  const goblin_1 = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerMesh(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_3__.ModelPrefabs.GOBLIN_WARRIOR, goblinShamanMesh);
-
-  //goblin_warrior
-  const goblinWarriorMesh = _utils_animation_utils__WEBPACK_IMPORTED_MODULE_2__["default"].getSkinnedMeshWithAnimation(fantasyCharacter, "Character_Goblin_Warrior_Male");
-  const goblinWarrior = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerMesh(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_3__.ModelPrefabs.GOBLIN_WARRIOR, goblinWarriorMesh);
-
   //DR character
-
   const tron = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerObject3D(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_3__.ModelPrefabs.DR_TRON, _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.DR_CHARACTER);
   const tron_material = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].getMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_5__.MaterialPrefabs.DR_CHARACTER_MATERIAL);
   const tron_animation = _utils_animation_utils__WEBPACK_IMPORTED_MODULE_2__["default"].registerAnimations({
@@ -7050,8 +6933,6 @@ const addCharacters = () => {
     walk: _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.ANIMATION_DR_WALK,
     run: _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.ANIMATION_DR_RUN
   }, tron);
-  console.log(tron.animations);
-  //  GameManager.SCENE.background;
   _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__["default"].addMaterial(tron, tron_material);
   const weaponMaterial = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].getMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_5__.MaterialPrefabs.PINKGLOWSHADER);
   const weapon = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerObject3D(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_3__.ModelPrefabs.DR_WEAPON, _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.DR_WEAPON_PICKAXE);
@@ -7063,55 +6944,6 @@ const addCharacters = () => {
   const weaponRotation = new three__WEBPACK_IMPORTED_MODULE_6__.Euler(-1.04, 2.1, -0.02);
   weapon.position.copy(weaponPosition);
   weapon.rotation.copy(weaponRotation);
-};
-
-/***/ }),
-
-/***/ "./src/game/prefabs/object3d-group-prefabs/add-dungeon-parts.ts":
-/*!**********************************************************************!*\
-  !*** ./src/game/prefabs/object3d-group-prefabs/add-dungeon-parts.ts ***!
-  \**********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "addDungeonParts": () => (/* binding */ addDungeonParts)
-/* harmony export */ });
-/* harmony import */ var _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../managers/assets-manager/prefabs-manager */ "./src/game/managers/assets-manager/prefabs-manager.ts");
-/* harmony import */ var _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../asset-list/raw-assets/object3d-raw-asstes */ "./src/game/asset-list/raw-assets/object3d-raw-asstes.ts");
-/* harmony import */ var _object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../object3d-prefabs */ "./src/game/prefabs/object3d-prefabs.ts");
-/* harmony import */ var _material_prefabs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../material-prefabs */ "./src/game/prefabs/material-prefabs.ts");
-/* harmony import */ var _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utils/assets-utils */ "./src/game/utils/assets-utils.ts");
-
-
-
-
-
-
-//init prefabs for dungeon tiles and environment
-const addDungeonParts = () => {
-  const dungeonMaterial = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].getMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_3__.MaterialPrefabs.DUNGEONMATERIAL);
-  //walls
-  const wall_01 = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerObject3D(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__.ModelPrefabs.SM_ENV_WALL_01, _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.SM_Env_Wall_01);
-  _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__["default"].addMaterial(wall_01, dungeonMaterial);
-  const wall_05 = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerObject3D(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__.ModelPrefabs.SM_ENV_WALL_05, _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.SM_Env_Wall_05);
-  _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__["default"].addMaterial(wall_05, dungeonMaterial);
-
-  //floors
-  const floor_01 = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerObject3D(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__.ModelPrefabs.SM_ENV_TILES_01, _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.SM_Env_Tiles_01);
-  _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__["default"].addMaterial(floor_01, dungeonMaterial);
-  const floor_09 = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerObject3D(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__.ModelPrefabs.SM_ENV_TILES_09, _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.SM_Env_Tiles_09);
-  _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__["default"].addMaterial(floor_09, dungeonMaterial);
-
-  //stairs
-  const step_01 = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerObject3D(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__.ModelPrefabs.SM_ENV_STEPS_01, _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.SM_Env_Tiles_01);
-  _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__["default"].addMaterial(floor_01, dungeonMaterial);
-
-  //mug
-  //stairs
-  const groundMound_rough_02 = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerObject3D(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__.ModelPrefabs.SM_ENV_GROUNDMOUND_ROUGH_02, _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_1__.RawObject3D.SM_Env_Tiles_01);
-  _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__["default"].addMaterial(floor_01, dungeonMaterial);
 };
 
 /***/ }),
@@ -7138,28 +6970,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const addEnvironmentPrefabs = () => {
-  const terrainMaterial = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].getMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_1__.MaterialPrefabs.DR_TERRAIN_GRASS);
-  const terrain = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerObject3D(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__.ModelPrefabs.DR_TERRAIN, _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_3__.RawObject3D.DR_TERRAIN);
-  _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__["default"].addMaterial(terrain, terrainMaterial);
   const blocksMaterial = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].getMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_1__.MaterialPrefabs.DR_BLOCK_MATERIAL);
   const blocks = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerObject3D(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__.ModelPrefabs.DR_BLOCKS, _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_3__.RawObject3D.DR_FLOATINGISLAND);
   _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__["default"].addMaterial(blocks, blocksMaterial);
-
-  // blocks.traverse((e) => {
-  //   if ((e as Mesh).isMesh) {
-  //     (e as Mesh).castShadow = true;
-  //     (e as Mesh).receiveShadow = true;
-  //   }
-  // });
-
   const groundMaterial = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].getMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_1__.MaterialPrefabs.DR_GROUND_MATERIAL);
   const career = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerObject3D(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__.ModelPrefabs.DR_CAREER, _asset_list_raw_assets_object3d_raw_asstes__WEBPACK_IMPORTED_MODULE_3__.RawObject3D.DR_CAREER);
   _utils_assets_utils__WEBPACK_IMPORTED_MODULE_4__["default"].addMaterial(career, groundMaterial);
-
-  // const plane = new PlaneGeometry(500, 500);
-  // plane.rotateX(Math.PI / 2);
-  // const planeMesh = new Mesh(plane, terrainMaterial);
-  // PrefabsManager.registerMesh(ModelPrefabs.DR_TERRAIN, planeMesh);
 };
 
 /***/ }),
@@ -7185,11 +7001,6 @@ __webpack_require__.r(__webpack_exports__);
 
 const addSkyBoxPrefab = () => {
   const size = 1000;
-  //night skybox
-  const skyBoxGeometry = new three__WEBPACK_IMPORTED_MODULE_3__.BoxGeometry(size, size, size);
-  const arrayOfMaterials = _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].getMultiplyMaterial(_material_prefabs__WEBPACK_IMPORTED_MODULE_1__.MaterialPrefabs.DR_SKYBOX_MATERIAL);
-  const skyBoxMesh = new three__WEBPACK_IMPORTED_MODULE_3__.Mesh(skyBoxGeometry, arrayOfMaterials);
-  _managers_assets_manager_prefabs_manager__WEBPACK_IMPORTED_MODULE_0__["default"].registerMesh(_object3d_prefabs__WEBPACK_IMPORTED_MODULE_2__.ModelPrefabs.DR_SKY_BOX, skyBoxMesh);
 
   //blue skybox
   const sphereGeometry = new three__WEBPACK_IMPORTED_MODULE_3__.SphereGeometry(size);
@@ -7213,11 +7024,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "initPresetsObject3D": () => (/* binding */ initPresetsObject3D)
 /* harmony export */ });
 /* harmony import */ var _object3d_group_prefabs_add_characters__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./object3d-group-prefabs/add-characters */ "./src/game/prefabs/object3d-group-prefabs/add-characters.ts");
-/* harmony import */ var _object3d_group_prefabs_add_dungeon_parts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./object3d-group-prefabs/add-dungeon-parts */ "./src/game/prefabs/object3d-group-prefabs/add-dungeon-parts.ts");
-/* harmony import */ var _object3d_group_prefabs_add_base_objects3d__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./object3d-group-prefabs/add-base-objects3d */ "./src/game/prefabs/object3d-group-prefabs/add-base-objects3d.ts");
-/* harmony import */ var _object3d_group_prefabs_add_sky_box_prefab__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./object3d-group-prefabs/add-sky-box-prefab */ "./src/game/prefabs/object3d-group-prefabs/add-sky-box-prefab.ts");
-/* harmony import */ var _object3d_group_prefabs_add_environment_prefabs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./object3d-group-prefabs/add-environment-prefabs */ "./src/game/prefabs/object3d-group-prefabs/add-environment-prefabs.ts");
-
+/* harmony import */ var _object3d_group_prefabs_add_base_objects3d__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./object3d-group-prefabs/add-base-objects3d */ "./src/game/prefabs/object3d-group-prefabs/add-base-objects3d.ts");
+/* harmony import */ var _object3d_group_prefabs_add_sky_box_prefab__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./object3d-group-prefabs/add-sky-box-prefab */ "./src/game/prefabs/object3d-group-prefabs/add-sky-box-prefab.ts");
+/* harmony import */ var _object3d_group_prefabs_add_environment_prefabs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./object3d-group-prefabs/add-environment-prefabs */ "./src/game/prefabs/object3d-group-prefabs/add-environment-prefabs.ts");
 
 
 
@@ -7228,31 +7037,17 @@ __webpack_require__.r(__webpack_exports__);
 let ModelPrefabs;
 (function (ModelPrefabs) {
   ModelPrefabs[ModelPrefabs["ERRORMODEL"] = 0] = "ERRORMODEL";
-  ModelPrefabs[ModelPrefabs["CHARACTER"] = 1] = "CHARACTER";
-  ModelPrefabs[ModelPrefabs["FANTASY_CHARACTER"] = 2] = "FANTASY_CHARACTER";
-  ModelPrefabs[ModelPrefabs["HERO"] = 3] = "HERO";
-  ModelPrefabs[ModelPrefabs["GOBLIN_WARRIOR"] = 4] = "GOBLIN_WARRIOR";
-  ModelPrefabs[ModelPrefabs["SM_ENV_WALL_05"] = 5] = "SM_ENV_WALL_05";
-  ModelPrefabs[ModelPrefabs["SM_ENV_WALL_01"] = 6] = "SM_ENV_WALL_01";
-  ModelPrefabs[ModelPrefabs["SM_ENV_TILES_01"] = 7] = "SM_ENV_TILES_01";
-  ModelPrefabs[ModelPrefabs["SM_ENV_TILES_09"] = 8] = "SM_ENV_TILES_09";
-  ModelPrefabs[ModelPrefabs["SM_ENV_STEPS_01"] = 9] = "SM_ENV_STEPS_01";
-  ModelPrefabs[ModelPrefabs["SM_ENV_GROUNDMOUND_ROUGH_02"] = 10] = "SM_ENV_GROUNDMOUND_ROUGH_02";
-  ModelPrefabs[ModelPrefabs["DR_TRON"] = 11] = "DR_TRON";
-  ModelPrefabs[ModelPrefabs["DR_SKY_BOX"] = 12] = "DR_SKY_BOX";
-  ModelPrefabs[ModelPrefabs["DR_SKY_SPHERE"] = 13] = "DR_SKY_SPHERE";
-  ModelPrefabs[ModelPrefabs["DR_BLOCKS"] = 14] = "DR_BLOCKS";
-  ModelPrefabs[ModelPrefabs["DR_WEAPON"] = 15] = "DR_WEAPON";
-  ModelPrefabs[ModelPrefabs["DR_TERRAIN"] = 16] = "DR_TERRAIN";
-  ModelPrefabs[ModelPrefabs["DR_CAREER"] = 17] = "DR_CAREER";
+  ModelPrefabs[ModelPrefabs["DR_TRON"] = 1] = "DR_TRON";
+  ModelPrefabs[ModelPrefabs["DR_SKY_SPHERE"] = 2] = "DR_SKY_SPHERE";
+  ModelPrefabs[ModelPrefabs["DR_BLOCKS"] = 3] = "DR_BLOCKS";
+  ModelPrefabs[ModelPrefabs["DR_WEAPON"] = 4] = "DR_WEAPON";
+  ModelPrefabs[ModelPrefabs["DR_CAREER"] = 5] = "DR_CAREER";
 })(ModelPrefabs || (ModelPrefabs = {}));
 const initPresetsObject3D = () => {
-  (0,_object3d_group_prefabs_add_sky_box_prefab__WEBPACK_IMPORTED_MODULE_3__.addSkyBoxPrefab)();
-  (0,_object3d_group_prefabs_add_base_objects3d__WEBPACK_IMPORTED_MODULE_2__.addBaseObjects3d)();
+  (0,_object3d_group_prefabs_add_sky_box_prefab__WEBPACK_IMPORTED_MODULE_2__.addSkyBoxPrefab)();
+  (0,_object3d_group_prefabs_add_base_objects3d__WEBPACK_IMPORTED_MODULE_1__.addBaseObjects3d)();
   (0,_object3d_group_prefabs_add_characters__WEBPACK_IMPORTED_MODULE_0__.addCharacters)();
-  (0,_object3d_group_prefabs_add_dungeon_parts__WEBPACK_IMPORTED_MODULE_1__.addDungeonParts)();
-  (0,_object3d_group_prefabs_add_environment_prefabs__WEBPACK_IMPORTED_MODULE_4__.addEnvironmentPrefabs)();
-  //error assets
+  (0,_object3d_group_prefabs_add_environment_prefabs__WEBPACK_IMPORTED_MODULE_3__.addEnvironmentPrefabs)();
 };
 
 /***/ }),
@@ -8479,13 +8274,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "WeaponColliderSystem": () => (/* binding */ WeaponColliderSystem)
 /* harmony export */ });
 /* harmony import */ var _lastolivegames_becsy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @lastolivegames/becsy */ "./node_modules/@lastolivegames/becsy/index.js");
-/* harmony import */ var three_mesh_bvh__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! three-mesh-bvh */ "./node_modules/three-mesh-bvh/src/utils/ExtensionUtilities.js");
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+/* harmony import */ var three_mesh_bvh__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! three-mesh-bvh */ "./node_modules/three-mesh-bvh/src/utils/ExtensionUtilities.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
 /* harmony import */ var _components_tag_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/tag-components */ "./src/game/components/tag-components.ts");
 /* harmony import */ var _components_bhv_components_sphere_collider_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/bhv-components/sphere-collider-component */ "./src/game/components/bhv-components/sphere-collider-component.ts");
 /* harmony import */ var _components_character_stats_states_world_states_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/character-stats/states/world-states-components */ "./src/game/components/character-stats/states/world-states-components.ts");
 /* harmony import */ var _components_animation_state_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/animation-state-component */ "./src/game/components/animation-state-component.ts");
 /* harmony import */ var _basic_simple_behavior_system__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../basic/simple-behavior-system */ "./src/game/systems/basic/simple-behavior-system.ts");
+/* harmony import */ var _game_config__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../game-config */ "./src/game/game-config.ts");
 var _dec, _class;
 
 
@@ -8495,9 +8291,10 @@ var _dec, _class;
 
 
 
-three__WEBPACK_IMPORTED_MODULE_6__.Mesh.prototype.raycast = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_7__.acceleratedRaycast;
-three__WEBPACK_IMPORTED_MODULE_6__.BufferGeometry.prototype.computeBoundsTree = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_7__.computeBoundsTree;
-three__WEBPACK_IMPORTED_MODULE_6__.BufferGeometry.prototype.disposeBoundsTree = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_7__.disposeBoundsTree;
+
+three__WEBPACK_IMPORTED_MODULE_7__.Mesh.prototype.raycast = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_8__.acceleratedRaycast;
+three__WEBPACK_IMPORTED_MODULE_7__.BufferGeometry.prototype.computeBoundsTree = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_8__.computeBoundsTree;
+three__WEBPACK_IMPORTED_MODULE_7__.BufferGeometry.prototype.disposeBoundsTree = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_8__.disposeBoundsTree;
 let WeaponColliderSystem = (_dec = (0,_lastolivegames_becsy__WEBPACK_IMPORTED_MODULE_0__.system)(s => s.after(_basic_simple_behavior_system__WEBPACK_IMPORTED_MODULE_5__.SimpleBehaviorSystem)), _dec(_class = class WeaponColliderSystem extends _lastolivegames_becsy__WEBPACK_IMPORTED_MODULE_0__.System {
   constructor(...args) {
     super(...args);
@@ -8533,7 +8330,7 @@ let WeaponColliderSystem = (_dec = (0,_lastolivegames_becsy__WEBPACK_IMPORTED_MO
       const stateManager = weaponSphere.read(_components_animation_state_component__WEBPACK_IMPORTED_MODULE_4__.AnimationStateComponent).stateManager;
       const attackDuration = stateManager.getMaxDuration("attack");
       const currentAttackTime = stateManager.getCurrentTime();
-      const maxCountOfHitPerAttack = 2;
+      const maxCountOfHitPerAttack = _game_config__WEBPACK_IMPORTED_MODULE_6__.GameConfig.maxDestroyBlocksOneHit;
       const {
         sphereMesh: weaponMesh
       } = weaponSphere.read(_components_bhv_components_sphere_collider_component__WEBPACK_IMPORTED_MODULE_2__.SphereColliderComponent);
@@ -8563,7 +8360,7 @@ let WeaponColliderSystem = (_dec = (0,_lastolivegames_becsy__WEBPACK_IMPORTED_MO
         const {
           sphereMesh: blockMesh
         } = blocks.read(_components_bhv_components_sphere_collider_component__WEBPACK_IMPORTED_MODULE_2__.SphereColliderComponent);
-        const transformMatrix = new three__WEBPACK_IMPORTED_MODULE_6__.Matrix4().copy(weaponMesh.matrixWorld).invert().multiply(blockMesh.matrixWorld);
+        const transformMatrix = new three__WEBPACK_IMPORTED_MODULE_7__.Matrix4().copy(weaponMesh.matrixWorld).invert().multiply(blockMesh.matrixWorld);
         const isHit = weaponMesh.geometry.boundsTree.intersectsGeometry(blockMesh.geometry, transformMatrix);
         if (isHit) {
           if (blocks.has(_components_bhv_components_sphere_collider_component__WEBPACK_IMPORTED_MODULE_2__.IsHitBlock)) continue;
@@ -8643,8 +8440,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_bhv_components_sphere_collider_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/bhv-components/sphere-collider-component */ "./src/game/components/bhv-components/sphere-collider-component.ts");
 /* harmony import */ var _attack_block_system__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./attack-block-system */ "./src/game/systems/attack-block-system.ts");
 /* harmony import */ var _bhv_vision_collider_system__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./bhv/vision-collider-system */ "./src/game/systems/bhv/vision-collider-system.ts");
-/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
-/* harmony import */ var three_mesh_bvh__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! three-mesh-bvh */ "./node_modules/three-mesh-bvh/src/utils/ExtensionUtilities.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+/* harmony import */ var three_mesh_bvh__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! three-mesh-bvh */ "./node_modules/three-mesh-bvh/src/utils/ExtensionUtilities.js");
 /* harmony import */ var _components_mesh_renderable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/mesh-renderable */ "./src/game/components/mesh-renderable.ts");
 /* harmony import */ var _components_bhv_components_ground_collision__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/bhv-components/ground-collision */ "./src/game/components/bhv-components/ground-collision.ts");
 /* harmony import */ var _basic_rotate_direction_system__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./basic/rotate-direction-system */ "./src/game/systems/basic/rotate-direction-system.ts");
@@ -8659,6 +8456,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _playable_helper_discord_helpers__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../playable-helper/discord-helpers */ "./src/playable-helper/discord-helpers.ts");
 /* harmony import */ var _components_input_controller_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/input-controller-component */ "./src/game/components/input-controller-component.ts");
 /* harmony import */ var _basic_input_controller_system__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./basic/input-controller-system */ "./src/game/systems/basic/input-controller-system.ts");
+/* harmony import */ var _game_config__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../game-config */ "./src/game/game-config.ts");
 var _dec, _class;
 
 
@@ -8680,9 +8478,10 @@ var _dec, _class;
 
 
 
-three__WEBPACK_IMPORTED_MODULE_18__.Mesh.prototype.raycast = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_19__.acceleratedRaycast;
-three__WEBPACK_IMPORTED_MODULE_18__.BufferGeometry.prototype.computeBoundsTree = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_19__.computeBoundsTree;
-three__WEBPACK_IMPORTED_MODULE_18__.BufferGeometry.prototype.disposeBoundsTree = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_19__.disposeBoundsTree;
+
+three__WEBPACK_IMPORTED_MODULE_19__.Mesh.prototype.raycast = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_20__.acceleratedRaycast;
+three__WEBPACK_IMPORTED_MODULE_19__.BufferGeometry.prototype.computeBoundsTree = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_20__.computeBoundsTree;
+three__WEBPACK_IMPORTED_MODULE_19__.BufferGeometry.prototype.disposeBoundsTree = three_mesh_bvh__WEBPACK_IMPORTED_MODULE_20__.disposeBoundsTree;
 let DestroyBlockSystem = (_dec = (0,_lastolivegames_becsy__WEBPACK_IMPORTED_MODULE_0__.system)(s => s.after(_attack_block_system__WEBPACK_IMPORTED_MODULE_2__.AttackBlockSystem).after(_bhv_vision_collider_system__WEBPACK_IMPORTED_MODULE_3__.VisionColliderSystem).after(_basic_rotate_direction_system__WEBPACK_IMPORTED_MODULE_6__.RotateDirectionSystem).after(_basic_camera_system__WEBPACK_IMPORTED_MODULE_13__.CameraSystem).after(_basic_input_controller_system__WEBPACK_IMPORTED_MODULE_17__.InputControllerSystem)), _dec(_class = class DestroyBlockSystem extends _lastolivegames_becsy__WEBPACK_IMPORTED_MODULE_0__.System {
   constructor(...args) {
     super(...args);
@@ -8690,7 +8489,7 @@ let DestroyBlockSystem = (_dec = (0,_lastolivegames_becsy__WEBPACK_IMPORTED_MODU
     this.player = this.query(q => q.current.and.with(_components_mesh_renderable__WEBPACK_IMPORTED_MODULE_4__.MeshRenderable).and.with(_components_transform__WEBPACK_IMPORTED_MODULE_7__.Transform).read.and.with(_components_tag_components__WEBPACK_IMPORTED_MODULE_14__.PlayerTag));
     this.cameras = this.query(q => q.current.with(_components_camera_component__WEBPACK_IMPORTED_MODULE_11__.CameraComponent).and.using(_components_camera_shake_component__WEBPACK_IMPORTED_MODULE_12__.CameraShakeComponent).write);
     this.inputControllerComponent = this.singleton.write(_components_input_controller_component__WEBPACK_IMPORTED_MODULE_16__.InputControllerComponent);
-    this.maxCountToWin = 15;
+    this.maxCountToWin = _game_config__WEBPACK_IMPORTED_MODULE_18__.GameConfig.maxBlockToWin;
   }
   execute() {
     if (this.maxCountToWin < 0) return;
@@ -8722,7 +8521,7 @@ let DestroyBlockSystem = (_dec = (0,_lastolivegames_becsy__WEBPACK_IMPORTED_MODU
       }
       _managers_game_manager__WEBPACK_IMPORTED_MODULE_9__.GameManager.SCENE.add(popup);
       const color = popup.getColor();
-      let playerPosition = new three__WEBPACK_IMPORTED_MODULE_18__.Vector3();
+      let playerPosition = new three__WEBPACK_IMPORTED_MODULE_19__.Vector3();
       for (const player of this.player.current) {
         playerPosition = player.read(_components_transform__WEBPACK_IMPORTED_MODULE_7__.Transform).position;
       }
@@ -9401,6 +9200,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "showDiscordPanel": () => (/* binding */ showDiscordPanel)
 /* harmony export */ });
+/* harmony import */ var _game_game_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../game/game-config */ "./src/game/game-config.ts");
+
 const showDiscordPanel = () => {
   const discordPanel = document.getElementsByClassName("panel")[0];
   if (!discordPanel) return;
@@ -9416,6 +9217,8 @@ const blurScreen = () => {
 const setupLink = () => {
   const inviteButton = document.getElementById("inviteButton");
   const discordLink = document.getElementById("discordLink");
+  // @ts-ignore
+  discordLink.href = _game_game_config__WEBPACK_IMPORTED_MODULE_0__.GameConfig.discordUrl;
   if (!discordLink) return;
   if (inviteButton) inviteButton.addEventListener("click", () => {
     discordLink.click();
@@ -27983,138 +27786,6 @@ module.exports = __webpack_require__.p + "fd496265ecb3907db6e3.png";
 
 /***/ }),
 
-/***/ "./src/assets/background/skybox/back.png":
-/*!***********************************************!*\
-  !*** ./src/assets/background/skybox/back.png ***!
-  \***********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "859f1692d1c2c6642c6e.png";
-
-/***/ }),
-
-/***/ "./src/assets/background/skybox/down.png":
-/*!***********************************************!*\
-  !*** ./src/assets/background/skybox/down.png ***!
-  \***********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "20e6dbb14cc22846c6e6.png";
-
-/***/ }),
-
-/***/ "./src/assets/background/skybox/front.png":
-/*!************************************************!*\
-  !*** ./src/assets/background/skybox/front.png ***!
-  \************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "6b4a713aabbb8e71f251.png";
-
-/***/ }),
-
-/***/ "./src/assets/background/skybox/left.png":
-/*!***********************************************!*\
-  !*** ./src/assets/background/skybox/left.png ***!
-  \***********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "aac4ae01a2f751a99631.png";
-
-/***/ }),
-
-/***/ "./src/assets/background/skybox/right.png":
-/*!************************************************!*\
-  !*** ./src/assets/background/skybox/right.png ***!
-  \************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "2cab18817043c68dce24.png";
-
-/***/ }),
-
-/***/ "./src/assets/background/skybox/up.png":
-/*!*********************************************!*\
-  !*** ./src/assets/background/skybox/up.png ***!
-  \*********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "89a510ca29ae88ea9cec.png";
-
-/***/ }),
-
-/***/ "./src/assets/fonts/Anton-Regular.woff2":
-/*!**********************************************!*\
-  !*** ./src/assets/fonts/Anton-Regular.woff2 ***!
-  \**********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "f2d4dd57785c2c3a4d2b.woff2";
-
-/***/ }),
-
-/***/ "./src/assets/fonts/RussoOne-Regular.woff":
-/*!************************************************!*\
-  !*** ./src/assets/fonts/RussoOne-Regular.woff ***!
-  \************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "fd76fdb49141f79e120f.woff";
-
-/***/ }),
-
-/***/ "./src/assets/models/animations/Characters_running.gltf":
-/*!**************************************************************!*\
-  !*** ./src/assets/models/animations/Characters_running.gltf ***!
-  \**************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "ce6d36da9c847a53bd48.gltf";
-
-/***/ }),
-
-/***/ "./src/assets/models/animations/Characters_standing_melee_attack_horizontal.gltf":
-/*!***************************************************************************************!*\
-  !*** ./src/assets/models/animations/Characters_standing_melee_attack_horizontal.gltf ***!
-  \***************************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "8c3f17883b32bd21299c.gltf";
-
-/***/ }),
-
-/***/ "./src/assets/models/animations/Characters_walking.gltf":
-/*!**************************************************************!*\
-  !*** ./src/assets/models/animations/Characters_walking.gltf ***!
-  \**************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "148268223c0a095613da.gltf";
-
-/***/ }),
-
-/***/ "./src/assets/models/animations/Characters_warrior_Idle.gltf":
-/*!*******************************************************************!*\
-  !*** ./src/assets/models/animations/Characters_warrior_Idle.gltf ***!
-  \*******************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "22613aa1c2920d9eb526.gltf";
-
-/***/ }),
-
 /***/ "./src/assets/models/animations/diamond_rush/Jump.gltf":
 /*!*************************************************************!*\
   !*** ./src/assets/models/animations/diamond_rush/Jump.gltf ***!
@@ -28192,17 +27863,6 @@ module.exports = __webpack_require__.p + "e8202af301f28cd39559.gltf";
 
 /***/ }),
 
-/***/ "./src/assets/models/diamond_rush/GrassPlaneCareer.gltf":
-/*!**************************************************************!*\
-  !*** ./src/assets/models/diamond_rush/GrassPlaneCareer.gltf ***!
-  \**************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "76c8e54873437f17918c.gltf";
-
-/***/ }),
-
 /***/ "./src/assets/models/diamond_rush/Kirka.gltf":
 /*!***************************************************!*\
   !*** ./src/assets/models/diamond_rush/Kirka.gltf ***!
@@ -28211,17 +27871,6 @@ module.exports = __webpack_require__.p + "76c8e54873437f17918c.gltf";
 
 "use strict";
 module.exports = __webpack_require__.p + "21ef2d59ab4f46ec904c.gltf";
-
-/***/ }),
-
-/***/ "./src/assets/models/diamond_rush/Terrain.gltf":
-/*!*****************************************************!*\
-  !*** ./src/assets/models/diamond_rush/Terrain.gltf ***!
-  \*****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "c3f7160629e388cc3632.gltf";
 
 /***/ }),
 
@@ -28244,50 +27893,6 @@ module.exports = __webpack_require__.p + "1c50d999574fbd833bef.gltf";
 
 "use strict";
 module.exports = __webpack_require__.p + "26c59b3efcc567596377.gltf";
-
-/***/ }),
-
-/***/ "./src/assets/models/dungeon/floor/SM_Env_Tiles_01.gltf":
-/*!**************************************************************!*\
-  !*** ./src/assets/models/dungeon/floor/SM_Env_Tiles_01.gltf ***!
-  \**************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "1444b985b2f52613eae6.gltf";
-
-/***/ }),
-
-/***/ "./src/assets/models/dungeon/floor/SM_Env_Tiles_09.gltf":
-/*!**************************************************************!*\
-  !*** ./src/assets/models/dungeon/floor/SM_Env_Tiles_09.gltf ***!
-  \**************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "f7b072f9388431b96ca2.gltf";
-
-/***/ }),
-
-/***/ "./src/assets/models/dungeon/walls/SM_Env_Wall_01.gltf":
-/*!*************************************************************!*\
-  !*** ./src/assets/models/dungeon/walls/SM_Env_Wall_01.gltf ***!
-  \*************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "881d9910aed5cdc1403e.gltf";
-
-/***/ }),
-
-/***/ "./src/assets/models/dungeon/walls/SM_Env_Wall_05.gltf":
-/*!*************************************************************!*\
-  !*** ./src/assets/models/dungeon/walls/SM_Env_Wall_05.gltf ***!
-  \*************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "3b62f76d9dede1084a18.gltf";
 
 /***/ }),
 
@@ -28463,7 +28068,7 @@ module.exports = __webpack_require__.p + "2f7bb8082fed8c4043c3.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "1414278e68000b4fd987.png";
+module.exports = __webpack_require__.p + "64b6d9ec17b861b8d93e.png";
 
 /***/ }),
 
@@ -28474,40 +28079,7 @@ module.exports = __webpack_require__.p + "1414278e68000b4fd987.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "b756ee50d0ce3415414c.png";
-
-/***/ }),
-
-/***/ "./src/assets/textures/dungeon/Dungeons_Texture_01.png":
-/*!*************************************************************!*\
-  !*** ./src/assets/textures/dungeon/Dungeons_Texture_01.png ***!
-  \*************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "7f0b10b77050d7caafb7.png";
-
-/***/ }),
-
-/***/ "./src/assets/textures/forest/vegetation_toon01.png":
-/*!**********************************************************!*\
-  !*** ./src/assets/textures/forest/vegetation_toon01.png ***!
-  \**********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "7479716e151a561c4af8.png";
-
-/***/ }),
-
-/***/ "./src/assets/textures/forest/vegetation_toon02.png":
-/*!**********************************************************!*\
-  !*** ./src/assets/textures/forest/vegetation_toon02.png ***!
-  \**********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "85d22db426f4dfdf6a5b.png";
+module.exports = __webpack_require__.p + "f2c49fd517d4f5b42623.png";
 
 /***/ }),
 
@@ -28519,17 +28091,6 @@ module.exports = __webpack_require__.p + "85d22db426f4dfdf6a5b.png";
 
 "use strict";
 module.exports = __webpack_require__.p + "52c1a9dc64882f4109e7.png";
-
-/***/ }),
-
-/***/ "./src/assets/textures/water.png":
-/*!***************************************!*\
-  !*** ./src/assets/textures/water.png ***!
-  \***************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "5dcdee3b3d65fbd84e64.png";
 
 /***/ }),
 
